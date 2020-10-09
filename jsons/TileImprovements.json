@@ -1,0 +1,332 @@
+[
+	//Food
+	{
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"improvingTech": "Farming Revolution I",
+		"improvingTechStats": {"food": 2},
+	},
+	{
+		"name": "Big Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Flood plains"],
+		"uniques": ["Must be next to river"],
+		"food": 2,
+		"turnsToBuild": 14,
+		"techRequired": "Anti-Hunger II",
+		"improvingTech": "Farming Revolution V",
+		"improvingTechStats": {"food": 2},
+	},
+	{
+		"name": "Fishing Boats",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"food": 1,
+		"techRequired": "Pillage II"
+		"improvingTech": "Anti-Hunger III",
+		"improvingTechStats": {"gold": 1}
+	},
+	{
+		"name": "Pasture",
+		"resourceTerrainAllow": ["Plains","Grassland","Desert","Desert Hill","Hill"],
+		"turnsToBuild": 8,
+		"food": 1,
+		"techRequired": "War Stock I"
+		"improvingTech": "Pillage III",
+		"improvingTechStats": {"food": 1},
+	},
+	{
+		"name": "Plantation",
+		"turnsToBuild": 6,
+		"food": 1,
+		"techRequired": "War Stock III"
+		"improvingTech": "Anti-Hunger V",
+		"improvingTechStats": {"food": 1},
+	},
+	{
+		"name": "Camp",
+		"resourceTerrainAllow": ["Forest"],
+		"turnsToBuild": 7,
+		"techRequired": "Pillage II"
+		"improvingTech": "Farming III",
+		"improvingTechStats": {"gold": 1},
+	},
+	//Gold
+	{
+		"name": "Trading post",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Economy",
+		"improvingTech": "War Economy I",
+		"improvingTechStats": {"gold": 1}
+	},
+	{
+		"name": "Advanced Trading post",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Forest","Jungle","Flood plains"],
+		"gold": 3,
+		"turnsToBuild": 13,
+		"techRequired": "Blocus III",
+		"improvingTech": "Budgetary cuts I",
+		"improvingTechStats": {"gold": 2}
+	},
+	{
+		"name": "Mall",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
+		"gold": 6,
+		"turnsToBuild": 17,
+		"techRequired": "Backdrop of War II",
+		"improvingTech": "Globalization",
+		"improvingTechStats": {"gold": 3}
+	},
+	//Production
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Desert Hill", "Hill"],
+		"production": 1,
+		"happiness": -1,
+		"turnsToBuild": 7,
+		"techRequired": "Industrialization I",
+		"improvingTech": "Massive Production III",
+		"improvingTechStats": {"production": 3}
+	},
+	{
+		"name": "Advanced Mine",
+		"terrainsCanBeBuiltOn": ["Desert Hill", "Hill"],
+		"production": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Heavy Production II",
+		"improvingTech": "Mega-Factory I",
+		"improvingTechStats": {"production": 1}
+	},
+	{
+		"name": "Heavy Industry",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
+		"production": 4,
+		"happiness": -2,
+		"turnsToBuild": 20,
+		"techRequired": "Massive Production V",
+		"improvingTech": "Mega-Factory IV",
+		"improvingTechStats": {"production": 3}
+	},
+	{
+		"name": "Worker Camp",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
+		"production": 2,
+		"happiness": -1,
+		"turnsToBuild": 10,
+		"techRequired": "Massive Production I",
+		"improvingTech": "Massive Production IV",
+		"improvingTechStats": {"production": 2}
+	},
+	{
+		"name": "Lumber mill",
+		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
+		"production": 2,
+		"happiness": -1,
+		"turnsToBuild": 7,
+		"techRequired": "Industrialization II",
+		"improvingTech": "Heavy Production III",
+		"improvingTechStats": {"production": 2}
+	},
+	{
+		"name": "Advanced Lumber mill",
+		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
+		"production": 2,
+		"turnsToBuild": 12,
+		"techRequired": "Heavy Production I",
+		"improvingTech": "Mega-Factory II",
+		"improvingTechStats": {"production": 2}
+	},
+	{
+		"name": "Hydroelectric Dam",
+		"uniques": ["Must be next to [Mountain]","Must be next to river"],
+		"production": 4,
+		"turnsToBuild": 15,
+		"techRequired": "Massive Production II",
+		"improvingTech": "Mega-Factory V",
+		"improvingTechStats": {"production": 3}
+	},
+	{
+		"name": "Quarry",
+		"turnsToBuild": 10,
+		"techRequired": "Production"
+		"improvingTech": "Industrialization III",
+		"improvingTechStats": {"production": 1}
+	},
+	{
+		"name": "Oil well",
+		"turnsToBuild": 10,
+		"techRequired": "Production"
+		"improvingTech": "Heavy Production I",
+		"improvingTechStats": {"production": 1}
+	},
+	// Resource-specific
+	{
+		"name": "Archaeological Dig"
+		"improvingTech": "New World Order III",
+		"improvingTechStats": {"science": 3},
+	},
+	//Research
+	{
+		"name": "Campus",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
+		"science": 2,
+		"turnsToBuild": 9,
+		"techRequired": "Study I",
+		"improvingTech": "Study IV",
+		"improvingTechStats": {"science": 1}
+	},
+	{
+		"name": "College",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
+		"science": 3,
+		"turnsToBuild": 9,
+		"techRequired": "Science Supply III",
+		"improvingTech": "Atomic Way II",
+		"improvingTechStats": {"science": 2}
+	},
+	{
+		"name": "Research Center",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
+		"science": 5,
+		"turnsToBuild": 9,
+		"techRequired": "Atomic Way I",
+		"improvingTech": "Skys the Limit",
+		"improvingTechStats": {"science": 2}
+	},
+	// Military improvement
+	{
+		"name": "Fort",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow"],
+		"turnsToBuild": 6,
+		"gold": -1,
+		"techRequired": "Defence I",
+		"uniques": ["Gives a defensive bonus of [40]%","Can be built outside your borders"]
+	},
+	{
+		"name": "Bunker",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow"],
+		"turnsToBuild": 10,
+		"gold": -3,
+		"techRequired": "Defence I",
+		"uniques": ["Gives a defensive bonus of [80]%","Can be built outside your borders"]
+	},
+	{
+		"name": "Ligne Maginot",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow"],
+		"uniqueTo": "France",
+		"turnsToBuild": 14,
+		"gold": -5,
+		"techRequired": "Defence I",
+		"uniques": ["Gives a defensive bonus of [125]%","Deal 30 damage to adjacent enemy units","Can be built outside your borders"]
+	},
+
+	// Transportation
+	{
+		"name": "Road",
+		"turnsToBuild": 4,
+		"techRequired": "Navy",
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Railroad",
+		"turnsToBuild": 4,
+		"techRequired": "Navy",
+		"uniques": ["Can be built outside your borders"]
+	},
+	
+	// Removals
+	{
+		"name": "Remove Forest",
+		"turnsToBuild": 4,
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"techRequired": "War Stock I",
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Jungle",
+		"turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Jungle"],
+		"techRequired": "War Stock II",
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Fallout",
+		"turnsToBuild": 8,
+		"terrainsCanBeBuiltOn": ["Fallout"],
+		"techRequired": "Domination Way",
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Marsh",
+		"turnsToBuild": 6,
+		"terrainsCanBeBuiltOn": ["Marsh"],
+		"techRequired": "War Stock III",
+		"uniques": ["Can be built outside your borders"]
+	},
+
+	// These are unique and have unique in-game checks related to them
+	{
+		"name": "Remove Road",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Railroad",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Cancel improvement order",
+		"uniques": ["Can be built outside your borders"]
+	},
+	
+	// Great Person improvements
+	{
+		"name": "Academy",
+		"science": 7,
+		"uniques": ["Great Improvement"],
+		"improvingTech": "Scientific Rush II",
+		"improvingTechStats": {"science": 2}
+	},
+	{
+		"name": "Landmark",
+		"culture": 8,
+		"uniques": ["Great Improvement"],
+		"improvingTech": "New World Order",
+		"improvingTechStats": {"culture": 2}
+	},
+	{
+		"name": "Manufactory",
+		"production": 8,
+		"improvingTech": "Mega-Factory V",
+		"uniques": ["Great Improvement"],
+		"improvingTechStats": {"production": 2}
+	},
+	{
+		"name": "Customs house",
+		"gold": 8,
+		"improvingTech": "Budgetary cuts III",
+		"uniques": ["Great Improvement"],
+		"improvingTechStats": {"gold": 2}
+	},
+	{
+		"name": "Gargantic Farm",
+		"food": 8,
+		"improvingTech": "Farming Revolution IV",
+		"uniques": ["Great Improvement"],
+		"improvingTechStats": {"food": 2}
+	},
+	{
+		"name": "Citadel",
+		"uniques": ["Gives a defensive bonus of [100]%", "Deal 30 damage to adjacent enemy units", "Great Improvement"],
+		// TODO (G&K): adds every tile around it to your territory
+	},
+
+	// Military improvement
+	{ "name": "Ancient ruins" },
+	{ "name": "City ruins" },
+	{ "name": "Barbarian encampment" }
+]
