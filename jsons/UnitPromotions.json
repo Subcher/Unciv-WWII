@@ -442,7 +442,7 @@
 	
 	// Uniques
 	{
-		"name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
+		"name": "Training",
 		"effect": "-10% combat strength for adjacent enemy units"
 	},
 	{
@@ -499,4 +499,9 @@
 		"prerequisites": ["Buffalo Chest II"],
 		"unitTypes": ["Melee"]
 	}
+	//building required
+	{
+		"name": "Defence Improvement",
+		"effect": "+25% Combat Bonus when defending",
+	},
 ]
