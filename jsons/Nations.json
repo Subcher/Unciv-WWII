@@ -1,0 +1,870 @@
+[
+	//Spectator
+	{
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+		"innerColor": [0,0,0]
+	},
+	//Nation
+	{
+		"name": "America",
+		"leaderName": "Franklin Delano Roosevelt",
+		"adjective": ["American"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": "Welcome President Roosevelt! You lead the industrious American civilization! Formed in the conflagration of revolution in the 18th century, within two hundred years, the young nation became embroiled in a terrible civil war that nearly tore the country apart, but it was just a few short years later in the 20th century that the United States reached the height of its power, emerging triumphant and mighty from the two terrible wars that destroyed so many other great nations. The United States is a nation of immigrants, filled with optimism and determination. They lack only a leader to help them fulfill their promise.",
+		"startIntroPart2": "President Roosevelt, can you lead the American people to greatness? Can you build a civilization that will stand the test of time? Can you show the true way to other nation ? Bring them Cola !",
+		
+		"declaringWar": "Above all, we must be wary of this small group of selfish men who would cut the wings of the American eagle in order to pluck their own nests. Your aggression leaves us no choice. Prepare for war!",
+		"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
+		"defeated": "Winners look for ways, losers look for excuses.",
+		"introduction": "The people of the United States of America welcome you.",
+		
+		"neutralHello": "Good day.",
+		"hateHello": "Well?",
+		
+		"tradeRequest": "Is the following trade of interest to you?",
+		
+		"outerColor": [ 28,51,119],
+		"innerColor": [255,255,255],
+		
+		"uniqueName": "Uncle Sam",
+		"uniques": [
+		"[+1 Production] per [5] population in all cities",
+		"Double quantity of [Oil] produced",
+		"Double quantity of [Cattle] produced"
+		], 
+		
+		"cities": [
+		"Washington",
+		"New York",
+		"Boston",
+		"Philadelphia",
+		"Atlanta",
+		"Chicago",
+		"Seattle",
+		"San Francisco",
+		"Los Angeles",
+		"Houston",
+		"Portland",
+		"St. Louis",
+		"Miami",
+		"Buffalo",
+		"Detroit",
+		"New Orleans",
+		"Baltimore",
+		"Denver",
+		"Cincinnati",
+		"Dallas",
+		"Memphis",
+		"Cleveland",
+		"Kansas City",
+		"San Diego",
+		"Richmond",
+		"Las Vegas",
+		"Phoenix",
+		"Albuquerque",
+		"Minneapolis",
+		"Pittsburgh",
+		"Oakland",
+		"Tampa Bay",
+		"Orlando",
+		"Tacoma",
+		"Santa Fe",
+		"Olympia",
+		"Hunt Valley",
+		"Springfield",
+		"Palo Alto",
+		"Centralia",
+		"Spokane",
+		"Jacksonville",
+		"Svannah",
+		"Charleston",
+		"San Antonio",
+		"Birmingham",
+		"Anchorage",
+		"Sacramento",
+		"Reno",
+		"Salt Lake City",
+		"Boise",
+		"Milwaukee",
+		"Santa Cruz",
+		"Little Rock"]
+	},
+	{
+		"name": "Soviet Union",
+		"leaderName": "Staline",
+		"adjective": ["Soviet"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Scientific",
+	
+		"startIntroPart1": "Greetings upon thee, Comrade Stalin. At your command lies the largest country in the world. Mighty Ussr stretches from the Pacific Ocean in the east to the Baltic Sea in the west. Despite wars, droughts, and every manner of disaster the heroic nation, people survive and prosper, their artists and scientists among the best in the world. The Country today remains one of the strongest ever seen in human history - a true superpower, with the greatest destructive force ever devised at her command.",
+		"startIntroPart2": "Comrade Staline, your people look to you to bring forth glorious days for Ussr and her people, to revitalize the land and recapture the wonder of the Enlightenment. Will you lead your people once more into greatness? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "All the nations of the world denounce your treacherous acts. They see that ours is just a cause, and they know that the enemy will be defeated.",
+		"attacked": "Your blood will freeze in the Russian blizzard.",
+		"defeated": "I recognize my defeat and bow down to the victor.",
+		"introduction": "Greetings from the workers and peasants of the Soviet Union. I hope for a long friendship between our nations.",
+		
+		"neutralHello": "Hello!",
+		"hateHello": "What are looking at !?",
+		
+		"tradeRequest": "How would you like it if I propose this kind of exchange?",
+		
+		"outerColor": [ 222, 40, 7],
+		"innerColor": [0,0,0],
+		
+		"uniqueName": "Siberian Riches",
+		"uniques": [
+		"[+1 Production] from every [Strategic resource]",
+		"Double quantity of [Iron] produced",
+		"Double quantity of [Potato] produced"]
+		
+		"cities": [
+		"Moscow",
+		"Leningrad",
+		"Stalingrad",
+		"Novgorod",
+		"Rostov",
+		"Yaroslavl",
+		"Yekaterinburg",
+		"Yakutsk",
+		"Vladivostok",
+		"Smolensk",
+		"Orenburg",
+		"Krasnoyarsk",
+		"Khabarovsk",
+		"Bryansk",
+		"Tver",
+		"Novosibirsk",
+		"Magadan",
+		"Murmansk",
+		"Irkutsk",
+		"Chita",
+		"Samara",
+		"Arkhangelsk",
+		"Chelyabinsk",
+		"Tobolsk",
+		"Vologda",
+		"Omsk",
+		"Astrakhan",
+		"Kursk",
+		"Saratov",
+		"Tula",
+		"Vladimir",
+		"Perm",
+		"Voronezh",
+		"Pskov",
+		"Starayarussa",
+		"Kostoma",
+		"Nizhniy Novgorod",
+		"Suzdal",
+		"Magnitogorsk"]
+	},
+	{
+		"name": "Germany",
+		"leaderName": "Hitler",
+		"adjective": ["German"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hail Hitler, first canchellor of Germany and her reich! Germany is an upstart nation, fashioned from the ruins of the Holy Roman Empire and finally unified in 1871. The German people have proven themselves to be creative, industrious a ferocious warriors. Despite enduring great catastrophes in the first half of the 20th century, Germany remains a worldwide economic, artistic and technological leader.",
+		"startIntroPart2": "Fuhrer, the German people look up too you to lead them to greater days of glory. Their determination is strong, and now they turn to you, their beloved iron chancellor, to guide them once more. Will you rile and conquer through blood and iron, or foster the Germanic arts and industry? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "England forced Napoleon to go to war, just like with us. If we don’t understand it, we don’t do justice to Napoleon.",
+		"attacked": "Let's talk about the land which you mistakenly believe to be yours. Therefore, prepare for war!",
+		"defeated": "Don’t be sad because it’s over, be pretty happy that it all happened",
+		"introduction": "Guten tag. In the name of the great German people, I bid you welcome.",
+		
+		"neutralHello": "What now?",
+		"hateHello": "So, out with it!",
+		
+		"tradeRequest": "It would be in your best interest, to carefully consider this proposal.",
+		
+		"outerColor": [218, 70, 43],
+		"innerColor": [255, 255, 255],
+		
+		"uniqueName": "Third Reich",
+		"uniques": [
+		"67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment",
+		"-25% land units maintenance",
+		"Double quantity of [Cocoa] produced"],
+		
+		"cities": [
+		"Berlin",
+		"Hamburg",
+		"Munich",
+		"Cologne",
+		"Frankfurt",
+		"Essen",
+		"Dortmund",
+		"Stuttgart",
+		"Dusseldorf",
+		"Bremen",
+		"Hannover",
+		"Duisburg",
+		"Leipzig",
+		"Dresden",
+		"Bonn",
+		"Bochum",
+		"Bielefeld",
+		"Karlsruhe",
+		"Gelsenkirchen",
+		"Wiesbaden",
+		"Munster",
+		"Rostok",
+		"Chemnitz",
+		"Braunschweig",
+		"Halle",
+		"Mצnchengladbach",
+		"Kiel",
+		"Wuppertal",
+		"Freiburg",
+		"Hagen",
+		"Erfurt",
+		"Kaiserslautern",
+		"Kassel",
+		"Oberhausen",
+		"Hamm",
+		"Saarbrucken",
+		"Krefeld",
+		"Pirmasens",
+		"Potsdam",
+		"Solingen",
+		"Osnabruck",
+		"Ludwingshafen",
+		"Leverkusen",
+		"Oldenburg",
+		"Neuss",
+		"Mulheim",
+		"Darmstadt",
+		"Herne",
+		"Wurzburg",
+		"Recklinghausen",
+		"Gצttingen",
+		"Wolfsburg",
+		"Koblenz",
+		"Hildesheim",
+		"Erlangen"]
+	},
+	{
+		"name": "United-Kingdom",
+		"leaderName": "Churchill",
+		"adjective": ["English"],
+		"startBias": ["Coast"],
+		//"preferredVictoryType": "Diplomatic"
+	
+		"startIntroPart1": "Praises upon her serene highness, Queen Elizabeth Gloriana. You lead and protect the celebrated maritime nation of England. England is an ancient land, settled as early as 35,000 years ago. The island has seen countless waves of invaders, each in turn becoming a part of the fabric of the people. Although England is a small island, for many years your people dominated the world stage. Their matchless navy, brilliant artists and shrewd merchants, giving them power and influence far in excess of their mere numbers.",
+		"startIntroPart2": "Queen Elizabeth, will you bring about a new golden age for the English people? They look to you once more to return peace and prosperity to the nation. Will you take up the mantle of greatness? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Building can be the result of long and hard work. Destroying can be the work of a single day, your days are numbered.",
+		"attacked": "You had to choose between war and dishonour; you chose dishonor and you will have war. We shall never surrender.",
+		"defeated": "The great lesson of life is that sometimes it’s the lunatics who are right.",
+		"introduction": "Come on, come on. Introduce yourself. Don't just stand there with that hapless stare. Do you know who I am? I am His Majesty's confidant: Winston Churchill. Sir Winston Churchill, to you.",
+		
+		"neutralHello": "Hello, again.",
+		"hateHello": "Oh, it's you!",
+		
+		"tradeRequest": "Would you be interested in a trade agreement with England?",
+		
+		"outerColor": [ 255,255,255],
+		"innerColor": [239, 82, 54],
+		
+		"uniqueName": "King of the Ocean",
+		"uniques": [
+		"+2 movement for all naval units",
+		"Pay only one third the usual cost for naval unit maintenance",
+		"50% chance of capturing defeated Barbarian naval units and earning 25 Gold"]
+		
+		"cities": [
+		"London",
+		"York",
+		"Nottingham",
+		"Hastings",
+		"Canterbury",
+		"Coventry",
+		"Warwick",
+		"Newcastle",
+		"Oxford",
+		"Liverpool",
+		"Dover",
+		"Brighton",
+		"Norwich",
+		"Leeds",
+		"Reading",
+		"Birmingham",
+		"Richmond",
+		"Exeter",
+		"Cambridge",
+		"Gloucester",
+		"Manchester",
+		"Bristol",
+		"Leicester",
+		"Carlisle",
+		"Ipswich",
+		"Portsmouth",
+		"Berwick",
+		"Bath",
+		"Mumbles",
+		"Southampton",
+		"Sheffield",
+		"Salisbury",
+		"Colchester",
+		"Plymouth",
+		"Lancaster",
+		"Blackpool",
+		"Winchester",
+		"Hull"]
+	},
+	{
+		"name": "France",
+		"leaderName": "Petain",
+		"adjective": ["French"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "Long life and triumph to you, ruler of the French people. France lies at the heart of Europe. Long has Paris been the world center of culture, arts and letters. Although surrounded by competitors - and often enemies - France has endured as a great nation. Its armies have marched triumphantly into battle from one end of the world to the other, its soldiers and generals among the best in history.",
+		"startIntroPart2": "Marechal Petain, France yearns for you to rebuild your empire, to lead her once more to glory and greatness, to make France once more the epicenter of culture and refinement. Will you ride once more against your foes? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Artillery conquers, infantry occupies. You've fallen into my trap. I'll bury you.",
+		"attacked": "You shall not pass.",
+		"defeated": "I congratulate you for your victory.",
+		"introduction": "Welcome to France !",
+		
+		"neutralHello": "Hello.",
+		"hateHello": "It's you.",
+		
+		"tradeRequest": "France offers you this exceptional proposition.",
+		
+		"outerColor": [ 10, 29, 216],
+		"innerColor": [ 245, 113, 89],
+		
+		"uniqueName": "New Regime",
+		"uniques": [
+		"Double quantity of [Wheat] produced",
+		"Double quantity of [Wine] produced",
+		"City-State Influence degrades at half rate",
+		"City-State Influence recovers at twice the normal rate"]
+		
+		"cities": [
+		"Paris",
+		"Orleans",
+		"Lyon",
+		"Troyes",
+		"Tours",
+		"Marseille",
+		"Chartres",
+		"Avignon",
+		"Rouen",
+		"Grenoble",
+		"Dijon",
+		"Amiens",
+		"Cherbourg",
+		"Poitiers",
+		"Toulouse",
+		"Bayonne",
+		"Strasbourg",
+		"Brest",
+		"Bordeaux",
+		"Rennes",
+		"Nice",
+		"Saint Etienne",
+		"Nantes",
+		"Reims",
+		"Le Mans",
+		"Montpellier",
+		"Limoges",
+		"Nancy",
+		"Lille",
+		"Caen",
+		"Toulon",
+		"Le Havre",
+		"Lourdes",
+		"Cannes",
+		"Aix-En-Provence",
+		"La Rochelle",
+		"Bourges",
+		"Calais"]
+	},
+	{
+		"name": "Poland",
+		"leaderName": "Władysław Sikorski",
+		"adjective": ["Polish"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "All hail Władysław Sikorski, protector of Poland. The nation's economy is shambled and his people are demoralized by the wars of your predecessor. And yet, your gouvernement marked the beginning of a new era, with affluence and security afforded only by way of your careful governance. Among your most notable achievements, the code of laws you established gave legal authority to many of the accepted customs of the time, strengthening the nation.",
+		"startIntroPart2": "Honored Władysław Sikorski, the people have long admired the steady hand of governance you wield. Can you return the nation to a golden age of prosperity? Will you conquer all those who oppose you, or strive for peaceful relations? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Revenge !",
+		"attacked": "My armies and allies own will grind you to dust!",
+		"defeated": "Celebrate your victory well...it might be your last one.",
+		"introduction": "I, Władysław Sikorski, welcome you to the lands of Poland.",
+		
+		"neutralHello": "I salute you.",
+		"hateHello": "What are you looking for here?",
+		
+		"tradeRequest": "How do you like my offer?",
+		
+		"outerColor": [247, 171, 171],
+		"innerColor": [255, 255, 255],
+		
+		"uniqueName": "Emerging",
+		"uniques": [
+		"[+10 Culture] in capital",
+		"[+2 Food] from every [Farm]",
+		"[+2 Food] from every [Big Farm]",
+		"Culture cost of adopting new Policies reduced by 10%"],
+		
+		"cities": [
+		"Warsaw",
+		"Kraków",
+		"Łódź",
+		"Wroclaw",
+		"Poznań",
+		"Gdansk",
+		"Szczecin",
+		"Bydgoszcz",
+		"Lublin",
+		"Kaunas",
+		"Katowice",
+		"Białystok",
+		"Gdynia",
+		"Świdnica",
+		"Częstochowa",
+		"Radom",
+		"Toruń",
+		"Kielce",
+		"Gliwice",
+		"Klaipėda",
+		"Bytom",
+		"Olsztyn",
+		"Rzeszów",
+		"Ruda Śląska",
+		"Bielsko-Biala",
+		"Rybnik",
+		"Płock",
+		"Elbląg",
+		"Gorzów Wielkopolski",
+		"Opole",
+		"Šiauliai",
+		"Wałbrzych",
+		"Zielona Góra",
+		"Włocławek"]
+	},
+	{
+		"name": "Japan",
+		"leaderName": "Hirohito",
+		"adjective": ["Japonese"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Honor and glory be yours, Hirohito. Not only were you victorious on the battlefield against the armies of China, you also completed massive construction project across the land - numerous Ring Fortresses to protect the populace from invasion and internal strife.",
+		"startIntroPart2": "The time for greatness is upon you once more. You are called to rise up and lead your people to renewed power and trumph! Will you make the world shudder once more at the very thought of your great armies of samurai ? Will you build a civilization to stand the test of time?",
+		
+		"declaringWar": "If I am to be honest, I tire of those pointless charades. Why don't we settle our disputes on the field of battle, like true men? Perhaps the skalds will sing of your valor... or mine!",
+		"attacked": "Ahahah! You seem to show some skills of a true samurai! Too bad that I'll probably kill you!",
+		"defeated": "God must have stood by you, for a common man alone could not have defeated me... Oh well! I will join him, while you toil away here.",
+		"introduction": "I am Hirohito, Emperor of Japan ! Hope we will become allies.",
+		
+		"neutralHello": "Hail to you.",
+		"hateHello": "Oh, it's you.",
+		
+		"tradeRequest": "This is a fine deal!",
+		
+		"outerColor": [235, 210, 138],
+		"innerColor": [34, 126, 36],
+		
+		"uniqueName": "Samurai",
+		"uniques": [
+		"Units fight as though they were at full strength even when damaged",
+		"Melee units pay no movement cost to pillage",
+		"Great General provides double combat bonus"],
+		
+		"cities": [
+		"Kyoto",
+		"Osaka",
+		"Tokyo",
+		"Satsuma",
+		"Kagoshima",
+		"Nara",
+		"Nagoya",
+		"Izumo",
+		"Nagasaki",
+		"Yokohama",
+		"Shimonoseki",
+		"Matsuyama",
+		"Sapporo",
+		"Hakodate",
+		"Ise",
+		"Toyama",
+		"Fukushima",
+		"Suo",
+		"Bizen",
+		"Echizen",
+		"Izumi",
+		"Omi",
+		"Echigo",
+		"Kozuke",
+		"Sado",
+		"Kobe",
+		"Nagano",
+		"Hiroshima",
+		"Takayama",
+		"Akita",
+		"Fukuoka",
+		"Aomori",
+		"Kamakura",
+		"Kochi",
+		"Naha",
+		"Sendai",
+		"Gifu",
+		"Yamaguchi",
+		"Ota",
+		"Tottori"]
+	},
+	{
+		"name": "Italia",
+		"leaderName": "Mussolini",
+		"adjective": ["Italian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural",
+
+		"startIntroPart1": "Dictator Mussolini, your people greet and welcome you. You are the ruler of Italia, a beautiful and ancient country at the crossroads of the world between Europe and Africa, one shor on the Mediterranean and the other on the mighty Atlantic Ocean. The Italian are a multicultural people with roots in the Muslim and Christian worlds.",
+		"startIntroPart2": "O fair and virtuous Mussolini! Will you rebuld the Italian empire and show the world again the greatness of your people? Will your take up the mantle of the holy fashim, and vanquish your foes under heaven's watchful eyes? Your adoring nation await your command! Will you build a civilization that stands the test of time?",
+		
+		"declaringWar": "God will probably forgive you... but I shall not. Prepare for war.",
+		"attacked": "Repugnant spawn of the devil! You will pay!",
+		"defeated": "If my defeat is, without any doubt, the will of God, then I will accept it.",
+		"introduction": "I am Benito Mussolini. I expected that we would one day meet. Great emperors are fated to meet.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "Well?",
+		
+		"tradeRequest": "I hope this deal will receive your blessing.",
+		
+		"outerColor": [183, 214, 56],
+		
+		"innerColor": [121, 144, 25],
+		
+		"uniqueName": "Glory of Rome",
+		"uniques": [
+		"100 Gold for discovering a Natural Wonder (bonus enhanced to 500 Gold if first to discover it)",
+		"Double Happiness from Natural Wonders", 
+		"Tile yields from Natural Wonders doubled"],
+		
+		"cities": [
+			"Rome",
+			"Florence",
+			"Pisa",
+			"Bologna",
+			"Naples",
+			"Verona",
+			"Vadua",
+			"Genoa",
+			"Turin",
+			"Bari",
+			"Matera",
+			"Pompei",
+			"Lecce",
+			"Taranto",
+			"Taormina",
+			"Palermo",
+			"Reggio Calabria",
+			"Catania",
+			"Syracuse",
+			"Trapani",
+			"Marsala",
+			"Arezzo",
+			"Turni",
+			"Latina",
+			"Chieti",
+			"Vasto",
+			"Ancona",
+			"Rimini",
+			"Ravenna",
+			"Modena",
+			"Parma",
+			"Rivorno",
+			"La Spieza",
+			"Savona",
+			"Asti",
+			"Udina",
+			"Trieste",
+			"Treviso",
+			"Marsala del Vallo",
+			"Gallipoli",
+			"Otranto"]
+	},
+
+	//City-States
+	{
+		"name": "Rio de Janeiro",
+		"adjective": ["Carioca"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast"],
+
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
+		"attacked": "You can see how fruitless this will be for you... right?",
+		"defeated": "May God grant me these last wishes - peace and prosperity for Brazil.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211, 220, 103],
+		"cities": ["Rio de Janeiro"]
+	},
+	{
+		"name": "Antwerp",
+		"adjective": ["Antwerp"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [194,97,255],
+		"cities": ["Antwerp"]
+	},
+	{
+		"name": "Tyre",
+		"adjective": ["Tyrian"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,97,255],
+		"cities": ["Tyre"]
+	},
+	{
+		"name": "Ur",
+		"adjective": ["Ur"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast"],
+
+		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
+		"attacked": "Why do we fight? Because Inanna demands it. Now, witness the power of the Sumerians!",
+		"defeated": "What treachery has struck us? No, what evil?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,69,0],
+		"cities": ["Ur"]
+	},
+	{
+		"name": "Genoa",
+		"adjective": ["Genoese"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [45,255,86],
+		"cities": ["Genoa"]
+	},
+	{
+		"name": "Kabul",
+		"adjective": ["Kabul"],
+		"cityStateType": "Cultured",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [153,0,76],
+		"cities": ["Kabul"]
+	},
+	{
+		"name": "Sidon",
+		"adjective": ["Sidon"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "What a fine battle! Sidon is willing to serve you!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [250,128,114],
+		"cities": ["Sidon"]
+	},
+	{
+		"name": "Almaty",
+		"adjective": ["Almaty"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How could we fall to the likes of you?!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [152,0,241],
+		"cities": ["Almaty"]
+	},
+	{
+		"name": "Singapore",
+		"adjective": ["Singaporean"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,255,0],
+		"cities": ["Singapore"]
+	},
+	{
+		"name": "Zanzibar",
+		"adjective": ["Zanzibar"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,153,255],
+		"cities": ["Zanzibar"]
+	},
+	{
+		"name": "Cape Town",
+		"adjective": ["Cape Town"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I have failed. May you, at least, know compassion towards our people.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,153,153],
+		"cities": ["Cape Town"]
+	},
+	{
+		"name": "Kathmandu",
+		"adjective": ["Kathmandu"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [151,125,0],
+		"cities": ["Kathmandu"]
+	},
+	{
+		"name": "Hanoi",
+		"adjective": ["Hanoi"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "So this is how it feels to die...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,0,255],
+		"cities": ["Hanoi"]
+	},
+	{
+		"name": "Quebec City",
+		"adjective": ["Québécois"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We were too weak to protect ourselves...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [51,102,0],
+		"cities": ["Quebec City"]
+	},
+	{
+		"name": "Helsinki",
+		"adjective": ["Helsinki"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,178,102],
+		"cities": ["Helsinki"]
+	},
+	{
+		"name": "Kuala Lumpur",
+		"adjective": ["KLite"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Today, the Malay people obey you, but do not think this is over...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,102,102],
+		"cities": ["Kuala Lumpur"]
+	},
+	{
+		"name": "Manila",
+		"adjective": ["Manilan"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Ah, Gods! Why have you forsaken us?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [96,96,96],
+		"cities": ["Manila"]
+	},
+	{
+		"name": "Lhasa",
+		"translatedName": "Lhasa",
+		"adjective": ["tibetano"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps now we will find peace in death...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [204,102,0],
+		"cities": ["Lhasa"]
+	},
+	{
+		"name": "Vancouver",
+		"translatedName": "Vancouver",
+		"adjective": ["Vancouverite"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with Canada, we can have no recourse but war!",
+		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.",
+		"defeated": "I regret not defending my country to the last, although it was not of use.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,255,128],
+		"cities": ["Vancouver"]
+	},
+	{
+		"name": "M'Banza-Kongo",
+		"adjective": ["M'Banza-Kongo"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to Kongo - not to my people!",
+		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
+		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,128,0],
+		"cities": ["M'Banza-Kongo"]
+	},
+	{
+		"name": "Mogadishu",
+		"adjective": ["Mogadishu"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Congratulations, conquerer. This tribe serves you now.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [224,224,224],
+		"cities": ["Mogadishu"]
+	},
+	
+	        
+
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [182,0,0]
+	}
+
+]
