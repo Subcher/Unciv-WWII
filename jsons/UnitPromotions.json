@@ -1,0 +1,206 @@
+[
+
+	{
+		"name": "Heal Instantly",
+		"effect": "Heal this Unit by 50 HP; Doing so will consume this opportunity to choose a Promotion",
+		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged","Armor","WaterMelee","WaterRanged","WaterSubmarine"]
+	},
+	//Multiple
+	
+	{
+		"name": "Shock I",
+		"effect": "Bonus vs units in open terrain 15%",
+		"unitTypes": ["Armor","Melee","Siege"]
+	},
+	{
+		"name": "Shock II",
+		"prerequisites": ["Shock I"],
+		"effect": "Bonus vs units in open terrain 15%",
+		"unitTypes": ["Armor","Melee","Siege"]
+	},
+	{
+		"name": "Shock III",
+		"prerequisites": ["Shock II"],
+		"effect": "Bonus vs units in open terrain 15%",
+		"unitTypes": ["Armor","Melee","Siege"]
+	},
+	{
+		"name": "Accuracy I",
+		"effect": "Bonus vs units in rough terrain 15%",
+		"unitTypes": ["Armor","Melee","Siege"]
+	},
+	{
+		"name": "Accuracy II",
+		"prerequisites": ["Accuracy I"],
+		"effect": "Bonus vs units in rough terrain 15%",
+		"unitTypes": ["Armor","Melee","Siege"]
+	},
+	{
+		"name": "Accuracy III",
+		"prerequisites": ["Accuracy II"],
+		"effect": "Bonus vs units in rough terrain 15%",
+		"unitTypes": ["Armor","Melee","Siege"]
+	},
+	{
+		"name": "Ambition",
+		"effect": "Bonus as Attacker [25]%",
+		"prerequisites": ["Accuracy III","Shock III"],
+		"unitTypes": ["Melee"]
+	},
+	{
+		"name": "Blitz",
+		"effect": "1 additional attack per turn",
+		"unitTypes": ["Armor","Melee","Siege"]
+	},
+	{
+		"name": "March",
+		"prerequisites": ["Accuracy III","Shock III"],
+		"effect": "Unit will heal every turn, even if it performs an action",
+		"unitTypes": ["Melee","Ranged","Siege","Mounted"]
+	},
+	// Armor
+	{
+		"name": "Light Tank",
+		"effect": "Access to special promotions",
+	},
+	{
+		"name": "Light Tank I",
+		"prerequisites": ["Light Tank"],
+		"effect": "+1 Visibility Range",
+	},
+	{
+		"name": "Light Tank II",
+		"prerequisites": ["Light Tank I"],
+		"effect": "+1 Movement",
+	},
+	{
+		"name": "Armor Plating I",
+		"effect": "+25% Combat Bonus when defending",
+		"unitTypes": ["Armor"]
+	},
+	{
+		"name": "Armor Plating II",
+		"prerequisites": ["Armor Plating I"],
+		"effect": "+25% Combat Bonus when defending",
+		"unitTypes": ["Armor"]
+	},
+	{
+		"name": "Armor Plating III",
+		"prerequisites": ["Armor Plating II"],
+		"effect": "+25% Combat Bonus when defending",
+		"unitTypes": ["Armor"]
+	},
+	{
+		"name": "HE Shell",
+		"effect": "Bonus vs City 50%",
+		"unitTypes": ["Armor"]
+	},
+	{
+		"name": "Reparation Kit I",
+		"effect": "This unit and all others in adjacent tiles heal 5 additional HP per turn",
+		"unitTypes": ["Armor"]
+	},
+	{
+		"name": "Reparation Kit II",
+		"prerequisites": ["Repair I"],
+		"effect": "This unit heals 5 additional HP outside of friendly territory.",
+		"unitTypes": ["Armor"]
+	},
+	//Melee
+	{
+		"name": "Medic I",
+		"effect": "This unit and all others in adjacent tiles heal 5 additional HP per turn",
+		"unitTypes": ["Melee"]
+	},
+	{
+		"name": "Medic II",
+		"prerequisites": ["Medic"],
+		"effect": "This unit and all others in adjacent tiles heal 5 additional HP. This unit heals 5 additional HP outside of friendly territory.",
+		"unitTypes": ["Melee"]
+	},
+	{
+		"name": "Invulnerability",
+		"effect": "All healing effects doubled",
+		"prerequisites": ["Medic II"],
+		"unitTypes": ["Melee"]
+	},
+	// Scout
+	{
+		"name": "Scouting I",
+		"effect": "+1 Visibility Range",
+		"unitTypes": ["Scout"]
+	},
+	{
+		"name": "Scouting II",
+		"prerequisites": ["Scouting I"],
+		"effect": "+1 Movement",
+		"unitTypes": ["Scout"]
+	},
+	//Siege
+	{
+		"name": "Installation",
+		"effect": "May withdraw before melee ([120]%)"
+	}
+	{
+		"name": "Indirect Fire",
+		"effect": "Ranged attacks may be performed over obstacles",
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Siege I",
+		"effect": "Bonus vs City 33%",
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Siege II",
+		"prerequisites": ["Siege I"],
+		"effect": "Bonus vs City 33%",
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Siege III",
+		"prerequisites": ["Siege II"],
+		"effect": "Bonus vs City 34%",
+		"unitTypes": ["Siege"]
+	},
+	//special effect
+	{
+		"name": "Mobility",
+		"effect": "Access to special promotions",
+	},
+	{
+		"name": "Mobility I",
+		"prerequisites": ["Mobility"],
+		"effect": "Ignores terrain cost",
+	},		
+	{
+		"name": "Mobility II",
+		"prerequisites": ["Mobility I"],
+		"effect": "+1 Movement",
+	},
+	{
+		"name": "Howitzer",
+		"effect": "Access to special promotions",
+	},
+	{
+		"name": "Howitzer I",
+		"effect": "Bonus vs City 50%",
+	},
+	{
+		"name": "Howitzer II",
+		"effect": "Bonus vs Armor 25%",
+	},
+	//building required
+	{
+		"name": "Defence Improvement",
+		"effect": "+25% Combat Bonus when defending",
+	},
+	{
+		"name": "Training",
+		"effect": "-10% combat strength for adjacent enemy units"
+	},
+	{
+		"name": "Sabotage",
+		"effect": "No movement cost to pillage",
+	},
+]
