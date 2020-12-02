@@ -1415,7 +1415,7 @@
 		"movement": 3,
 		"strength": 160,
 		"cost": 100,
-		"uniques": ["Unbuildable"],
+		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
 	},
