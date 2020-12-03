@@ -143,7 +143,6 @@
 		"isNationalWonder": true
 		"greatPersonPoints": {"gold": 3},
         "hurryCostModifier": 15,
-        "requiredBuilding": "Trade I",
 		"requiredResource": "Silver",
 		"uniques": ["[Great Merchant] is earned [10]% faster","Free [Great Merchant] appears"],
         "requiredTech": "Budgetary Cuts I"
