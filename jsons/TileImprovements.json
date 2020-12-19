@@ -157,14 +157,11 @@
 		"name": "Sky Line",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
 		"turnsToBuild": 20,
-		"production": 3,
+		"production": 4,
 		"culture": 3,
-		"food": 3,
-		"gold": 4,
-		"science": 3,
-		"techRequired": "Bonus",
-		"improvingTech": "Future Tech",
-		"improvingTechStats": {"production": 2,"culture": 2,"food": 2,"gold": 3,"science": 2,}
+		"gold": 5,
+		"science": 4,
+		"techRequired": "Future Tech",
 	},
 	//Research
 	{
