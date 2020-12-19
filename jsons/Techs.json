@@ -12,7 +12,7 @@
 				"uniques": ["Starting tech"]
 			},
 			{
-				"name": "Economy",
+				"name": "Defence",
 				"row": 4,
 				"quote": "WIP",
 				"uniques": ["Starting tech"]
@@ -24,31 +24,31 @@
 				"uniques": ["Starting tech"]
 			},
 			{
-				"name": "Defence",
+				"name": "Culture",
 				"row": 6,
 				"quote": "WIP",
 				"uniques": ["Starting tech"]
 			},
 			{
-				"name": "Production",
+				"name": "Happiness",
 				"row": 7,
 				"quote": "WIP",
 				"uniques": ["Starting tech"]
 			},
 			{
-				"name": "Culture",
+				"name": "Economy",
 				"row": 8,
 				"quote": "WIP",
 				"uniques": ["Starting tech"]
 			},
 			{
-				"name": "Science",
+				"name": "Production",
 				"row": 9,
 				"quote": "WIP",
 				"uniques": ["Starting tech"]
 			},
 			{
-				"name": "Happiness",
+				"name": "Science",
 				"row": 10,
 				"quote": "WIP",
 				"uniques": ["Starting tech"]
@@ -81,8 +81,14 @@
 				"quote": "WIP"
 			},
 			{
-				"name": "Pre-war Economy",
+				"name": "Basic Defence I",
 				"row": 4,
+				"prerequisites": ["Defence"],
+				"quote": "WIP",
+			},
+			{
+				"name": "Pre-war Economy",
+				"row": 8,
 				"prerequisites": ["Economy"],
 				"quote": "WIP",
 			},
@@ -93,32 +99,26 @@
 				"quote": "WIP",
 			},
 			{
-				"name": "Basic Defence I",
-				"row": 6,
-				"prerequisites": ["Defence"],
-				"quote": "WIP",
-			},
-			{
 				"name": "Industrialization I",
-				"row": 7,
+				"row": 9,
 				"prerequisites": ["Production"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Patriot I",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["Culture"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Study I",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Science"],
 				"quote": "WIP"
 			},
 			{
-				"name": "Happiness I",
-				"row": 10,
+				"name": "Entertainment I",
+				"row": 7,
 				"prerequisites": ["Happiness"],
 				"quote": "WIP"
 			},
@@ -133,9 +133,9 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "WIP Navy 1",
+				"name": "King Of The Sea I",
 				"row": 1,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Navy"],
 				"quote": "WIP"
 			},
 			{
@@ -145,14 +145,20 @@
 				"quote": "WIP"
 			},
 			{
-				"name": "WIP Air Forces 1",
+				"name": "Airstrike I",
 				"row": 3,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Air Forces"],
 				"quote": "WIP"
 			},
 			{
-				"name": "War Economy I",
+				"name": "Basic Defence II",
 				"row": 4,
+				"prerequisites": ["Basic Defence I"],
+				"quote": "WIP",
+			},
+			{
+				"name": "War Economy I",
+				"row": 8,
 				"prerequisites": ["Pre-war Economy"],
 				"uniques": ["Connects trade routes over water"]
 				"quote": "WIP",
@@ -164,33 +170,27 @@
 				"quote": "WIP",
 			},
 			{
-				"name": "Basic Defence II",
-				"row": 6,
-				"prerequisites": ["Basic Defence I"],
-				"quote": "WIP",
-			},
-			{
 				"name": "Industrialization II",
-				"row": 7,
+				"row": 9,
 				"prerequisites": ["Industrialization I"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Patriot II",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["Patriot I"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Study II",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Study I"],
 				"quote": "WIP"
 			},
 			{
-				"name": "Happiness 2",
-				"row": 10,
-				"uniques": ["Starting tech"]
+				"name": "Entertainment II",
+				"row": 7,
+				"prerequisites": ["Entertainment I"],
 				"quote": "WIP"
 			}			
 		]	
@@ -203,9 +203,9 @@
 		"wonderCost": 250,
 		"techs": [
 			{
-				"name": "WIP Navy 2",
+				"name": "King Of The Sea II",
 				"row": 1,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["King Of The Sea I"],
 				"quote": "WIP"
 			},
 			{
@@ -216,14 +216,20 @@
 				"quote": "WIP"
 			},
 			{
-				"name": "WIP Air Forces 2",
+				"name": "Airstrike II",
 				"row": 3,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Airstrike I"],
 				"quote": "WIP"
 			},
 			{
-				"name": "War Economy II",
+				"name": "Basic Defence III",
 				"row": 4,
+				"prerequisites": ["Basic Defence II"]
+				"quote": "WIP",
+			},
+			{
+				"name": "War Economy II",
+				"row": 8,
 				"prerequisites": ["War Economy I"],
 				"quote": "WIP",
 			},
@@ -234,33 +240,27 @@
 				"quote": "WIP",
 			},
 			{
-				"name": "Basic Defence III",
-				"row": 6,
-				"prerequisites": ["Basic Defence II"]
-				"quote": "WIP",
-			},
-			{
 				"name": "Industrialization III",
-				"row": 7,
+				"row": 9,
 				"prerequisites": ["Industrialization II"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Patriot III",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["Patriot II"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Study III",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Study II"],
 				"quote": "WIP"
 			},
 			{
-				"name": "Happiness 3",
-				"row": 10,
-				"uniques": ["Starting tech"]
+				"name": "Entertainment III",
+				"row": 7,
+				"prerequisites": ["Entertainment II"],
 				"quote": "WIP"
 			}
 		]	
@@ -273,9 +273,9 @@
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "WIP Navy 3",
+				"name": "King Of The Sea III",
 				"row": 1,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["King Of The Sea II"],
 				"quote": "WIP"
 			},
 			{
@@ -286,14 +286,20 @@
 				"quote": "WIP"
 			},
 			{
-				"name": "WIP Air Forces 3",
+				"name": "Airstrike III",
 				"row": 3,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Airstrike II"],
 				"quote": "WIP"
 			},
 			{
-				"name": "Blocus I",
+				"name": "Improved Defence I",
 				"row": 4,
+				"prerequisites": ["Basic Defence III"]
+				"quote": "WIP",
+			},
+			{
+				"name": "Blocus I",
+				"row": 8,
 				"prerequisites": ["War Economy II"],
 				"quote": "WIP",
 			},
@@ -304,33 +310,27 @@
 				"quote": "WIP",
 			},
 			{
-				"name": "Improved Defence I",
-				"row": 6,
-				"prerequisites": ["Basic Defence III"]
-				"quote": "WIP",
-			},
-			{
 				"name": "Massive Production I",
-				"row": 7,
+				"row": 9,
 				"prerequisites": ["Industrialization III"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Sacred Culture I",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["Patriot III"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Study IV",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Study III"],
 				"quote": "WIP"
 			},
 			{
-				"name": "Happiness 4",
-				"row": 10,
-				"uniques": ["Starting tech"]
+				"name": "Entertainment IV",
+				"row": 7,
+				"prerequisites": ["Entertainment III"],
 				"quote": "WIP"
 			}
 		]	
@@ -343,9 +343,9 @@
 		"wonderCost": 400,
 		"techs": [
 			{
-				"name": "WIP Navy 4",
+				"name": "King Of The Sea IV",
 				"row": 1,
-				"uniques": ["Starting tech"],
+				"prerequisites": ["King Of The Sea III"],
 				"quote": "WIP"
 			},
 			{
@@ -355,14 +355,20 @@
 				"quote": "WIP"
 			},
 			{
-				"name": "WIP Air Forces 4",
+				"name": "Ace of Air I",
 				"row": 3,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Airstrike III"],
 				"quote": "WIP"
 			},
 			{
-				"name": "Blocus II",
+				"name": "Improved Defence II",
 				"row": 4,
+				"prerequisites": ["Improved Defence I"]
+				"quote": "WIP",
+			},
+			{
+				"name": "Blocus II",
+				"row": 8,
 				"prerequisites": ["Blocus I"],
 				"quote": "WIP",
 			},
@@ -373,33 +379,27 @@
 				"quote": "WIP",
 			},
 			{
-				"name": "Improved Defence II",
-				"row": 6,
-				"prerequisites": ["Improved Defence I"]
-				"quote": "WIP",
-			},
-			{
 				"name": "Massive Production II",
-				"row": 7,
+				"row": 9,
 				"prerequisites": ["Massive Production I"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Sacred Culture II",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["Sacred Culture I"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Study V",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Study IV"],
 				"quote": "WIP"
 			},
 			{
-				"name": "Happiness 5",
-				"row": 10,
-				"uniques": ["Starting tech"]
+				"name": "Entertainment V",
+				"row": 7,
+				"prerequisites": ["Entertainment IV"],
 				"quote": "WIP"
 			}
 		]
@@ -412,9 +412,9 @@
 		"wonderCost": 500,
 		"techs": [
 			{
-				"name": "WIP Navy 5",
+				"name": "King Of The Sea V",
 				"row": 1,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["King Of The Sea IV"],
 				"quote": "WIP"
 			},
 			{
@@ -425,14 +425,20 @@
 				"quote": "WIP"
 			},
 			{
-				"name": "WIP Air Forces 5",
+				"name": "Ace of Air II",
 				"row": 3,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Ace of Air I"],
 				"quote": "WIP"
 			},
 			{
-				"name": "Blocus III",
+				"name": "Improved Defence III",
 				"row": 4,
+				"prerequisites": ["Improved Defence II"]
+				"quote": "WIP",
+			},
+			{
+				"name": "Blocus III",
+				"row": 8,
 				"prerequisites": ["Blocus II"],
 				"quote": "WIP",
 			},
@@ -443,33 +449,27 @@
 				"quote": "WIP",
 			},
 			{
-				"name": "Improved Defence III",
-				"row": 6,
-				"prerequisites": ["Improved Defence II"]
-				"quote": "WIP",
-			},
-			{
 				"name": "Massive Production III",
-				"row": 7,
+				"row": 9,
 				"prerequisites": ["Massive Production II"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Sacred Culture III",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["Sacred Culture II"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Science Supply I",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Study V"],
 				"quote": "WIP"
 			},
 			{
-				"name": "Happiness 6",
-				"row": 10,
-				"uniques": ["Starting tech"]
+				"name": "Festivity I",
+				"row": 7,
+				"prerequisites": ["Entertainment V"],
 				"quote": "WIP"
 			}
 		]	
@@ -482,9 +482,9 @@
 		"wonderCost": 625,
 		"techs": [
 			{
-				"name": "WIP Navy 6",
+				"name": "Atlantic Control I",
 				"row": 1,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["King Of The Sea V"],
 				"quote": "WIP"
 			},
 			{
@@ -494,14 +494,20 @@
 				"quote": "WIP"
 			},
 			{
-				"name": "WIP Air Forces 6",
+				"name": "Ace of Air III",
 				"row": 3,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Ace of Air II"],
 				"quote": "WIP"
 			},
 			{
-				"name": "War Effort I",
+				"name": "Civil Defence Theory I",
 				"row": 4,
+				"prerequisites": ["Improved Defence III"]
+				"quote": "WIP",
+			},
+			{
+				"name": "War Effort I",
+				"row": 8,
 				"uniques": ["Enables conversion of city production to gold"],
 				"prerequisites": ["Blocus III"],
 				"quote": "WIP",
@@ -513,33 +519,27 @@
 				"quote": "WIP",
 			},
 			{
-				"name": "Civil Defence Theory I",
-				"row": 6,
-				"prerequisites": ["Improved Defence III"]
-				"quote": "WIP",
-			},
-			{
 				"name": "Massive Production IV",
-				"row": 7,
+				"row": 9,
 				"prerequisites": ["Massive Production III"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Sacred Culture IV",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["Sacred Culture III"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Science Supply II",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Science Supply I"],
 				"quote": "WIP"
 			},
 			{
-				"name": "Happiness 7",
-				"row": 10,
-				"uniques": ["Starting tech"]
+				"name": "Festivity II",
+				"row": 7,
+				"prerequisites": ["Festivity I"],
 				"quote": "WIP"
 			}
 		]
@@ -552,9 +552,9 @@
 		"wonderCost": 750,
 		"techs": [
 			{
-				"name": "WIP Navy 7",
+				"name": "Atlantic Control II",
 				"row": 1,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Atlantic Control I"],
 				"quote": "WIP"
 			},
 			{
@@ -564,14 +564,20 @@
 				"quote": "WIP"
 			},
 			{
-				"name": "WIP Air Forces 7",
+				"name": "Radar I",
 				"row": 3,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Ace of Air III"],
 				"quote": "WIP"
 			},
 			{
-				"name": "War Effort II",
+				"name": "Civil Defence Theory II",
 				"row": 4,
+				"prerequisites": ["Civil Defence Theory I"]
+				"quote": "WIP",
+			},
+			{
+				"name": "War Effort II",
+				"row": 8,
 				"prerequisites": ["War Effort I"],
 				"quote": "WIP",
 			},
@@ -582,33 +588,27 @@
 				"quote": "WIP",
 			},
 			{
-				"name": "Civil Defence Theory II",
-				"row": 6,
-				"prerequisites": ["Civil Defence Theory I"]
-				"quote": "WIP",
-			},
-			{
 				"name": "Massive Production V",
-				"row": 7,
+				"row": 9,
 				"prerequisites": ["Massive Production IV"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Sacred Culture V",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["Sacred Culture IV"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Science Supply III",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Science Supply II"],
 				"quote": "WIP"
 			},
 			{ 
-				"name": "Happiness 8",
-				"row": 10,
-				"uniques": ["Starting tech"]
+				"name": "Festivity III",
+				"row": 7,
+				"prerequisites": ["Festivity II"],
 				"quote": "WIP"
 			}
 		]
@@ -621,9 +621,9 @@
 		"wonderCost": 920,
 		"techs": [
 			{
-				"name": "WIP Navy 8",
+				"name": "Atlantic Control III",
 				"row": 1,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Atlantic Control II"],
 				"quote": "WIP"
 			},
 			{
@@ -633,14 +633,20 @@
 				"quote": "WIP"
 			},
 			{
-				"name": "WIP Air Forces 8",
+				"name": "Radar II",
 				"row": 3,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Radar I"],
 				"quote": "WIP"
 			},
 			{
-				"name": "War Effort III",
+				"name": "Civil Defence Theory III",
 				"row": 4,
+				"prerequisites": ["Civil Defence Theory II"]
+				"quote": "WIP",
+			},
+			{
+				"name": "War Effort III",
+				"row": 8,
 				"prerequisites": ["War Effort II"],
 				"quote": "WIP",
 			},
@@ -651,34 +657,28 @@
 				"quote": "WIP",
 			},
 			{
-				"name": "Civil Defence Theory III",
-				"row": 6,
-				"prerequisites": ["Civil Defence Theory II"]
-				"quote": "WIP",
-			},
-			{
 				"name": "Heavy Production I",
-				"row": 7,
+				"row": 9,
 				"prerequisites": ["Massive Production V"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Propaganda I",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["Sacred Culture V"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Scientific Rush I",
-				"row": 9,
+				"row": 10,
 				"uniques": ["Enables conversion of city production to science"],
 				"prerequisites": ["Science Supply III"],
 				"quote": "WIP"
 			},
 			{
-				"name": "Happiness 9",
-				"row": 10,
-				"uniques": ["Starting tech"]
+				"name": "Festivity IV",
+				"row": 7,
+				"prerequisites": ["Festivity III"],
 				"quote": "WIP"
 			}
 		]
@@ -691,9 +691,9 @@
 		"wonderCost": 1060,
 		"techs": [
 			{
-				"name": "WIP Navy 9",
+				"name": "Bigger Naval Gun I",
 				"row": 1,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Atlantic Control III"],
 				"quote": "WIP"
 			},
 			{
@@ -703,14 +703,20 @@
 				"quote": "WIP"
 			},
 			{
-				"name": "WIP Air Forces 9",
+				"name": "Radar III",
 				"row": 3,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Radar II"],
 				"quote": "WIP"
 			},
 			{
-				"name": "Budgetary Cuts I",
+				"name": "Civil Defence Theory IV",
 				"row": 4,
+				"prerequisites": ["Civil Defence Theory III"]
+				"quote": "WIP",
+			},
+			{
+				"name": "Budgetary Cuts I",
+				"row": 8,
 				"prerequisites": ["War Effort III"],
 				"quote": "WIP",
 			},
@@ -721,33 +727,27 @@
 				"quote": "WIP",
 			},
 			{
-				"name": "Civil Defence Theory IV",
-				"row": 6,
-				"prerequisites": ["Civil Defence Theory III"]
-				"quote": "WIP",
-			},
-			{
 				"name": "Heavy Production II",
-				"row": 7,
+				"row": 9,
 				"prerequisites": ["Heavy Production I"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Propaganda II",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["Propaganda I"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Scientific Rush II",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Scientific Rush I"],
 				"quote": "WIP"
 			},
 			{
-				"name": "Happiness 10",
-				"row": 10,
-				"uniques": ["Starting tech"]
+				"name": "Festivity V",
+				"row": 7,
+				"prerequisites": ["Festivity IV"],
 				"quote": "WIP"
 			}
 		]	
@@ -760,9 +760,9 @@
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "WIP Navy 10",
+				"name": "Bigger Naval Gun II",
 				"row": 1,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Bigger Naval Gun I"],
 				"quote": "WIP"
 			},
 			{
@@ -772,14 +772,21 @@
 				"quote": "WIP"
 			},
 			{
-				"name": "WIP Air Forces 10",
+				"name": "Massive Bombardment I",
 				"row": 3,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Radar III"],
 				"quote": "WIP"
 			},
 			{
-				"name": "Budgetary Cuts II",
+				"name": "Civil Defence Theory V",
 				"row": 4,
+				"prerequisites": ["Civil Defence Theory IV"],
+				"uniques": ["+[10]% combat bonus for units fighting in [Friendly Land]"],
+				"quote": "WIP",
+			},
+			{
+				"name": "Budgetary Cuts II",
+				"row": 8,
 				"prerequisites": ["Budgetary Cuts I"],
 				"quote": "WIP",
 			},
@@ -790,34 +797,27 @@
 				"quote": "WIP",
 			},
 			{
-				"name": "Civil Defence Theory V",
-				"row": 6,
-				"prerequisites": ["Civil Defence Theory IV"],
-				"uniques": ["+[10]% combat bonus for units fighting in [Friendly Land]"],
-				"quote": "WIP",
-			},
-			{
 				"name": "Heavy Production III",
-				"row": 7,
+				"row": 9,
 				"prerequisites": ["Heavy Production II"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Propaganda III",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["Propaganda II"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Scientific Rush III",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Scientific Rush II"],
 				"quote": "WIP"
 			},
 			{
-				"name": "Happiness 11",
-				"row": 10,
-				"uniques": ["Starting tech"]
+				"name": "Welfare I",
+				"row": 7,
+				"prerequisites": ["Festivity V"],
 				"quote": "WIP"
 			}
 		]	
@@ -830,9 +830,9 @@
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "WIP Navy 11",
+				"name": "Bigger Naval Gun III",
 				"row": 1,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Bigger Naval Gun II"],
 				"quote": "WIP"
 			},
 			{
@@ -842,14 +842,20 @@
 				"quote": "WIP"
 			},
 			{
-				"name": "WIP Air Forces 11",
+				"name": "Massive Bombardment II",
 				"row": 3,
-				"uniques": ["Starting tech"],
+				"prerequisites": ["Massive Bombardment I"],
 				"quote": "WIP"
 			},
 			{
-				"name": "Budgetary Cuts III",
+				"name": "Fortress Theory I",
 				"row": 4,
+				"prerequisites": ["Civil Defence Theory V"]
+				"quote": "WIP",
+			},
+			{
+				"name": "Budgetary Cuts III",
+				"row": 8,
 				"prerequisites": ["Budgetary Cuts II"],
 				"quote": "WIP",
 			},
@@ -860,34 +866,28 @@
 				"quote": "WIP",
 			},
 			{
-				"name": "Fortress Theory I",
-				"row": 6,
-				"prerequisites": ["Civil Defence Theory V"]
-				"quote": "WIP",
-			},
-			{
 				"name": "Mega-Factory I",
-				"row": 7,
+				"row": 9,
 				"prerequisites": ["Heavy Production III"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Propaganda IV",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["Propaganda III"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Atomic Way I",
-				"row": 9,
+				"row": 10,
 				"uniques": ["Enables Research agreements"],
 				"prerequisites": ["Scientific Rush III"],
 				"quote": "WIP"
 			},
 			{
-				"name": "Happiness 12",
-				"row": 10,
-				"uniques": ["Starting tech"]
+				"name": "Welfare II",
+				"row": 7,
+				"prerequisites": ["Welfare I"],
 				"quote": "WIP"
 			}
 		]	
@@ -900,9 +900,9 @@
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "WIP Navy 12",
+				"name": "Pacific Control I",
 				"row": 1,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Bigger Naval Gun III"],
 				"quote": "WIP"
 			},
 			{
@@ -912,14 +912,20 @@
 				"quote": "WIP"
 			},
 			{
-				"name": "WIP Air Forces 12",
+				"name": "Massive Bombardment III",
 				"row": 3,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Massive Bombardment II"],
 				"quote": "WIP"
 			},
 			{
-				"name": "Backdrop of War I",
+				"name": "Fortress Theory II",
 				"row": 4,
+				"prerequisites": ["Fortress Theory I"]
+				"quote": "WIP",
+			},
+			{
+				"name": "Backdrop of War I",
+				"row": 8,
 				"prerequisites": ["Budgetary Cuts III"],
 				"quote": "WIP",
 			},
@@ -930,33 +936,27 @@
 				"quote": "WIP",
 			},
 			{
-				"name": "Fortress Theory II",
-				"row": 6,
-				"prerequisites": ["Fortress Theory I"]
-				"quote": "WIP",
-			},
-			{
 				"name": "Mega-Factory II",
-				"row": 7,
+				"row": 9,
 				"prerequisites": ["Mega-Factory I"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Propaganda V",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["Propaganda IV"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Atomic Way II",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Atomic Way I"],
 				"quote": "WIP"
 			},
 			{
-				"name": "Happiness 13",
-				"row": 10,
-				"uniques": ["Starting tech"]
+				"name": "Welfare III",
+				"row": 7,
+				"prerequisites": ["Welfare II"],
 				"quote": "WIP"
 			}
 		]	
@@ -969,9 +969,9 @@
 		"wonderCost": 2000,
 		"techs": [
 			{
-				"name": "WIP Navy 13",
+				"name": "Pacific Control II",
 				"row": 1,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Pacific Control I"],
 				"quote": "WIP"
 			},
 			{
@@ -981,14 +981,20 @@
 				"quote": "WIP"
 			},
 			{
-				"name": "WIP Air Forces 13",
+				"name": "Massive Bombardment IV",
 				"row": 3,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Massive Bombardment III"],
 				"quote": "WIP"
 			},
 			{
-				"name": "Backdrop of War II",
+				"name": "Fortress Theory III",
 				"row": 4,
+				"prerequisites": ["Fortress Theory II"]
+				"quote": "WIP",
+			},
+			{
+				"name": "Backdrop of War II",
+				"row": 8,
 				"prerequisites": ["Backdrop of War I"],
 				"quote": "WIP",
 			},
@@ -999,33 +1005,27 @@
 				"quote": "WIP",
 			},
 			{
-				"name": "Fortress Theory III",
-				"row": 6,
-				"prerequisites": ["Fortress Theory II"]
-				"quote": "WIP",
-			},
-			{
 				"name": "Mega-Factory III",
-				"row": 7,
+				"row": 9,
 				"prerequisites": ["Mega-Factory II"],
 				"quote": "WIP"
 			},
 			{
 				"name": "New World Order I",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["Propaganda V"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Atomic Way III",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Atomic Way II"],
 				"quote": "WIP"
 			},
 			{
-				"name": "WIP Happiness 14",
-				"row": 10,
-				"uniques": ["Starting tech"]
+				"name": "Welfare IV",
+				"row": 7,
+				"prerequisites": ["Welfare III"],
 				"quote": "WIP"
 			}
 		]
@@ -1038,9 +1038,9 @@
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "WIP Navy 14",
+				"name": "Pacific Control III",
 				"row": 1,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Pacific Control II"],
 				"quote": "WIP"
 			},
 			{
@@ -1050,14 +1050,20 @@
 				"quote": "WIP"
 			},
 			{
-				"name": "WIP Air Forces 14",
+				"name": "Massive Bombardment V",
 				"row": 3,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Massive Bombardment IV"],
 				"quote": "WIP"
 			},
 			{
-				"name": "Backdrop of War III",
+				"name": "Fortress Theory IV",
 				"row": 4,
+				"prerequisites": ["Fortress Theory III"]
+				"quote": "WIP",
+			},
+			{
+				"name": "Backdrop of War III",
+				"row": 8,
 				"prerequisites": ["Backdrop of War II"],
 				"quote": "WIP",
 			},
@@ -1068,33 +1074,27 @@
 				"quote": "WIP",
 			},
 			{
-				"name": "Fortress Theory IV",
-				"row": 6,
-				"prerequisites": ["Fortress Theory III"]
-				"quote": "WIP",
-			},
-			{
 				"name": "Mega-Factory IV",
-				"row": 7,
+				"row": 9,
 				"prerequisites": ["Mega-Factory III"],
 				"quote": "WIP"
 			},
 			{
 				"name": "New World Order II",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["New World Order I"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Atomic Science",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Atomic Way III"],
 				"quote": "WIP"
 			},
 			{
-				"name": "WIP Happiness 15",
-				"row": 10,
-				"uniques": ["Starting tech"]
+				"name": "Welfare V",
+				"row": 7,
+				"prerequisites": ["Welfare IV"],
 				"quote": "WIP"
 			}
 		]	
@@ -1108,9 +1108,9 @@
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "WIP Navy 15",
+				"name": "End Of Behemoth",
 				"row": 1,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Pacific Control III"],
 				"quote": "WIP"
 			},
 			{
@@ -1120,14 +1120,20 @@
 				"quote": "WIP"
 			},
 			{
-				"name": "WIP Air Forces 15",
+				"name": "Supersonic",
 				"row": 3,
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Massive Bombardment V"],
 				"quote": "WIP"
 			},
 			{
-				"name": "Globalization",
+				"name": "Fortress Theory V",
 				"row": 4,
+				"prerequisites": ["Fortress Theory IV"]
+				"quote": "WIP",
+			},
+			{
+				"name": "Globalization",
+				"row": 8,
 				"prerequisites": ["Backdrop of War III"],
 				"quote": "WIP",
 			},
@@ -1138,33 +1144,27 @@
 				"quote": "WIP",
 			},
 			{
-				"name": "Fortress Theory V",
-				"row": 6,
-				"prerequisites": ["Fortress Theory IV"]
-				"quote": "WIP",
-			},
-			{
 				"name": "Mega-Factory V",
-				"row": 7,
+				"row": 9,
 				"prerequisites": ["Mega-Factory IV"],
 				"quote": "WIP"
 			},
 			{
 				"name": "New World Order III",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["New World Order II"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Skys the Limit",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Atomic Science"],
 				"quote": "WIP"
 			},
 			{
-				"name": "WIP Happiness 16",
-				"row": 10,
-				"uniques": ["Starting tech"]
+				"name": "Joy",
+				"row": 7,
+				"prerequisites": ["Welfare V"],
 				"quote": "WIP"
 			}
 		]
@@ -1172,50 +1172,35 @@
 	{
 		"columnNumber": 17,
 		"era": "1945+",
-		"techCost": 20000,
-		"buildingCost": 750,
-		"wonderCost": 1250,
-		"techs": [
-			{
-				"name": "Bonus",
-				"row": 5,
-				"prerequisites": ["Globalization","Farming Revolution V","Fortress Theory V"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			}
-		]	
-	}
-	{
-		"columnNumber": 18,
-		"era": "1945+",
 		"techCost": 15000,
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
 			{
 				"name": "Domination Way",
-				"row": 2,
+				"row": 3,
 				"uniques": ["+[25]% Production when constructing [military units]", "New military units start with [20] Experience"],
-				"prerequisites": ["WIP Navy 15","Occupied Germany","WIP Air Forces 15"],
+				"prerequisites": ["End Of Behemoth","Occupied Germany","Supersonic","Fortress Theory V"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			}
 			{
 				"name": "Cultural Way",
-				"row": 8,
+				"row": 6,
 				"uniques": ["50% of excess happiness added to culture towards policies","Culture cost of adopting new Policies reduced by 10%"],
-				"prerequisites": ["New World Order III"],
+				"prerequisites": ["New World Order III","Joy","Farming Revolution V"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			}
 			{
 				"name": "Scientific Way",
 				"row": 9,
 				"uniques": ["+10% science and production in all cities","Science gained from research agreements +50%","Free Technology"],
-				"prerequisites": ["Skys the Limit","Mega-Factory V"],
+				"prerequisites": ["Skys the Limit","Mega-Factory V","Globalization"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			}
 		]	
 	}
 	{
-		"columnNumber": 19,
+		"columnNumber": 18,
 		"era": "1945+",
 		"techCost": 17000,
 		"buildingCost": 750,
@@ -1224,7 +1209,7 @@
 			{
 				"name": "Future Tech",
 				"row": 5,
-				"prerequisites": ["Domination Way","Bonus","Cultural Way","Scientific Way"],
+				"prerequisites": ["Domination Way","Cultural Way","Scientific Way"],
 				"uniques": ["Who knows what the future holds?"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			}

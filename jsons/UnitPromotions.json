@@ -42,6 +42,23 @@
 		"unitTypes": ["Armor","Melee","Siege"]
 	},
 	{
+		"name": "Machine Gun I",
+		"effect": "Bonus vs Melee 15%",
+		"unitTypes": ["Armor","Melee"]
+	},
+	{
+		"name": "Machine Gun II",
+		"prerequisites": ["Machine Gun I"],
+		"effect": "Bonus vs Melee 15%",
+		"unitTypes": ["Armor","Melee"]
+	},
+	{
+		"name": "Machine Gun III",
+		"prerequisites": ["Machine Gun II"],
+		"effect": "Bonus vs Melee 15%",
+		"unitTypes": ["Armor","Melee"]
+	},
+	{
 		"name": "Ambition",
 		"effect": "Bonus as Attacker [25]%",
 		"prerequisites": ["Accuracy III","Shock III"],
@@ -95,17 +112,6 @@
 		"effect": "Bonus vs City 50%",
 		"unitTypes": ["Armor"]
 	},
-	{
-		"name": "Reparation Kit I",
-		"effect": "This unit and all others in adjacent tiles heal 5 additional HP per turn",
-		"unitTypes": ["Armor"]
-	},
-	{
-		"name": "Reparation Kit II",
-		"prerequisites": ["Repair I"],
-		"effect": "This unit heals 5 additional HP outside of friendly territory.",
-		"unitTypes": ["Armor"]
-	},
 	//Melee
 	{
 		"name": "Medic I",
@@ -114,7 +120,7 @@
 	},
 	{
 		"name": "Medic II",
-		"prerequisites": ["Medic"],
+		"prerequisites": ["Medic I"],
 		"effect": "This unit and all others in adjacent tiles heal 5 additional HP. This unit heals 5 additional HP outside of friendly territory.",
 		"unitTypes": ["Melee"]
 	},
@@ -123,6 +129,34 @@
 		"effect": "All healing effects doubled",
 		"prerequisites": ["Medic II"],
 		"unitTypes": ["Melee"]
+	},
+	{
+		"name": "Flamethrower",
+		"effect": "Access to special promotions",
+	},
+	{
+		"name": "Flamethrower I",
+		"prerequisites": ["Flamethrower"],
+		"effect": "Bonus vs Melee 50%",
+	},
+	{
+		"name": "Flamethrower II",
+		"prerequisites": ["Flamethrower I"],
+		"effect": "Bonus vs Melee 70%",
+	},
+	{
+		"name": "Rocket",
+		"effect": "Access to special promotions",
+	},
+	{
+		"name": "Rocket I",
+		"prerequisites": ["Rocket"],
+		"effect": "Bonus vs Armor 50%",
+	},
+	{
+		"name": "Rocket II",
+		"prerequisites": ["Rocket I"],
+		"effect": "Bonus vs Armor 70%",
 	},
 	// Scout
 	{
@@ -177,6 +211,19 @@
 		"name": "Mobility II",
 		"prerequisites": ["Mobility I"],
 		"effect": "+1 Movement",
+	},{
+		"name": "Resistance",
+		"effect": "Access to special promotions",
+	},
+	{
+		"name": "Resistance I",
+		"prerequisites": ["Resistance"],
+		"effect": "Ignores terrain cost",
+	},		
+	{
+		"name": "Resistance II",
+		"prerequisites": ["Resistance I"],
+		"effect": "+1 Movement",
 	},
 	{
 		"name": "Howitzer",
@@ -185,10 +232,26 @@
 	{
 		"name": "Howitzer I",
 		"effect": "Bonus vs City 50%",
+		"prerequisites": ["Howitzer"],
 	},
 	{
 		"name": "Howitzer II",
 		"effect": "Bonus vs Armor 25%",
+		"prerequisites": ["Howitzer I"],
+	},
+	{
+		"name": "Torpedo",
+		"effect": "Access to special promotions",
+	},
+	{
+		"name": "Torpedo I",
+		"effect": "Bonus vs WaterMelee 100%",
+		"prerequisites": ["Torpedo"],
+	},
+	{
+		"name": "Torpedo II",
+		"effect": "Bonus vs WaterRanged 75%",
+		"prerequisites": ["Torpedo I"],
 	},
 	//building required
 	{
@@ -202,5 +265,9 @@
 	{
 		"name": "Sabotage",
 		"effect": "No movement cost to pillage",
+	},
+	{
+		"name": "Anti-Air Gun",
+		"effect": "Bonus vs air units 200%",
 	},
 ]
