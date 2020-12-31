@@ -44,19 +44,19 @@
 	{
 		"name": "Machine Gun I",
 		"effect": "Bonus vs Melee 15%",
-		"unitTypes": ["Armor","Melee"]
+		"unitTypes": ["Armor","Melee","WaterMelee","WaterRanged"]
 	},
 	{
 		"name": "Machine Gun II",
 		"prerequisites": ["Machine Gun I"],
 		"effect": "Bonus vs Melee 15%",
-		"unitTypes": ["Armor","Melee"]
+		"unitTypes": ["Armor","Melee","WaterMelee","WaterRanged"]
 	},
 	{
 		"name": "Machine Gun III",
 		"prerequisites": ["Machine Gun II"],
 		"effect": "Bonus vs Melee 15%",
-		"unitTypes": ["Armor","Melee"]
+		"unitTypes": ["Armor","Melee","WaterMelee","WaterRanged"]
 	},
 	{
 		"name": "Ambition",
@@ -67,7 +67,7 @@
 	{
 		"name": "Blitz",
 		"effect": "1 additional attack per turn",
-		"unitTypes": ["Armor","Melee","Siege"]
+		"unitTypes": ["Armor","Melee","Siege","WaterMelee","WaterRanged","WaterSubmarine"]
 	},
 	{
 		"name": "March",
@@ -93,7 +93,7 @@
 	{
 		"name": "Armor Plating I",
 		"effect": "+25% Combat Bonus when defending",
-		"unitTypes": ["Armor"]
+		"unitTypes": ["Armor","WaterMelee","WaterRanged"]
 	},
 	{
 		"name": "Armor Plating II",
@@ -110,7 +110,7 @@
 	{
 		"name": "HE Shell",
 		"effect": "Bonus vs City 50%",
-		"unitTypes": ["Armor"]
+		"unitTypes": ["Armor","WaterMelee","WaterRanged"]
 	},
 	//Melee
 	{
@@ -197,7 +197,31 @@
 		"effect": "Bonus vs City 34%",
 		"unitTypes": ["Siege"]
 	},
-	//special effect
+	
+	// Aircraft Carrier
+	
+	{
+		"name": "Flight Deck",
+		"effect": "Can carry 1 extra air unit",
+		"unitTypes": ["WaterAircraftCarrier"]
+	},
+	
+	//sous-marin
+	
+	{
+		"name": "Wolfpack I",
+		"effect": "+[25]% Strength when attacking",
+		"unitTypes": ["WaterSubmarine"]
+	},
+	{
+		"name": "Wolfpack II",
+		"prerequisites": ["Wolfpack I"],
+		"effect": "+[25]% Strength when attacking",
+		"unitTypes": ["WaterSubmarine"]
+	},
+	
+	//Special Effect
+	
 	{
 		"name": "Mobility",
 		"effect": "Access to special promotions",
@@ -239,6 +263,7 @@
 		"effect": "Bonus vs Armor 25%",
 		"prerequisites": ["Howitzer I"],
 	},
+	//Maritime
 	{
 		"name": "Torpedo",
 		"effect": "Access to special promotions",
@@ -253,7 +278,63 @@
 		"effect": "Bonus vs WaterRanged 75%",
 		"prerequisites": ["Torpedo I"],
 	},
-	//building required
+	{
+		"name": "Battleship",
+		"effect": "Access to special promotions",
+	},
+	{
+		"name": "Battleship I",
+		"effect": "Bonus as Attacker [5]%",
+		"prerequisites": ["Battleship"],
+	},
+	{
+		"name": "Battleship II",
+		"effect": "Bonus as Attacker [10]%",
+		"prerequisites": ["Battleship I"],
+	},
+	{
+		"name": "Cruiser",
+		"effect": "Access to special promotions",
+	},
+	{
+		"name": "Cruiser I",
+		"effect": "+1 Visibility Range",
+		"prerequisites": ["Cruiser"],
+	},
+	{
+		"name": "Cruiser II",
+		"effect": "Can move after attacking",
+		"prerequisites": ["Cruiser I"],
+	},
+	{
+		"name": "Destroyer",
+		"effect": "Access to special promotions",
+	},
+	{
+		"name": "Destroyer I",
+		"effect": "Bonus vs air units [60]%",
+		"prerequisites": ["Destroyer"],
+	},
+	{
+		"name": "Destroyer II",
+		"effect": "+1 Visibility Range",
+		"prerequisites": ["Destroyer I"],
+	},
+	{
+		"name": "Frigate",
+		"effect": "Access to special promotions",
+	},
+	{
+		"name": "Frigate I",
+		"effect": "Bonus vs WaterSubmarine [45]%",
+		"prerequisites": ["Frigate"],
+	},
+	{
+		"name": "Frigate II",
+		"effect": "Can move after attacking",
+		"prerequisites": ["Frigate I"],
+	},
+	//Building Required
 	{
 		"name": "Defence Improvement",
 		"effect": "+25% Combat Bonus when defending",

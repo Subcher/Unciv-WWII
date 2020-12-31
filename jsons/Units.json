@@ -16,7 +16,6 @@
 		"unitType": "WaterCivilian",
 		"movement": 3,
 		"cost": 30,
-		"requiredTech": "Navy",
 		"uniques": ["May create improvements on water resources"],
 		"hurryCostModifier": 20
 	},
@@ -73,6 +72,8 @@
 		"uniques": ["Can construct [Ligne Maginot]","Unbuildable"],
 	},
 	
+	
+	
 		/* USA */
 	
 	{
@@ -101,6 +102,7 @@
 		"promotions": ["Light Tank"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Penalty vs Armor 10%"],
 	},
 	{
 		"name": "M2A1 105mm",
@@ -129,6 +131,7 @@
 		"cost": 440,
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Penalty vs Armor 5%"],
 	},
 	{
 		"name": "M2A2 105mm",
@@ -155,7 +158,7 @@
 		"movement": 2,
 		"strength": 39,
 		"cost": 317,
-		"uniques": ["Amphibious"]
+		"uniques": ["Amphibious","Penalty vs Armor 10%"]
 		"promotions": ["Howitzer"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
@@ -172,6 +175,7 @@
 		"cost": 612,
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Bonus vs Armor 5%"],
 	},
 	{
 		"name": "M7 Priest",
@@ -202,6 +206,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Bonus vs Armor 10%"],
 	},
 	{
 		"name": "M8 Greyhound",
@@ -244,6 +249,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Bonus vs Armor 10%"],
 	},
 	{
 		"name": "M24 Chaffee",
@@ -322,6 +328,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Bonus vs Armor 5%"],
 	},
 	{
 		"name": "M36 Jackson",
@@ -335,6 +342,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Bonus vs Armor 10%"],
 	},
 	{
 		"name": "M4 (105)",
@@ -377,6 +385,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Bonus vs Armor 5%","Bonus as Defender 5%"],
 	},
 	{
 		"name": "M26 Pershing",
@@ -390,6 +399,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Bonus vs Armor 5%","Bonus as Defender 5%"],
 	},
 	{
 		"name": "T28",
@@ -399,7 +409,7 @@
 		"movement": 1,
 		"strength": 150,
 		"cost": 1800,
-		"uniques": ["No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","Bonus vs Armor 10%","Bonus as Defender 10%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
 	},
@@ -415,6 +425,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Bonus vs Armor 5%","Penalty as Defender 5%"],
 	},
 	{
 		"name": "M60 Patton",
@@ -427,6 +438,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Bonus vs Armor 5%"],
 	},
 	
 		/* Soviet Union */
@@ -471,6 +483,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Bonus vs Armor 5%","Bonus as Defender 5%"],
 	},
 	{
 		"name": "KV-1",
@@ -485,6 +498,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Bonus vs Armor 5%","Bonus as Defender 10%"],
 	},
 	{
 		"name": "T-34-76",
@@ -499,6 +513,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Bonus vs Armor 5%","Bonus as Defender 5%"],
 	},
 	{
 		"name": "KV-1e",
@@ -513,6 +528,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Bonus vs Armor 5%","Bonus as Defender 10%"],
 	},
 	{
 		"name": "Katioucha",
@@ -525,7 +541,7 @@
 		"rangedStrength": 45,
 		"range": 3,
 		"cost": 432,
-		"uniques": ["Bonus vs City 300%","No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": ["Bonus vs City 300%","No defensive terrain bonus","Must set up to ranged attack","Penalty vs Armor 10%"],
 		"requiredResource": "Rubber",
 		"hurryCostModifier": 20,
 	},
@@ -542,6 +558,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Bonus vs Armor 5%","Bonus as Defender 10%"],
 	},
 	{
 		"name": "KV-2",
@@ -556,6 +573,7 @@
 		"promotions": ["Howitzer"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Bonus vs Armor 10%","Penalty as Defender 10%"],
 	},
 	{
 		"name": "SU-85",
@@ -567,7 +585,7 @@
 		"movement": 2,
 		"strength": 83,
 		"cost": 830,
-		"uniques": ["Must set up to ranged attack"],
+		"uniques": ["Must set up to ranged attack","Bonus vs Armor 10%","Bonus as Defender 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
 	},
@@ -584,6 +602,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Bonus vs Armor 5%","Bonus as Defender 5%"],
 	},
 	{
 		"name": "IS",
@@ -598,6 +617,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Bonus vs Armor 5%","Bonus as Defender 10%"],
 	},
 	{
 		"name": "SU-100",
@@ -609,7 +629,7 @@
 		"movement": 2,
 		"strength": 105,
 		"cost": 1155,
-		"uniques": ["Must set up to ranged attack"],
+		"uniques": ["Must set up to ranged attack","Bonus vs Armor 10%","Bonus as Defender 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
 	},
@@ -626,6 +646,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Bonus vs Armor 5%","Bonus as Defender 10%"],
 	},
 	{
 		"name": "ISU-122",
@@ -636,7 +657,7 @@
 		"movement": 1,
 		"strength": 125,
 		"cost": 1500,
-		"uniques": ["No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","Bonus vs Armor 10%","Bonus as Defender 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
 	},
@@ -649,7 +670,7 @@
 		"movement": 1,
 		"strength": 125,
 		"cost": 1500,
-		"uniques": ["No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","Bonus vs Armor 10%","Bonus as Defender 5%"],
 		"promotions": ["Howitzer"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
@@ -667,6 +688,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Bonus vs Armor 5%","Bonus as Defender 5%"],
 	},
 	{
 		"name": "T-54",
@@ -679,6 +701,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Bonus vs Armor 5%","Bonus as Defender 5%"],
 	},
 	{
 		"name": "IS-3",
@@ -691,6 +714,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Bonus vs Armor 5%","Bonus as Defender 5%"],
 	},
 	
 		/* Germany */
@@ -708,6 +732,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Penalty vs Armor 5%","Bonus as Attacker 5%"],
 	},
 	{
 		"name": "Panzer II",
@@ -722,6 +747,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Penalty vs Armor 5%","Bonus as Attacker 5%"],
 	},
 	{
 		"name": "Panzer III",
@@ -736,6 +762,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Bonus as Attacker 5%"],
 	},
 	{
 		"name": "Panzer Bison",
@@ -749,7 +776,7 @@
 		"rangedStrength": 21,
 		"range": 2,
 		"cost": 176,
-		"uniques": ["Bonus vs City 150%","No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": ["Bonus vs City 150%","No defensive terrain bonus","Must set up to ranged attack","Penalty as Defender 10%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
 	},
@@ -763,9 +790,10 @@
 		"movement": 2,
 		"strength": 32,
 		"cost": 224,
-		"uniques": ["Must set up to ranged attack"],
+		"uniques": ["Must set up to ranged attack","Bonus vs Armor 10%","Penalty as Defender 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Stug III A",
@@ -777,7 +805,7 @@
 		"movement": 2,
 		"strength": 42,
 		"cost": 294,
-		"uniques": ["Must set up to ranged attack"],
+		"uniques": ["Must set up to ranged attack","Bonus vs Armor 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
 	},
@@ -791,9 +819,10 @@
 		"movement": 2,
 		"strength": 70,
 		"cost": 630,
-		
+		"uniques": ["Bonus vs Armor 5%","Bonus as Attacker 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Marder I",
@@ -805,9 +834,10 @@
 		"movement": 2,
 		"strength": 72,
 		"cost": 648,
-		"uniques": ["Must set up to ranged attack"],
+		"uniques": ["Must set up to ranged attack","Bonus vs Armor 10%","Penalty as Defender 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Marder II",
@@ -819,9 +849,10 @@
 		"movement": 2,
 		"strength": 82,
 		"cost": 738,
-		"uniques": ["Must set up to ranged attack"],
+		"uniques": ["Must set up to ranged attack","Bonus vs Armor 10%","Penalty as Defender 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Panther",
@@ -832,9 +863,10 @@
 		"movement": 2,
 		"strength": 80,
 		"cost": 720,
-		
+		"uniques": ["Bonus vs Armor 5%","Bonus as Attacker 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Tiger I",
@@ -846,9 +878,10 @@
 		"movement": 1,
 		"strength": 88,
 		"cost": 968,
-		
+		"uniques": ["Bonus vs Armor 5%","Bonus as Attacker 10%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Wespe",
@@ -881,6 +914,7 @@
 		"promotions": ["Anti-Air Gun"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Stug III G",
@@ -892,9 +926,10 @@
 		"movement": 2,
 		"strength": 96,
 		"cost": 960,
-		"uniques": ["Must set up to ranged attack"],
+		"uniques": ["Must set up to ranged attack","Bonus vs Armor 10%","Penalty as Defender 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Hummel",
@@ -920,9 +955,10 @@
 		"movement": 2,
 		"strength": 102,
 		"cost": 1020,
-		"uniques": ["No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","Bonus vs Armor 10%","Bonus as Attacker 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Ferdinand",
@@ -933,9 +969,10 @@
 		"movement": 1,
 		"strength": 105,
 		"cost": 1050,
-		"uniques": ["No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","Bonus vs Armor 10%","Bonus as Defender 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Tiger II",
@@ -948,6 +985,7 @@
 		"cost": 1391,
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","Bonus vs Armor 5%","Bonus as Attacker 5%"],
 	},
 	{
 		"name": "Jagdpanzer IV",
@@ -959,9 +997,10 @@
 		"movement": 2,
 		"strength": 117,
 		"cost": 1287,
-		"uniques": ["Must set up to ranged attack"],
+		"uniques": ["Must set up to ranged attack","Bonus vs Armor 10%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Jagdpanzer V",
@@ -973,9 +1012,10 @@
 		"movement": 2,
 		"strength": 124,
 		"cost": 1488,
-		"uniques": ["No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","Bonus vs Armor 10%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Kugelblitz",
@@ -991,6 +1031,7 @@
 		"promotions": ["Anti-Air Gun"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Sturmtiger",
@@ -1001,10 +1042,11 @@
 		"movement": 1,
 		"strength": 140,
 		"cost": 1680,
-		"uniques": ["Bonus vs City 300%","No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": ["Bonus vs City 300%","No defensive terrain bonus","Must set up to ranged attack","Bonus vs Armor 15%"],
 		"promotions": ["Howitzer"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Karl-Gerat",
@@ -1026,9 +1068,10 @@
 		"movement": 1,
 		"strength": 138,
 		"cost": 1656,
-		"uniques": ["No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","Bonus vs Armor 10%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},	
 	{
 		"name": "Leopard 1",
@@ -1038,9 +1081,10 @@
 		"movement": 3,
 		"strength": 152,
 		"cost": 1976,
-		
+		"uniques": ["Bonus vs Armor 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	
 		/* UK */
@@ -1055,9 +1099,9 @@
 		"movement": 1,
 		"strength": 28,
 		"cost": 168,
-		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Cruiser Mk IV",
@@ -1069,9 +1113,9 @@
 		"movement": 2,
 		"strength": 34,
 		"cost": 238,
-		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Daimler Dingo",
@@ -1096,8 +1140,10 @@
 		"movement": 1,
 		"strength": 44,
 		"cost": 310,
+		"uniques": ["Bonus as Defender 10%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Mk VI Crusader",
@@ -1112,6 +1158,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Valentine",
@@ -1123,9 +1170,10 @@
 		"movement": 1,
 		"strength": 61,
 		"cost": 488,
-		
+		"uniques": ["Bonus as Defender 10%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Churchill III",
@@ -1137,9 +1185,10 @@
 		"movement": 1,
 		"strength": 68,
 		"cost": 673,
-		
+		"uniques": ["Bonus vs Armor 5%","Bonus as Defender 10%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Bishop",
@@ -1166,9 +1215,10 @@
 		"movement": 2,
 		"strength": 91,
 		"cost": 910,
-		
+		"uniques": ["Bonus vs Armor 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Archer",
@@ -1179,9 +1229,10 @@
 		"movement": 2,
 		"strength": 105,
 		"cost": 1155,
-		"uniques": ["Must set up to ranged attack"],
+		"uniques": ["Must set up to ranged attack","Bonus vs Armor 5%","Penalty as Defender 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Sherman Vc Firefly",
@@ -1192,9 +1243,10 @@
 		"movement": 2,
 		"strength": 112,
 		"cost": 1232,
-		
+		"uniques": ["Bonus vs Armor 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Churchill AVRE",
@@ -1206,8 +1258,10 @@
 		"strength": 120,
 		"cost": 1452,
 		"promotions": ["Howitzer"],
+		"uniques": ["Bonus vs Armor 10%","Bonus as Defender 10%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Comet",
@@ -1219,9 +1273,10 @@
 		"movement": 2,
 		"strength": 121,
 		"cost": 1452,
-		
+		"uniques": ["Bonus vs Armor 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Centurion I",
@@ -1231,8 +1286,10 @@
 		"movement": 3,
 		"strength": 145,
 		"cost": 1885,
+		"uniques": ["Bonus vs Armor 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	
 		/* France */
@@ -1257,9 +1314,10 @@
 		"movement": 1,
 		"strength": 30,
 		"cost": 150,
-		
+		"uniques": ["Bonus vs Armor 5%","Bonus as Defender 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Panhard 178",
@@ -1285,9 +1343,10 @@
 		"movement": 1,
 		"strength": 55,
 		"cost": 363,
-		
+		"uniques": ["Bonus vs Armor 7%","Bonus as Defender 10%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Hotchkiss H39",
@@ -1300,9 +1359,9 @@
 		"movement": 1,
 		"strength": 30,
 		"cost": 180,
-		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Renault R40",
@@ -1313,9 +1372,9 @@
 		"movement": 1,
 		"strength": 34,
 		"cost": 204,
-		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Somua S35",
@@ -1326,9 +1385,10 @@
 		"movement": 1,
 		"strength": 40,
 		"cost": 280,
-		
+		"uniques": ["Bonus as Defender 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "D2",
@@ -1339,9 +1399,10 @@
 		"movement": 1,
 		"strength": 36,
 		"cost": 432,
-		
+		"uniques": ["Bonus vs Armor 5%","Bonus as Defender 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "M10 RBFM",
@@ -1352,9 +1413,10 @@
 		"movement": 1,
 		"strength": 102,
 		"cost": 1122,
-		
+		"uniques": ["Bonus vs Armor 10%","Penalty as Defender 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "ARL 44",
@@ -1365,9 +1427,10 @@
 		"movement": 1,
 		"strength": 121,
 		"cost": 1597,
-		
+		"uniques": ["Bonus vs Armor 5%","Bonus as Defender 10%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Panhard AML 60;90",
@@ -1379,7 +1442,9 @@
 		"cost": 1086,
 		"promotions": ["Light Tank"],
 		"requiredResource": "Rubber",
+		"uniques": ["Penalty as Defender 10%"],
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Panhard EBR",
@@ -1391,7 +1456,9 @@
 		"cost": 1017,
 		"promotions": ["Light Tank"],
 		"requiredResource": "Rubber",
+		"uniques": ["Penalty as Defender 10%"],
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "AMX 30",
@@ -1403,6 +1470,8 @@
 		"cost": 2015,
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		"uniques": ["Bonus vs Armor 5%"],
+		
 	},
 	{
 		"name": "AMX 30B",
@@ -1412,9 +1481,10 @@
 		"movement": 3,
 		"strength": 160,
 		"cost": 2080,
-		"uniques": ["Unbuildable","+1 Visibility Range"],
+		"uniques": ["Unbuildable","+1 Visibility Range","Bonus vs Armor 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	
 		/* Japan */
@@ -1483,9 +1553,11 @@
 		"movement": 2,
 		"strength": 30,
 		"cost": 180,
-		"uniques": ["Must set up to ranged attack","Howitzer"],
+		"uniques": ["Must set up to ranged attack","Bonus vs Armor 10%","Penalty as Defender 5%"],
+		"promotions": ["Howitzer"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	//amphibie
 	{
@@ -1498,9 +1570,10 @@
 		"movement": 2,
 		"strength": 15,
 		"cost": 90,
-		"uniques": ["Amphibious"]
+		"uniques": ["Amphibious","Penalty as Defender 10%"]
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	//
 	{
@@ -1513,9 +1586,11 @@
 		"movement": 2,
 		"strength": 20,
 		"cost": 140,
+		"uniques": ["Penalty vs Armor 5%","Penalty as Defender 5%"],
 		"promotions": ["Light Tank"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Type 97 Chi-Ha 47",
@@ -1530,6 +1605,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Type 4 Ke-Nu",
@@ -1541,9 +1617,11 @@
 		"movement": 2,
 		"strength": 24,
 		"cost": 168,
+		"uniques": ["Penalty vs Armor 5%","Penalty as Defender 5%"],
 		"promotions": ["Light Tank"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "SS-D",
@@ -1553,9 +1631,11 @@
 		"movement": 2,
 		"strength": 45,
 		"cost": 360,
+		"uniques": ["Penalty as Defender 5%"],
 		"promotions": ["Flamethrower","Machine Gun I"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Type 97 Chi-Ha 57",
@@ -1569,6 +1649,7 @@
 		"upgradesTo": "Type 97 Chi-Ha Kai",
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Type 4 Ho-Ro",
@@ -1579,9 +1660,11 @@
 		"movement": 2,
 		"strength": 50,
 		"cost": 450,
-		"uniques": ["Bonus vs City 100%","Must set up to ranged attack","Howitzer"],
+		"uniques": ["Bonus vs City 100%","Must set up to ranged attack"],
+		"promotions": ["Howitzer"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Type 4 Na-To",
@@ -1592,9 +1675,10 @@
 		"movement": 2,
 		"strength": 70,
 		"cost": 630,
-		"uniques": ["Must set up to ranged attack"],
+		"uniques": ["Must set up to ranged attack","Bonus vs Armor 10%","Penalty as Defender 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Type 1 Ho-Ni II",
@@ -1606,9 +1690,11 @@
 		"movement": 2,
 		"strength": 75,
 		"cost": 675,
-		"uniques": ["Must set up to ranged attack","Howitzer"],
+		"uniques": ["Must set up to ranged attack","Bonus vs Armor 10%","Penalty as Defender 5%"],
 		"requiredResource": "Oil",
+		"promotions": ["Howitzer"],
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Type 97 Chi-Ha Kai",
@@ -1623,6 +1709,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Type 2 Ho-I",
@@ -1637,6 +1724,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Type 1 Chi-He",
@@ -1651,6 +1739,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	//amphibie
 	{
@@ -1663,9 +1752,10 @@
 		"movement": 2,
 		"strength": 50,
 		"cost": 500,
-		"uniques": ["Amphibious"]
+		"uniques": ["Amphibious","Penalty as Defender 10%"]
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	//
 	{
@@ -1681,6 +1771,7 @@
 		"promotions": ["Anti-Air Gun"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Type 97 Chi-Ha 120",
@@ -1694,6 +1785,7 @@
 		"upgradesTo": "Type 97 Chi-Ha LG",
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	//amphibie
 	{
@@ -1706,10 +1798,11 @@
 		"movement": 2,
 		"strength": 70,
 		"cost": 770,
-		"uniques": ["Amphibious","Can only attack water"],
+		"uniques": ["Amphibious","Can only attack water","Penalty as Defender 10%"],
 		"promotions": ["Torpedo"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	//
 	{
@@ -1718,12 +1811,13 @@
 		"uniqueTo": "Japan",
 		"requiredTech": "Steel Beast III",
 		"upgradesTo": "Type 5 Ho-Ri II",
-		"uniques": ["Must set up to ranged attack"],
+		"uniques": ["Must set up to ranged attack","Bonus vs Armor 10%"],
 		"movement": 2,
 		"strength": 117,
 		"cost": 1287,
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Type 3 Chi-Nu",
@@ -1738,6 +1832,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Type 3 Ho-Ni III",
@@ -1748,9 +1843,11 @@
 		"movement": 2,
 		"strength": 115,
 		"cost": 1265,
-		"uniques": ["Must set up to ranged attack","Howitzer"],
+		"uniques": ["Must set up to ranged attack","Bonus vs Armor 10%","Penalty as Defender 5%"],
 		"requiredResource": "Oil",
+		"promotions": ["Howitzer"],
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Type 97 Chi-Ha LG",
@@ -1760,9 +1857,10 @@
 		"movement": 2,
 		"strength": 130,
 		"cost": 1560,
-		"uniques": ["Must set up to ranged attack"],
+		"uniques": ["Must set up to ranged attack","Bonus vs Armor 10%","Penalty as Defender 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	//amphibie
 	{
@@ -1774,9 +1872,10 @@
 		"movement": 2,
 		"strength": 80,
 		"cost": 960,
-		"uniques": ["Amphibious"],
+		"uniques": ["Amphibious","Penalty as Defender 10%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	//
 	{
@@ -1788,9 +1887,10 @@
 		"movement": 2,
 		"strength": 145,
 		"cost": 1740,
-		"uniques": ["Must set up to ranged attack"],
+		"uniques": ["Must set up to ranged attack","Bonus vs Armor 10%","Bonus as Defender 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Type 5 Chi-Ri",
@@ -1805,6 +1905,7 @@
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Type 61",
@@ -1817,6 +1918,7 @@
 		"cost": 2015,
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	{
 		"name": "Type 74",
@@ -1829,6 +1931,7 @@
 		"uniques": ["Unbuildable","+1 Visibility Range"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
+		
 	},
 	
 		/* Italia */
@@ -1891,7 +1994,7 @@
 		"movement": 2,
 		"strength": 32,
 		"cost": 224,
-		"uniques": ["Must set up to ranged attack"],
+		"uniques": ["Must set up to ranged attack","Bonus vs Armor 10%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
 	},
@@ -1963,6 +2066,7 @@
 		"movement": 2,
 		"strength": 29,
 		"cost": 208,
+		"uniques": ["Penalty as Defender 5%"],
 		"promotions": ["Light Tank"],
 		"requiredResource": "Rubber",
 		"hurryCostModifier": 20,
@@ -1977,7 +2081,7 @@
 		"movement": 1,
 		"strength": 68,
 		"cost": 612,
-		"uniques": ["Must set up to ranged attack"],
+		"uniques": ["Must set up to ranged attack","Bonus vs Armor 10%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
 	},
@@ -2029,7 +2133,7 @@
 		"movement": 1,
 		"strength": 91,
 		"cost": 910,
-		"uniques": ["Must set up to ranged attack"],
+		"uniques": ["Must set up to ranged attack","Bonus vs Armor 10%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
 	},
@@ -2042,6 +2146,7 @@
 		"movement": 2,
 		"strength": 51,
 		"cost": 459,
+		"uniques": ["Penalty as Defender 5%"],
 		"promotions": ["Light Tank"],
 		"requiredResource": "Rubber",
 		"hurryCostModifier": 20,
@@ -2134,7 +2239,7 @@
 		"movement": 2,
 		"strength": 30,
 		"cost": 180,
-		
+		"uniques": ["Penalty vs Armor 3%","Penalty as Defender 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
 	},
@@ -2146,11 +2251,761 @@
 		"movement": 2,
 		"strength": 28,
 		"cost": 168,
-		
+		"uniques": ["Penalty vs Armor 5%","Penalty as Defender 5%"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
 	},
-
+		
+			/*Ship *
+	
+		/* USA */
+	
+	//porte-avion//
+	{
+		"name": "USS Lexington",
+		"unitType": "WaterAircraftCarrier",
+		"uniqueTo": "America",
+		"requiredTech": "Navy",
+		"obsoleteTech": "King Of The Sea III",
+		"upgradesTo": "USS Yorktown (CV-6)",
+		"movement": 1,
+		"strength": 10,
+		"rangedStrength": 10,
+		"interceptRange": 2,
+		"cost": 350,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+		"uniques": ["Can carry 2 aircraft","[20]% chance to intercept air attacks","Can only attack water"]
+	},
+	{
+		"name": "USS Yorktown (CV-6)",
+		"unitType": "WaterAircraftCarrier",
+		"uniqueTo": "America",
+		"requiredTech": "King Of The Sea III",
+		"obsoleteTech": "Atlantic Control I",
+		"upgradesTo": "USS Wasp (CV-7)",
+		"movement": 1,
+		"strength": 16,
+		"rangedStrength": 16,
+		"interceptRange": 2,
+		"cost": 560,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+		"uniques": ["Can carry 2 aircraft","[20]% chance to intercept air attacks","Can only attack water"]
+	},
+	{
+		"name": "USS Wasp (CV-7)",
+		"unitType": "WaterAircraftCarrier",
+		"uniqueTo": "America",
+		"requiredTech": "Atlantic Control I",
+		"obsoleteTech": "Bigger Naval Gun I",
+		"upgradesTo": "USS Bataan (CVL-29)",
+		"movement": 1,
+		"strength": 34,
+		"rangedStrength": 34,
+		"interceptRange": 2,
+		"cost": 1190,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+		"uniques": ["Can carry 2 aircraft","[20]% chance to intercept air attacks","Can only attack water"]
+	},
+	{
+		"name": "USS Bataan (CVL-29)",
+		"unitType": "WaterAircraftCarrier",
+		"uniqueTo": "America",
+		"requiredTech": "Bigger Naval Gun I",
+		"obsoleteTech": "Bigger Naval Gun III",
+		"upgradesTo": "USS Essex",
+		"movement": 1,
+		"strength": 51,
+		"rangedStrength": 51,
+		"interceptRange": 2,
+		"cost": 1785,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+		"uniques": ["Can carry 2 aircraft","[20]% chance to intercept air attacks","Can only attack water"]
+	},
+	{
+		"name": "USS Essex",
+		"unitType": "WaterAircraftCarrier",
+		"uniqueTo": "America",
+		"requiredTech": "Bigger Naval Gun III",
+		"obsoleteTech": "Pacific Control III",
+		"upgradesTo": "USS Midway",
+		"movement": 1,
+		"strength": 64,
+		"rangedStrength": 64,
+		"interceptRange": 2,
+		"cost": 2240,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+		"uniques": ["Can carry 2 aircraft","[20]% chance to intercept air attacks","Can only attack water"]
+	},
+	{
+		"name": "USS Midway",
+		"unitType": "WaterAircraftCarrier",
+		"uniqueTo": "America",
+		"requiredTech": "Pacific Control III",
+		"movement": 1,
+		"strength": 85,
+		"rangedStrength": 85,
+		"interceptRange": 2,
+		"cost": 2975,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+		"uniques": ["Can carry 2 aircraft","[20]% chance to intercept air attacks","Can only attack water"]
+	},
+	//Bonus//
+	{
+		"name": "LCM (1)",
+		"unitType": "WaterCivilian",
+		"uniqueTo": "America",
+		"requiredTech": "Navy",
+		"obsoleteTech": "King Of The Sea V",
+		"upgradesTo": "LCM (2)",
+		"movement": 1,
+		"cost": 40,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+		"uniques": ["Bonus for units in 2 tile radius 10%","Limited Visibility","Double movement in coast"],
+	},
+	{
+		"name": "LCM (2)",
+		"unitType": "WaterCivilian",
+		"uniqueTo": "America",
+		"requiredTech": "King Of The Sea V",
+		"obsoleteTech": "Atlantic Control II",
+		"upgradesTo": "LCM (3)",
+		"movement": 1,
+		"cost": 179,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+		"uniques": ["Bonus for units in 2 tile radius 10%","Limited Visibility","Double movement in coast"],
+	},
+	{
+		"name": "LCM (3)",
+		"unitType": "WaterCivilian",
+		"uniqueTo": "America",
+		"requiredTech": "Atlantic Control II",
+		"obsoleteTech": "Bigger Naval Gun II",
+		"upgradesTo": "LCM (4)",
+		"movement": 1,
+		"cost": 288,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+		"uniques": ["Bonus for units in 2 tile radius 15%","Limited Visibility","Double movement in coast"],
+	},
+	{
+		"name": "LCM (4)",
+		"unitType": "WaterCivilian",
+		"uniqueTo": "America",
+		"requiredTech": "Bigger Naval Gun II",
+		"obsoleteTech": "Pacific Control II",
+		"upgradesTo": "LCM (6)",
+		"movement": 1,
+		"cost": 456,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+		"uniques": ["Bonus for units in 2 tile radius 15%","Limited Visibility","Double movement in coast"],
+	},
+	{
+		"name": "LCM (6)",
+		"unitType": "WaterCivilian",
+		"uniqueTo": "America",
+		"requiredTech": "Pacific Control II",
+		"obsoleteTech": "End Of Behemoth",
+		"upgradesTo": "LCM (8)",
+		"movement": 1,
+		"cost": 739,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+		"uniques": ["Bonus for units in 2 tile radius 15%","Limited Visibility","Double movement in coast"],
+	},
+	{
+		"name": "LCM (8)",
+		"unitType": "WaterCivilian",
+		"uniqueTo": "America",
+		"requiredTech": "End Of Behemoth",
+		"movement": 1,
+		"cost": 936,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+		"uniques": ["Bonus for units in 2 tile radius 15%","Limited Visibility","Double movement in coast"],
+	},
+	{
+		"name": "USS LST",
+		"unitType": "WaterCivilian",
+		"uniqueTo": "America",
+		"requiredTech": "Bigger Naval Gun I",
+		"obsoleteTech": "Domination Way",
+		"movement": 1,
+		"cost": 936,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+		"uniques": ["Bonus for units in 2 tile radius 20%","Limited Visibility","Double movement in coast"],
+	},
+	{
+		"name": "USS Liberty Ship",
+		"unitType": "WaterCivilian",
+		"uniqueTo": "America",
+		"requiredTech": "King Of The Sea III",
+		"obsoleteTech": "Domination Way",
+		"movement": 2,
+		"cost": 390,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+		"uniques": ["Can undertake a trade mission with City-State","Limited Visibility"],
+	},
+	//Cuirasses Battleship//
+	{
+		"name": "USS Wyoming",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "Navy",
+		"obsoleteTech": "King Of The Sea I",
+		"upgradesTo": "USS Colorado (BB45)",
+		"movement": 2,
+		"strength": 55,
+		"rangedStrength": 50,
+		"range": 4,
+		"cost": 450,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Battleship"],
+		"uniques": ["[40]% chance to intercept air attacks"],
+	},
+	{
+		"name": "USS Colorado (BB45)",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "King Of The Sea I",
+		"obsoleteTech": "King Of The Sea IV",
+		"upgradesTo": "USS North Carolina",
+		"movement": 2,
+		"strength": 81,
+		"rangedStrength": 73,
+		"range": 4,
+		"cost": 657,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Battleship"],
+		"uniques": ["[40]% chance to intercept air attacks"],
+	},
+	{
+		"name": "USS North Carolina",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "King Of The Sea IV",
+		"obsoleteTech": "Atlantic Control III",
+		"upgradesTo": "USS South Dakota",
+		"movement": 2,
+		"strength": 174,
+		"rangedStrength": 157,
+		"range": 4,
+		"cost": 1413,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Battleship"],
+		"uniques": ["[40]% chance to intercept air attacks"],
+	},
+	{
+		"name": "USS South Dakota",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "Atlantic Control III",
+		"obsoleteTech": "Bigger Naval Gun II",
+		"upgradesTo": "USS Alaska",
+		"movement": 2,
+		"strength": 274,
+		"rangedStrength": 247,
+		"range": 4,
+		"cost": 2223,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Battleship"],
+		"uniques": ["[40]% chance to intercept air attacks"],
+	},
+	{
+		"name": "USS Alaska",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "Bigger Naval Gun II",
+		"obsoleteTech": "Pacific Control I",
+		"upgradesTo": "USS Iowa (BB-61)",
+		"movement": 2,
+		"strength": 333,
+		"rangedStrength": 300,
+		"range": 4,
+		"cost": 2700,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Battleship"],
+		"uniques": ["[40]% chance to intercept air attacks"],
+	},
+	{
+		"name": "USS Iowa (BB-61)",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "Pacific Control I",
+		"movement": 2,
+		"strength": 426,
+		"rangedStrength": 383,
+		"range": 4,
+		"cost": 3447,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Battleship"],
+		"uniques": ["[40]% chance to intercept air attacks"],
+	},
+	//Auxiliaire//
+	{
+		"name": "USS PT",
+		"unitType": "WaterMelee",
+		"uniqueTo": "America",
+		"requiredTech": "Atlantic Control II",
+		"obsoleteTech": "End Of Behemoth",
+		"movement": 5,
+		"strength": 35,
+		"cost": 215,
+		"hurryCostModifier": 20,
+		"promotions": ["Torpedo"],
+		"uniques": ["Cannot enter ocean tiles until Astronomy"],
+		"attackSound": "nonmetalhit",
+	},
+	//Croiseurs lourds // Heavy Cruiser//
+	{
+		"name": "USS New Orleans",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "Navy",
+		"obsoleteTech": "King Of The Sea I",
+		"upgradesTo": "USS Wichita (CA-45)",
+		"movement": 3,
+		"strength": 25,
+		"rangedStrength": 21,
+		"range": 3,
+		"cost": 179,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Cruiser"],
+		"uniques": ["[60]% chance to intercept air attacks"],
+	},
+	{
+		"name": "USS Wichita (CA-45)",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "King Of The Sea I",
+		"obsoleteTech": "Bigger Naval Gun I",
+		"upgradesTo": "USS Baltimore",
+		"movement": 3,
+		"strength": 62,
+		"rangedStrength": 53,
+		"range": 3,
+		"cost": 450,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Cruiser"],
+		"uniques": ["[60]% chance to intercept air attacks"],
+	},
+	{
+		"name": "USS Baltimore",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "Bigger Naval Gun I",
+		"obsoleteTech": "Pacific Control I",
+		"upgradesTo": "USS Oregon City",
+		"movement": 3,
+		"strength": 232,
+		"rangedStrength": 197,
+		"range": 3,
+		"cost": 1674,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Cruiser"],
+		"uniques": ["[60]% chance to intercept air attacks"],
+	},
+	{
+		"name": "USS Oregon City",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "Pacific Control I",
+		"obsoleteTech": "End Of Behemoth",
+		"upgradesTo": "USS Des Moines",
+		"movement": 3,
+		"strength": 322,
+		"rangedStrength": 274,
+		"range": 3,
+		"cost": 2329,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Cruiser"],
+		"uniques": ["[60]% chance to intercept air attacks"],
+	},
+	{
+		"name": "USS Des Moines",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "End Of Behemoth",
+		"movement": 3,
+		"strength": 420,
+		"rangedStrength": 357
+		"range": 3,
+		"cost": 3034,
+		"hurryCostModifier": 357,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Cruiser"],
+		"uniques": ["[60]% chance to intercept air attacks"],
+	},
+	//Croiseurs Leger // Light Cruiser//
+	{
+		"name": "USS Omaha",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "Navy",
+		"obsoleteTech": "King Of The Sea V",
+		"upgradesTo": "USS Atlanta",
+		"movement": 3,
+		"strength": 20,
+		"rangedStrength": 14,
+		"range": 3,
+		"cost": 98,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Cruiser"],
+		"uniques": ["[60]% chance to intercept air attacks","Can only attack water"],
+	},
+	{
+		"name": "USS Atlanta",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "King Of The Sea V",
+		"obsoleteTech": "Atlantic Control I",
+		"upgradesTo": "USS Cleverland",
+		"movement": 3,
+		"strength": 125,
+		"rangedStrength": 88,
+		"range": 3,
+		"cost": 616,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Cruiser"],
+		"uniques": ["[60]% chance to intercept air attacks","Can only attack water"],
+	},
+	{
+		"name": "USS Cleverland",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "Atlantic Control I",
+		"obsoleteTech": "Pacific Control I",
+		"upgradesTo": "USS Fargo",
+		"movement": 3,
+		"strength": 145,
+		"rangedStrength": 102,
+		"range": 3,
+		"cost": 714,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Cruiser"],
+		"uniques": ["[60]% chance to intercept air attacks","Can only attack water"],
+	},
+	{
+		"name": "USS Fargo",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "Pacific Control I",
+		"obsoleteTech": "End Of Behemoth",
+		"upgradesTo": "USS Juneau",
+		"movement": 3,
+		"strength": 288,
+		"rangedStrength": 202,
+		"range": 3,
+		"cost": 1414,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Cruiser"],
+		"uniques": ["[60]% chance to intercept air attacks","Can only attack water"],
+	},
+	{
+		"name": "USS Juneau",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "End Of Behemoth",
+		"movement": 3,
+		"strength": 375,
+		"rangedStrength": 263,
+		"range": 3,
+		"cost": 1841,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Cruiser"],
+		"uniques": ["[60]% chance to intercept air attacks","Can only attack water"],
+	},
+	//Destroyers//
+	{
+		"name": "USS Gridley",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "Navy",
+		"obsoleteTech": "King Of The Sea I",
+		"upgradesTo": "USS Sims",
+		"movement": 1,
+		"strength": 38,
+		"rangedStrength": 31,
+		"range": 3,
+		"cost": 248,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Destroyer"],
+		"uniques": ["[80]% chance to intercept air attacks","Can only attack water","Can attack submarines"],
+	},
+	{
+		"name": "USS Sims",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "King Of The Sea I",
+		"obsoleteTech": "King Of The Sea II",
+		"upgradesTo": "USS Bagley",
+		"movement": 1,
+		"strength": 57,
+		"rangedStrength": 46,
+		"range": 3,
+		"cost": 368,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Destroyer"],
+		"uniques": ["[80]% chance to intercept air attacks","Can only attack water","Can attack submarines"],
+	},
+	{
+		"name": "USS Bagley",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "King Of The Sea II",
+		"obsoleteTech": "King Of The Sea IV",
+		"upgradesTo": "USS Benson",
+		"movement": 1,
+		"strength": 73,
+		"rangedStrength": 59,
+		"range": 3,
+		"cost": 472,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Destroyer"],
+		"uniques": ["[80]% chance to intercept air attacks","Can only attack water","Can attack submarines"],
+	},
+	{
+		"name": "USS Benson",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "King Of The Sea IV",
+		"obsoleteTech": "Atlantic Control III",
+		"upgradesTo": "USS Fletcher",
+		"movement": 1,
+		"strength": 112,
+		"rangedStrength": 90,
+		"range": 3,
+		"cost": 720,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Destroyer"],
+		"uniques": ["[80]% chance to intercept air attacks","Can only attack water","Can attack submarines"],
+	},
+	{
+		"name": "USS Fletcher",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "Atlantic Control III",
+		"obsoleteTech": "Bigger Naval Gun II",
+		"upgradesTo": "USS Allen M. Sumner",
+		"movement": 1,
+		"strength": 200,
+		"rangedStrength": 160,
+		"range": 3,
+		"cost": 1280,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Destroyer"],
+		"uniques": ["[80]% chance to intercept air attacks","Can only attack water","Can attack submarines"],
+	},
+	{
+		"name": "USS Allen M. Sumner",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "Bigger Naval Gun II",
+		"obsoleteTech": "Bigger Naval Gun III",
+		"upgradesTo": "USS Robert H. Smith",
+		"movement": 1,
+		"strength": 250,
+		"rangedStrength": 200,
+		"range": 3,
+		"cost": 40,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Destroyer"],
+		"uniques": ["[80]% chance to intercept air attacks","Can only attack water","Can attack submarines"],
+	},
+	{
+		"name": "USS Robert H. Smith",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "Bigger Naval Gun III",
+		"obsoleteTech": "Pacific Control II",
+		"upgradesTo": "USS Gearing",
+		"movement": 1,
+		"strength": 273,
+		"rangedStrength": 219,
+		"range": 3,
+		"cost": 1752,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Destroyer"],
+		"uniques": ["[80]% chance to intercept air attacks","Can only attack water","Can attack submarines"],
+	},
+	{
+		"name": "USS Gearing",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "Pacific Control II",
+		"obsoleteTech": "Pacific Control III",
+		"upgradesTo": "USS William M. Wood",
+		"movement": 1,
+		"strength": 325,
+		"rangedStrength": 260,
+		"range": 3,
+		"cost": 2080,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Destroyer"],
+		"uniques": ["[80]% chance to intercept air attacks","Can only attack water","Can attack submarines"],
+	},
+	{
+		"name": "USS William M. Wood",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "Pacific Control III",
+		"obsoleteTech": "End Of Behemoth",
+		"upgradesTo": "USS Epperson",
+		"movement": 1,
+		"strength": 364,
+		"rangedStrength": 291,
+		"range": 3,
+		"cost": 2328,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Destroyer"],
+		"uniques": ["[80]% chance to intercept air attacks","Can only attack water","Can attack submarines"],
+	},
+	{
+		"name": "USS Epperson",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "End Of Behemoth",
+		"movement": 1,
+		"strength": 390,
+		"rangedStrength": 312,
+		"range": 3,
+		"cost": 2496,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Destroyer"],
+		"uniques": ["[80]% chance to intercept air attacks","Can only attack water","Can attack submarines"],
+	},
+	//Fregates Dragueurs de mines//
+	{
+		"name": "USS Tacona",
+		"unitType": "WaterRanged",
+		"uniqueTo": "America",
+		"requiredTech": "Bigger Naval Gun II",
+		"obsoleteTech": "End Of Behemoth",
+		"movement": 1,
+		"strength": 189,
+		"rangedStrength": 132,
+		"range": 2,
+		"cost": 990,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Frigate"],
+		"uniques": ["[80]% chance to intercept air attacks","Can only attack water","Can attack submarines"],
+	},
+	//Sous marins//
+	{
+		"name": "USS Seawolf",
+		"unitType": "WaterSubmarine",
+		"uniqueTo": "America",
+		"requiredTech": "King Of The Sea II",
+		"obsoleteTech": "King Of The Sea IV",
+		"upgradesTo": "USS Tambor",
+		"movement": 1,
+		"strength": 65,
+		"rangedStrength": 62,
+		"range": 3,
+		"cost": 496,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"uniques": ["Invisible to others", "Can only attack water", "Can attack submarines", "Can enter ice tiles"],
+	},
+	{
+		"name": "USS Tambor",
+		"unitType": "WaterSubmarine",
+		"uniqueTo": "America",
+		"requiredTech": "King Of The Sea IV",
+		"obsoleteTech": "Atlantic Control III",
+		"upgradesTo": "USS Gato",
+		"movement": 1,
+		"strength": 106,
+		"rangedStrength": 101,
+		"range": 3,
+		"cost": 808,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"uniques": ["Invisible to others", "Can only attack water", "Can attack submarines", "Can enter ice tiles"],
+	},
+	{
+		"name": "USS Gato",
+		"unitType": "WaterSubmarine",
+		"uniqueTo": "America",
+		"requiredTech": "Atlantic Control III",
+		"obsoleteTech": "Bigger Naval Gun III",
+		"upgradesTo": "USS Balao",
+		"movement": 1,
+		"strength": 170,
+		"rangedStrength": 162,
+		"range": 3,
+		"cost": 1296,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"uniques": ["Invisible to others", "Can only attack water", "Can attack submarines", "Can enter ice tiles"],
+	},
+	{
+		"name": "USS Balao",
+		"unitType": "WaterSubmarine",
+		"uniqueTo": "America",
+		"requiredTech": "Bigger Naval Gun III",
+		"obsoleteTech": "Pacific Control III",
+		"upgradesTo": "USS Trench",
+		"movement": 1,
+		"strength": 241,
+		"rangedStrength": 229,
+		"range": 3,
+		"cost": 1832,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"uniques": ["Invisible to others", "Can only attack water", "Can attack submarines", "Can enter ice tiles"],
+	},
+	{
+		"name": "USS Trench",
+		"unitType": "WaterSubmarine",
+		"uniqueTo": "America",
+		"requiredTech": "Pacific Control III",
+		"movement": 1,
+		"strength": 322,
+		"rangedStrength": 306,
+		"range": 3,
+		"cost": 2448,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"uniques": ["Invisible to others", "Can only attack water", "Can attack submarines", "Can enter ice tiles"],
+	},
+	
 		/* Great people */
 	
 	{
@@ -2373,7 +3228,7 @@
 		"upgradesTo": "Mosin-Nagan mod.1944 Rifleman",
 		"movement": 2,
 		"strength": 10,
-		"cost": 440,
+		"cost": 44,
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
