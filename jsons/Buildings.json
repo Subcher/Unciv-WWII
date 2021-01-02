@@ -155,6 +155,349 @@
         "maintenance": 3,
         "requiredTech": "Backdrop of War III",
     },
+	{
+        "name": "Ironmongery",
+		"cost": 225,
+        "gold": 1,
+		"production": 1,
+		"requiredNearbyImprovedResources": ["Iron"],
+		"requiredTech": "Blocus I",
+	},
+	{
+        "name": "Metal Spinning",
+		"cost": 550,
+        "gold": 2,
+		"production": 1,
+		"requiredNearbyImprovedResources": ["Iron"],
+		"requiredTech": "War Effort II",
+	},
+	{
+        "name": "Spinning of Tissue",
+		"cost": 180,
+        "gold": 2,
+		"production": 1,
+		"requiredNearbyImprovedResources": ["Cotton"],
+		"requiredTech": "War Economy I",
+	},
+	{
+        "name": "Paint Factory",
+		"cost": 650,
+        "gold": 3,
+		"requiredNearbyImprovedResources": ["Dyes"],
+		"requiredTech": "Budgetary Cuts I",
+	},
+	{
+        "name": "Cover Workshop",
+		"cost": 400,
+        "gold": 3,
+		"happiness": 1,
+		"requiredTech": "Blocus III",
+	},
+	{
+        "name": "Car Garage",
+		"cost": 130,
+        "gold": 2,
+		"production": 1,
+		"requiredTech": "Pre-war Economy",
+	},
+	{
+        "name": "Cardboard Factory",
+		"cost": 910,
+        "gold": 3,
+		"production": 1,
+		"uniques": ["Must have an owned [Forest] within [1] tiles"],
+		"requiredTech": "Backdrop of War I",
+	},
+	{
+        "name": "Grocery",
+		"cost": 70,
+        "gold": 2,
+		"food": 1,
+		"requiredTech": "Pre-war Economy",
+	},
+	{
+        "name": "Soap Factory",
+		"cost": 360,
+        "gold": 3,
+		"happiness": 1,
+		"requiredTech": "War Effort I",
+	},
+	{
+        "name": "Glassworks",
+		"cost": 650,
+        "gold": 5,
+		"uniques": ["Must have an owned [Coast] within [2] tiles"],
+		"requiredTech": "Budgetary Cuts I",
+	},
+	{
+        "name": "Rendering Workshop",
+		"cost": 440,
+        "gold": 3,
+		"uniques": ["Must have an owned [Forest] within [1] tiles"],
+		"requiredTech": "Budgetary Cuts II",
+	},
+	{
+        "name": "Bar",
+		"cost": 640,
+        "gold": 4,
+		"happiness": 2,
+		"requiredTech": "Globalization",
+	},
+	{
+        "name": "Locksmith",
+		"cost": 80,
+        "gold": 1,
+		"requiredTech": "War Economy II",
+	},
+	{
+        "name": "Dyeing",
+		"cost": 200,
+        "gold": 3,
+		"requiredNearbyImprovedResources": ["Dyes"],
+		"requiredTech": "Blocus II",
+	},
+	{
+        "name": "Candy Shop",
+		"cost": 330,
+        "gold": 3,
+		"happiness": 2,
+		"requiredResource": "Sugar",
+		"requiredTech": "Blocus III",
+	},
+	{
+        "name": "Ice Cream Shop",
+		"cost": 450,
+        "gold": 3,
+		"happiness": 1,
+		"requiredTech": "War Effort III",
+	},
+	{
+        "name": "Shoes Shop",
+		"cost": 200,
+        "gold": 3,
+		"happiness": 1,
+		"requiredTech": "Blocus I",
+	},
+	{
+        "name": "Hairdresser",
+		"cost": 650,
+        "gold": 3,
+		"happiness": 1,
+		"requiredTech": "Backdrop of War I",
+	},
+	{
+        "name": "Barbershop",
+		"cost": 700,
+        "gold": 3,
+		"happiness": 1,
+		"requiredTech": "Backdrop of War II",
+	},
+	{
+        "name": "Horse-drawn Carriage",
+		"cost": 440,
+        "gold": 3,
+		"happiness": 1,
+		"requiredResource": "Horses",
+		"requiredTech": "Budgetary Cuts II",
+	},
+	{
+        "name": "Taxi Station",
+		"cost": 825,
+        "gold": 3,
+		"happiness": 1,
+		"requiredTech": "Backdrop of War III",
+	},
+	{
+        "name": "Knifemaker",
+		"cost": 405,
+        "gold": 3,
+		"requiredTech": "War Effort III",
+	},
+	{
+        "name": "Hat Shop",
+		"cost": 405,
+        "gold": 3,
+		"requiredTech": "War Effort III",
+	},
+	{
+        "name": "Tailoring",
+		"cost": 550,
+        "gold": 3,
+		"requiredTech": "Budgetary Cuts II",
+	},
+	{
+        "name": "Cordwainer",
+		"cost": 275,
+        "gold": 3,
+		"happiness": 1,
+		"requiredTech": "Blocus II",
+	},
+	{
+        "name": "Roadman",
+		"cost": 280,
+        "gold": 2,
+		"uniques": ["Must have an owned [Grassland] within [2] tiles"],
+		"requiredTech": "War Effort I",
+	},
+	{
+        "name": "Casino",
+		"cost": 1280,
+        "gold": 5,
+		"requiredResource": "Gold",
+		"requiredTech": "Globalization",
+	},
+	{
+        "name": "Post",
+		"cost": 110,
+        "gold": 2,
+		"happiness": 1,
+		"requiredTech": "War Economy I",
+	},
+	{
+        "name": "Toy Store",
+		"cost": 930,
+        "gold": 4,
+		"happiness": 1,
+		"requiredTech": "Backdrop of War I",
+	},
+	{
+        "name": "Innkeeper",
+		"cost": 600,
+        "gold": 3,
+		"requiredTech": "Budgetary Cuts I",
+	},
+	{
+        "name": "Gunsmith",
+		"cost": 480,
+        "gold": 2,
+		"requiredTech": "War Effort II",
+	},
+	{
+        "name": "Butter Factory",
+		"cost": 200,
+        "gold": 2,
+		"requiredNearbyImprovedResources": ["Cattle"],
+		"requiredTech": "Blocus I",
+	},
+	{
+        "name": "Launderer",
+		"cost": 250,
+        "gold": 1,
+		"requiredTech": "Blocus II",
+	},
+	{
+        "name": "Saddler",
+		"cost": 385,
+        "gold": 2,
+		"requiredNearbyImprovedResources": ["Horses"],
+		"requiredTech": "War Effort II",
+	},
+	{
+        "name": "Boatman",
+		"cost": 390,
+        "gold": 2,
+		"uniques": ["Must have an owned [Forest] within [1] tiles","Must have an owned [River] within [1] tiles"],
+		"requiredTech": "Blocus III",
+	},
+	{
+        "name": "Insurance",
+		"cost": 900,
+        "gold": 4,
+		"requiredTech": "Backdrop of War III",
+	},
+	{
+        "name": "Tanner",
+		"requiredNearbyImprovedResources": ["Furs"],
+		"cost": 120,
+        "gold": 2,
+		"requiredTech": "War Economy II",
+	},
+	{
+        "name": "Clog Maker",
+		"cost": 315,
+        "gold": 2,
+		"requiredTech": "War Effort III",
+	},
+	{
+        "name": "Gardener",
+		"cost": 550,
+        "gold": 3,
+		"happiness": 1,
+		"uniques": ["Must have an owned [Grassland] within [1] tiles"],
+		"requiredTech": "Budgetary Cuts I",
+	},
+	{
+        "name": "Process Server",
+		"cost": 1200,
+        "gold": 5,
+		"happiness": -1,
+		"requiredTech": "Globalization",
+	},
+	{
+        "name": "Watchmaker",
+		"cost": 385,
+        "gold": 4,
+		"happiness": 1,
+		"requiredTech": "War Effort I",
+	},
+	{
+        "name": "Seed Merchant",
+		"cost": 360,
+        "gold": 3,
+		"uniques": ["Must have an owned [Grassland] within [2] tiles"],
+		"requiredTech": "War Effort II",
+	},
+	{
+        "name": "Doctor",
+		"cost": 770,
+        "gold": 3,
+		"happiness": 2,
+		"requiredTech": "Budgetary Cuts II",
+	},
+	{
+        "name": "Boilermaking",
+		"cost": 100,
+        "gold": 4,
+		"requiredResource": "Copper",
+		"requiredTech": "War Economy I",
+	},
+	{
+        "name": "Cartwrights",
+		"cost": 300,
+        "gold": 2,
+		"requiredTech": "Blocus III",
+	},
+	{
+        "name": "Carpenter",
+		"cost": 60,
+        "gold": 3,
+		"uniques": ["Must have an owned [Grassland] within [2] tiles"],
+		"requiredTech": "Pre-war Economy",
+	},
+	{
+        "name": "Lace Workshop",
+		"cost": 910,
+        "gold": 3,
+		"requiredNearbyImprovedResources": ["Silk"],
+		"requiredTech": "Backdrop of War II",
+	},
+	{
+        "name": "Fire Station",
+		"cost": 65,
+		"maintenance": 2,
+        "happiness": 2,
+        "hurryCostModifier": 25,
+        "requiredTech": "Pre-war Economy"
+    },
+	{
+        "name": "Subway",
+		"cost": 360,
+		"gold": 2,
+        "happiness": 3,
+        "hurryCostModifier": 25,
+        "requiredTech": "Blocus I"
+    },
+	
 	//Production
 	
 	{
@@ -1409,28 +1752,14 @@
         "requiredNearbyImprovedResources": ["Ivory","Horses"],
         "happiness": 2,
         "hurryCostModifier": 25,
-        "requiredTech": "Entertainment I"
-    },
-	{
-        "name": "Fire Station",
-		"maintenance": 2,
-        "happiness": 2,
-        "hurryCostModifier": 25,
-        "requiredTech": "Entertainment I"
-    },
-	{
-        "name": "Subway",
-		"maintenance": 4,
-        "happiness": 3,
-        "hurryCostModifier": 25,
-        "requiredTech": "Entertainment I"
+        "requiredTech": "Patriot I"
     },
 	{
         "name": "Mortician",
 		"maintenance": 1,
         "happiness": 2,
         "hurryCostModifier": 25,
-        "requiredTech": "Entertainment I"
+        "requiredTech": "Patriot I"
     },
 	{
         "name": "Circus Maximus",
@@ -1438,53 +1767,38 @@
         "culture": 1,
         "isNationalWonder": true,
         "requiredBuildingInAllCities": "Colosseum",
-        "requiredTech": "Entertainment I"
+        "requiredTech": "Patriot I"
     },
 	{
         "name": "Colosseum", 
         "maintenance": 1,
         "happiness": 2,
         "hurryCostModifier": 25,
-        "requiredTech": "Entertainment I"
+        "requiredTech": "Patriot I"
     },
 	{
-        "name": "Theatre I",
+        "name": "Theatre",
         "happiness": 2,
         "hurryCostModifier": 10,
         "maintenance": 2,
         "requiredBuilding": "Colosseum",
-        "requiredTech": "Entertainment I"
-    },
-	{
-        "name": "Theatre II",
-        "happiness": 2,
-        "hurryCostModifier": 10,
-        "maintenance": 2,
-        "requiredBuilding": "Theatre I",
-        "requiredTech": "Entertainment I"
-    },
-	{
-        "name": "Theatre III",
-        "happiness": 2,
-        "hurryCostModifier": 10,
-        "maintenance": 2,
-        "requiredBuilding": "Theatre II",
-        "requiredTech": "Entertainment I"
+        "requiredTech": "Patriot I"
     },
 	{
         "name": "Hospital",
         "happiness": 3,
         "maintenance": 2,
         "hurryCostModifier": 0,
-        "requiredTech": "Entertainment I"
+        "requiredTech": "Patriot I"
     },
     {
         "name": "Stadium",
         "happiness": 4,
         "requiredBuilding": "Circus Maximus",
         "maintenance": 2,
-        "requiredTech": "Entertainment I"
+        "requiredTech": "Patriot I"
     },
+	
 	//From Space
 	
 	{

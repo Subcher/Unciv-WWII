@@ -30,12 +30,6 @@
 				"uniques": ["Starting tech"]
 			},
 			{
-				"name": "Happiness",
-				"row": 7,
-				"quote": "WIP",
-				"uniques": ["Starting tech"]
-			},
-			{
 				"name": "Economy",
 				"row": 8,
 				"quote": "WIP",
@@ -116,13 +110,6 @@
 				"prerequisites": ["Science"],
 				"quote": "WIP"
 			},
-			{
-				"name": "Entertainment I",
-				"row": 7,
-				"prerequisites": ["Happiness"],
-				"quote": "WIP"
-			},
-			
 		]	
 	},
 	{
@@ -186,13 +173,7 @@
 				"row": 10,
 				"prerequisites": ["Study I"],
 				"quote": "WIP"
-			},
-			{
-				"name": "Entertainment II",
-				"row": 7,
-				"prerequisites": ["Entertainment I"],
-				"quote": "WIP"
-			}			
+			},		
 		]	
 	},
 	{
@@ -257,12 +238,6 @@
 				"prerequisites": ["Study II"],
 				"quote": "WIP"
 			},
-			{
-				"name": "Entertainment III",
-				"row": 7,
-				"prerequisites": ["Entertainment II"],
-				"quote": "WIP"
-			}
 		]	
 	},
 	{
@@ -327,12 +302,6 @@
 				"prerequisites": ["Study III"],
 				"quote": "WIP"
 			},
-			{
-				"name": "Entertainment IV",
-				"row": 7,
-				"prerequisites": ["Entertainment III"],
-				"quote": "WIP"
-			}
 		]	
 	},
 	{
@@ -396,12 +365,6 @@
 				"prerequisites": ["Study IV"],
 				"quote": "WIP"
 			},
-			{
-				"name": "Entertainment V",
-				"row": 7,
-				"prerequisites": ["Entertainment IV"],
-				"quote": "WIP"
-			}
 		]
 	},
 	{
@@ -466,12 +429,6 @@
 				"prerequisites": ["Study V"],
 				"quote": "WIP"
 			},
-			{
-				"name": "Festivity I",
-				"row": 7,
-				"prerequisites": ["Entertainment V"],
-				"quote": "WIP"
-			}
 		]	
 	},
 	{
@@ -536,12 +493,6 @@
 				"prerequisites": ["Science Supply I"],
 				"quote": "WIP"
 			},
-			{
-				"name": "Festivity II",
-				"row": 7,
-				"prerequisites": ["Festivity I"],
-				"quote": "WIP"
-			}
 		]
 	},
 	{
@@ -605,12 +556,6 @@
 				"prerequisites": ["Science Supply II"],
 				"quote": "WIP"
 			},
-			{ 
-				"name": "Festivity III",
-				"row": 7,
-				"prerequisites": ["Festivity II"],
-				"quote": "WIP"
-			}
 		]
 	},
 	{
@@ -675,12 +620,6 @@
 				"prerequisites": ["Science Supply III"],
 				"quote": "WIP"
 			},
-			{
-				"name": "Festivity IV",
-				"row": 7,
-				"prerequisites": ["Festivity III"],
-				"quote": "WIP"
-			}
 		]
 	},
 	{
@@ -744,12 +683,6 @@
 				"prerequisites": ["Scientific Rush I"],
 				"quote": "WIP"
 			},
-			{
-				"name": "Festivity V",
-				"row": 7,
-				"prerequisites": ["Festivity IV"],
-				"quote": "WIP"
-			}
 		]	
 	},
 	{
@@ -814,12 +747,6 @@
 				"prerequisites": ["Scientific Rush II"],
 				"quote": "WIP"
 			},
-			{
-				"name": "Welfare I",
-				"row": 7,
-				"prerequisites": ["Festivity V"],
-				"quote": "WIP"
-			}
 		]	
 	},
 	{
@@ -884,12 +811,6 @@
 				"prerequisites": ["Scientific Rush III"],
 				"quote": "WIP"
 			},
-			{
-				"name": "Welfare II",
-				"row": 7,
-				"prerequisites": ["Welfare I"],
-				"quote": "WIP"
-			}
 		]	
 	},
 	{
@@ -953,12 +874,6 @@
 				"prerequisites": ["Atomic Way I"],
 				"quote": "WIP"
 			},
-			{
-				"name": "Welfare III",
-				"row": 7,
-				"prerequisites": ["Welfare II"],
-				"quote": "WIP"
-			}
 		]	
 	},
 	{
@@ -1022,12 +937,6 @@
 				"prerequisites": ["Atomic Way II"],
 				"quote": "WIP"
 			},
-			{
-				"name": "Welfare IV",
-				"row": 7,
-				"prerequisites": ["Welfare III"],
-				"quote": "WIP"
-			}
 		]
 	},
 	{
@@ -1091,12 +1000,6 @@
 				"prerequisites": ["Atomic Way III"],
 				"quote": "WIP"
 			},
-			{
-				"name": "Welfare V",
-				"row": 7,
-				"prerequisites": ["Welfare IV"],
-				"quote": "WIP"
-			}
 		]	
 	},
 	
@@ -1161,12 +1064,6 @@
 				"prerequisites": ["Atomic Science"],
 				"quote": "WIP"
 			},
-			{
-				"name": "Joy",
-				"row": 7,
-				"prerequisites": ["Welfare V"],
-				"quote": "WIP"
-			}
 		]
 	},
 	{
@@ -1187,7 +1084,7 @@
 				"name": "Cultural Way",
 				"row": 6,
 				"uniques": ["50% of excess happiness added to culture towards policies","Culture cost of adopting new Policies reduced by 10%"],
-				"prerequisites": ["New World Order III","Joy","Farming Revolution V"],
+				"prerequisites": ["New World Order III","Farming Revolution V"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			}
 			{
