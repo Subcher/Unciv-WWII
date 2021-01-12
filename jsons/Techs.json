@@ -172,6 +172,7 @@
 				"name": "Study II",
 				"row": 10,
 				"prerequisites": ["Study I"],
+				"uniques": ["+10% science and production in all cities"],
 				"quote": "WIP"
 			},		
 		]	
@@ -251,6 +252,7 @@
 				"name": "King Of The Sea III",
 				"row": 1,
 				"prerequisites": ["King Of The Sea II"],
+				"uniques": ["Enables embarked units to enter ocean tiles"],
 				"quote": "WIP"
 			},
 			{
@@ -282,6 +284,7 @@
 				"name": "Pillage I",
 				"row": 5,
 				"prerequisites": ["War Stock III"],
+				"uniques": ["+1 population in each city"],
 				"quote": "WIP",
 			},
 			{
@@ -300,6 +303,7 @@
 				"name": "Study IV",
 				"row": 10,
 				"prerequisites": ["Study III"],
+				"uniques": ["+10% science and production in all cities"],
 				"quote": "WIP"
 			},
 		]	
@@ -427,6 +431,7 @@
 				"name": "Science Supply I",
 				"row": 10,
 				"prerequisites": ["Study V"],
+				"uniques": ["+10% science and production in all cities"],
 				"quote": "WIP"
 			},
 		]	
@@ -491,6 +496,7 @@
 				"name": "Science Supply II",
 				"row": 10,
 				"prerequisites": ["Science Supply I"],
+				"uniques": ["Free [Great Scientist] appear"],
 				"quote": "WIP"
 			},
 		]
@@ -518,6 +524,7 @@
 				"name": "Radar I",
 				"row": 3,
 				"prerequisites": ["Ace of Air III"],
+				"uniques": ["Reveals the entire map"],
 				"quote": "WIP"
 			},
 			{
@@ -536,6 +543,7 @@
 				"name": "Anti-Hunger II",
 				"row": 5,
 				"prerequisites": ["Anti-Hunger I"],
+				"uniques": ["+1 population in each city"],
 				"quote": "WIP",
 			},
 			{
@@ -554,6 +562,7 @@
 				"name": "Science Supply III",
 				"row": 10,
 				"prerequisites": ["Science Supply II"],
+				"uniques": ["+10% science and production in all cities"],
 				"quote": "WIP"
 			},
 		]
@@ -663,6 +672,7 @@
 				"name": "Anti-Hunger IV",
 				"row": 5,
 				"prerequisites": ["Anti-Hunger III"],
+				"uniques": ["+1 population in each city"],
 				"quote": "WIP",
 			},
 			{
@@ -681,6 +691,7 @@
 				"name": "Scientific Rush II",
 				"row": 10,
 				"prerequisites": ["Scientific Rush I"],
+				"uniques": ["+10% science and production in all cities"],
 				"quote": "WIP"
 			},
 		]	
@@ -790,6 +801,7 @@
 				"name": "Farming Revolution I",
 				"row": 5,
 				"prerequisites": ["Anti-Hunger V"],
+				"uniques": ["+1 population in each city"],
 				"quote": "WIP",
 			},
 			{
@@ -807,7 +819,7 @@
 			{
 				"name": "Atomic Way I",
 				"row": 10,
-				"uniques": ["Enables Research agreements"],
+				"uniques": ["Enables Research agreements","+10% science and production in all cities"],
 				"prerequisites": ["Scientific Rush III"],
 				"quote": "WIP"
 			},
@@ -917,6 +929,7 @@
 				"name": "Farming Revolution III",
 				"row": 5,
 				"prerequisites": ["Farming Revolution II"],
+				"uniques": ["+1 population in each city"],
 				"quote": "WIP",
 			},
 			{
@@ -935,6 +948,7 @@
 				"name": "Atomic Way III",
 				"row": 10,
 				"prerequisites": ["Atomic Way II"],
+				"uniques": ["+10% science and production in all cities"],
 				"quote": "WIP"
 			},
 		]
@@ -1044,6 +1058,7 @@
 				"name": "Farming Revolution V",
 				"row": 5,
 				"prerequisites": ["Farming Revolution IV"],
+				"uniques": ["+1 population in each city"],
 				"quote": "WIP",
 			},
 			{
@@ -1062,6 +1077,7 @@
 				"name": "Skys the Limit",
 				"row": 10,
 				"prerequisites": ["Atomic Science"],
+				"uniques": ["+10% science and production in all cities"],
 				"quote": "WIP"
 			},
 		]

@@ -558,7 +558,7 @@
 		"requiredResource": "Iron",
         "resourceBonusStats": {"production": 3},
 		"production": 3,
-		"requiredTech": "Massive Production I"
+		"requiredTech": "Industrialization III"
     },
 	{
         "name": "Factory",
@@ -626,7 +626,7 @@
 		"production": 4,
         "happiness": 1,
 		"requiredResource": "Stone",
-		"requiredTech": "Heavy Production III"
+		"requiredTech": "Heavy Production II"
     },
 	{
         "name": "Detailed Factory",
@@ -673,7 +673,7 @@
         "hurryCostModifier": 25,
 		"production": 3,
 		"uniques": ["Provides [1] [Oil]"],
-		"requiredTech": "Heavy Production III"
+		"requiredTech": "Heavy Production II"
     },
 	{
         "name": "Additional Pump Jack",
@@ -893,10 +893,10 @@
         "name": "Garden",
         "cost": 120,
         "uniques": ["Must have an owned [River] within [2] tiles"],
-		"percentStatBonus": {"food": 10},
+		"percentStatBonus": {"food": 15},
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "requiredTech": "War Stock III"
+        "requiredTech": "Anti-Hunger V"
     },
 	{
         "name": "Petra",
@@ -938,7 +938,7 @@
         "isWonder": true,
         "cost": 550,
         "greatPersonPoints": {"culture": 1},
-        "uniques": ["+[10]% [Food] from every [Granary I]"],
+        "uniques": ["+[10]% [Food] from every [Granary]"],
         "requiredTech": "Anti-Hunger I",
         "quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
     },
@@ -988,7 +988,7 @@
         "hurryCostModifier": 25,
 		"requiredResource": "Marble",
         "uniques": ["[40]% of food is carried over after population increases","Must have an owned [River] within [4] tiles"],
-        "requiredTech": "Farming Revolution II"
+        "requiredTech": "Farming Revolution IV"
     },
 	{
         "name": "Coffee House",
@@ -1002,92 +1002,89 @@
         "requiredTech": "Anti-Hunger IV"     
     },
 	//Science
+	
+    {
+        "name": "Stonehenge",
+        "science": 4,
+        "isWonder": true,
+        "greatPersonPoints": {"production": 1},
+        "requiredTech": "Study I",
+        "quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
+    },
 	{
-        "name": "Library I",
+        "name": "Library",
 		"cost": 50,
-        "science": 2,
+        "science": 1,
+		"culture": 1,
 		"specialistSlots": {"Scientist": 1},
         "maintenance": 1,
         "hurryCostModifier": 0,
         "requiredTech": "Study II"
+		"uniques": ["[+1 Science] Per [2] Population in this city"],
     },
 	{
-        "name": "Library II",
-		"cost": 250,
-        "science": 2,
-		"specialistSlots": {"Scientist": 1},
-        "requiredBuilding": "Library I",
-        "maintenance": 2,
-        "hurryCostModifier": 0,
-        "requiredTech": "Study V"
+        "name": "University",
+		"cost": 150,
+		"science": 2,
+        "percentStatBonus": {"science": 20},
+        "maintenance": 4,
+        "requiredTech": "Study IV"
+		"uniques": ["[+1 Science] from [Mercury] tiles in this city"],
     },
 	{
-        "name": "Library III",
-		"cost": 450,
-        "science": 2,
-		"specialistSlots": {"Scientist": 1},
-        "requiredBuilding": "Library II",
+		"name": "Observatory",
+		"cost": 150,
+		"maintenance": 0,
+		"hurryCostModifier": 15,
+		"science": 3,
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Must be next to [Mountain]"],
+	},
+	{
+		"name": "Medical Lab",
+		"maintenance": 3,
+		"percentStatBonus": {"science": 20},
+		"requiredTech": "Atomic Way II",
+		"uniques": ["[10]% of food is carried over after population increases"]
+	},
+	{
+        "name": "Public School",
+        "science": 3,
+        "specialistSlots": {"Scientist": 1},
         "maintenance": 3,
         "hurryCostModifier": 0,
-        "requiredTech": "Science Supply II"
+        "uniques": ["[+1 Science] Per [2] Population in this city","Requires a [University] in this city"],
+        "requiredTech": "Atomic Science"
     },
-	{
-        "name": "Library IV",
-		"cost": 650,
-        "science": 2,
-		"specialistSlots": {"Scientist": 1},
-        "requiredBuilding": "Library III",
-        "maintenance": 4,
-        "hurryCostModifier": 0,
-        "requiredTech": "Scientific Rush III"
-    },
-	{
-        "name": "Library V",
-		"cost": 850,
+    {
+        "name": "National College",
+        "cost": 125,
         "science": 3,
-        "requiredBuilding": "Library IV",
-		"greatPersonPoints": {"science": 1},
-        "maintenance": 5,
-        "hurryCostModifier": 0,
-        "requiredTech": "Atomic Way II"
-    },
-	{
-        "name": "University I",
-		"cost": 150,
-        "percentStatBonus": {"science": 15},
-        "requiredBuilding": "Library I",
-        "maintenance": 4,
-        "hurryCostModifier": 0,
-		"isNationalWonder": true
-        "requiredResource": "Cocoa",
+        "culture": 1,
+        "isNationalWonder": true,
+        "percentStatBonus": {"science": 50},
+        "uniques": ["Cost increases by [30] per owned city","Requires a [Library] in all cities"],
         "requiredTech": "Study III"
-		"uniques": ["[+1 Science] from [Mercury] tiles in this city"],
+    },
+    {
+        "name": "Hubble Space Telescope",
+        "cost": 1250,
+        "isWonder": true,
+        "greatPersonPoints": {"science": 1},        
+        "providesFreeBuilding":  "Spaceship Factory",
+        "uniques": ["[2] free [Great Scientist] units appear",
+            "+[25]% production when building [Spaceship part] in this city"],
+        "requiredTech": "Skys the Limit",
+        "quote": "'The wonder is, not that the field of stars is so vast, but that man has measured it.'  - Anatole France"
     },
 	{
-        "name": "University II",
-		"cost": 450,
-        "percentStatBonus": {"science": 25},
-        "requiredBuilding": "Library III",
-        "maintenance": 5,
-        "hurryCostModifier": 0,
-        "requiredResource": "Cocoa",
-		"isNationalWonder": true
-        "requiredTech": "Scientific Rush I"
-		"uniques": ["[+1 Science] from [Mercury] tiles in this city"],
-    },
-	{
-        "name": "University III",
-		"cost": 950,
-        "percentStatBonus": {"science": 35},
-        "requiredBuilding": "Library V",
-		"greatPersonPoints": {"science": 1},
-        "maintenance": 8,
-        "hurryCostModifier": 0,
-		"isNationalWonder": true
-        "requiredResource": "Cocoa",
-        "requiredTech": "Atomic Way III"
-		"uniques": ["[+1 Science] from [Mercury] tiles in this city"],
-    },
+		"name": "Spaceship Factory",
+		"science": 4,
+		"requiredResource": "Aluminum",
+		"cost": 360,
+		"uniques": ["+[50]% production when building [Spaceship part] in this city"],
+		"requiredTech": "Skys the Limit"
+	},
 	{
         "name": "The Great Library",
 		"cost": 680,
@@ -1101,17 +1098,15 @@
 	{
         "name": "Oxford University",
 		"cost": 1200,
-        "science": 2,
-        "culture": 2,
+        "science": 5,
         "isWonder": true,
         "greatPersonPoints": {"science": 5},
-        "requiredBuildingInAllCities": "University III",
         "uniques": ["Free Technology"],
-        "requiredTech": "Atomic Science",
+        "requiredTech": "Scientific Rush II",
     },
 	//Culture
 	{
-        "name": "Great War Monument I",
+        "name": "Great War Monument",
         "culture": 2,
         "cost": 80,
         "hurryCostModifier": 40,
@@ -1119,56 +1114,14 @@
 		"requiredTech": "Patriot I",
     },
 	{
-        "name": "Great War Monument II",
-        "culture": 2,
-        "cost": 80,
-        "hurryCostModifier": 40,
-        "maintenance": 1,
-		"requiredTech": "Patriot II",
-		"requiredBuilding": "Great War Monument I",
-    },
-	{
-        "name": "Great War Monument III",
-        "culture": 3,
-        "cost": 80,
-        "hurryCostModifier": 40,
-        "maintenance": 1,
-		"requiredTech": "Patriot III",
-		"requiredBuilding": "Great War Monument II",
-		"percentStatBonus": {"culture": 15},
-    },
-	{
-        "name": "Memorial aux poillus I",
+        "name": "Memorial Aux Poillus",
         "culture": 3,
         "cost": 80,
         "hurryCostModifier": 40,
         "maintenance": 1,
 		"requiredTech": "Patriot I",
 		"uniqueTo": "France",
-		"replaces": "Great War Monument I",
-    },
-	{
-        "name": "Memorial aux poillus II",
-        "culture": 3,
-        "cost": 80,
-        "hurryCostModifier": 40,
-        "maintenance": 1,
-		"requiredTech": "Patriot II",
-		"requiredBuilding": "Memorial aux poillus I",
-		"uniqueTo": "France",
-		"replaces": "Great War Monument II",
-    },
-	{
-        "name": "Memorial aux poillus III",
-        "culture": 4,
-        "cost": 80,
-        "hurryCostModifier": 40,
-        "maintenance": 1,
-		"requiredTech": "Patriot III",
-		"requiredBuilding": "Memorial aux poillus II",
-		"uniqueTo": "France",
-		"replaces": "Great War Monument III",
-		"percentStatBonus": {"culture": 25},
+		"replaces": "Great War Monument",
     },
 	{
         "name": "Parthenon",
@@ -1240,33 +1193,13 @@
         "quote": "'Architecture has recorded the great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.'  - Victor Hugo"
     },
 	{
-        "name": "Opera House I",
+        "name": "Opera House",
 		"cost": 500,
         "culture": 2,
         "specialistSlots": {"Artist": 1},
         "hurryCostModifier": 10,
         "maintenance": 2,
         "requiredTech": "Propaganda III"
-    },
-	{
-        "name": "Opera House II",
-		"cost": 750,
-        "culture": 3,
-        "specialistSlots": {"Artist": 1},
-        "hurryCostModifier": 10,
-        "requiredBuilding": "Opera House I",
-        "maintenance": 2,
-        "requiredTech": "Propaganda IV"
-    },
-	{
-        "name": "Opera House III",
-		"cost": 1000,
-        "culture": 4,
-        "specialistSlots": {"Artist": 1},
-        "hurryCostModifier": 10,
-        "requiredBuilding": "Opera House II",
-        "maintenance": 2,
-        "requiredTech": "Propaganda V"
     },
 	{
         "name": "Grand Opera",

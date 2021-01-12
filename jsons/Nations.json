@@ -5,6 +5,7 @@
 		"outerColor": [255,255,255]
 		"innerColor": [0,0,0]
 	},
+	
 	//Nation
 	{
 		"name": "America",
@@ -26,8 +27,8 @@
 		
 		"tradeRequest": "Is the following trade of interest to you?",
 		
-		"outerColor": [ 28,51,119],
-		"innerColor": [255,255,255],
+		"outerColor": [0,79,205],
+		"innerColor": [243,245,249],
 		
 		"uniqueName": "Uncle Sam",
 		"uniques": [
@@ -387,72 +388,6 @@
 		"Calais"]
 	},
 	{
-		"name": "Poland",
-		"leaderName": "Władysław Sikorski",
-		"adjective": ["Polish"],
-		"startBias": ["Plains"],
-		"preferredVictoryType": "Domination",
-
-		"startIntroPart1": "All hail Władysław Sikorski, protector of Poland. The nation's economy is shambled and his people are demoralized by the wars of your predecessor. And yet, your gouvernement marked the beginning of a new era, with affluence and security afforded only by way of your careful governance. Among your most notable achievements, the code of laws you established gave legal authority to many of the accepted customs of the time, strengthening the nation.",
-		"startIntroPart2": "Honored Władysław Sikorski, the people have long admired the steady hand of governance you wield. Can you return the nation to a golden age of prosperity? Will you conquer all those who oppose you, or strive for peaceful relations? Can you build a civilization that will stand the test of time?",
-		
-		"declaringWar": "Revenge !",
-		"attacked": "My armies and allies own will grind you to dust!",
-		"defeated": "Celebrate your victory well...it might be your last one.",
-		"introduction": "I, Władysław Sikorski, welcome you to the lands of Poland.",
-		
-		"neutralHello": "I salute you.",
-		"hateHello": "What are you looking for here?",
-		
-		"tradeRequest": "How do you like my offer?",
-		
-		"outerColor": [247, 171, 171],
-		"innerColor": [255, 255, 255],
-		
-		"uniqueName": "Emerging",
-		"uniques": [
-		"[+10 Culture] in capital",
-		"[+2 Food] from every [Farm]",
-		"[+2 Food] from every [Big Farm]",
-		"Culture cost of adopting new Policies reduced by 10%"],
-		
-		"cities": [
-		"Warsaw",
-		"Kraków",
-		"Łódź",
-		"Wroclaw",
-		"Poznań",
-		"Gdansk",
-		"Szczecin",
-		"Bydgoszcz",
-		"Lublin",
-		"Kaunas",
-		"Katowice",
-		"Białystok",
-		"Gdynia",
-		"Świdnica",
-		"Częstochowa",
-		"Radom",
-		"Toruń",
-		"Kielce",
-		"Gliwice",
-		"Klaipėda",
-		"Bytom",
-		"Olsztyn",
-		"Rzeszów",
-		"Ruda Śląska",
-		"Bielsko-Biala",
-		"Rybnik",
-		"Płock",
-		"Elbląg",
-		"Gorzów Wielkopolski",
-		"Opole",
-		"Šiauliai",
-		"Wałbrzych",
-		"Zielona Góra",
-		"Włocławek"]
-	},
-	{
 		"name": "Japan",
 		"leaderName": "Hirohito",
 		"adjective": ["Japonese"],
@@ -596,7 +531,72 @@
 			"Gallipoli",
 			"Otranto"]
 	},
+	{
+		"name": "Poland",
+		"leaderName": "Władysław Sikorski",
+		"adjective": ["Polish"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
 
+		"startIntroPart1": "All hail Władysław Sikorski, protector of Poland. The nation's economy is shambled and his people are demoralized by the wars of your predecessor. And yet, your gouvernement marked the beginning of a new era, with affluence and security afforded only by way of your careful governance. Among your most notable achievements, the code of laws you established gave legal authority to many of the accepted customs of the time, strengthening the nation.",
+		"startIntroPart2": "Honored Władysław Sikorski, the people have long admired the steady hand of governance you wield. Can you return the nation to a golden age of prosperity? Will you conquer all those who oppose you, or strive for peaceful relations? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Revenge !",
+		"attacked": "My armies and allies own will grind you to dust!",
+		"defeated": "Celebrate your victory well...it might be your last one.",
+		"introduction": "I, Władysław Sikorski, welcome you to the lands of Poland.",
+		
+		"neutralHello": "I salute you.",
+		"hateHello": "What are you looking for here?",
+		
+		"tradeRequest": "How do you like my offer?",
+		
+		"outerColor": [247, 171, 171],
+		"innerColor": [255, 255, 255],
+		
+		"uniqueName": "Emerging",
+		"uniques": [
+		"[+10 Culture] in capital",
+		"[+2 Food] from every [Farm]",
+		"[+2 Food] from every [Big Farm]",
+		"Culture cost of adopting new Policies reduced by 10%"],
+		
+		"cities": [
+		"Warsaw",
+		"Kraków",
+		"Łódź",
+		"Wroclaw",
+		"Poznań",
+		"Gdansk",
+		"Szczecin",
+		"Bydgoszcz",
+		"Lublin",
+		"Kaunas",
+		"Katowice",
+		"Białystok",
+		"Gdynia",
+		"Świdnica",
+		"Częstochowa",
+		"Radom",
+		"Toruń",
+		"Kielce",
+		"Gliwice",
+		"Klaipėda",
+		"Bytom",
+		"Olsztyn",
+		"Rzeszów",
+		"Ruda Śląska",
+		"Bielsko-Biala",
+		"Rybnik",
+		"Płock",
+		"Elbląg",
+		"Gorzów Wielkopolski",
+		"Opole",
+		"Šiauliai",
+		"Wałbrzych",
+		"Zielona Góra",
+		"Włocławek"]
+	},
 	//City-States
 	{
 		"name": "Rio de Janeiro",

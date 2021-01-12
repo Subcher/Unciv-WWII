@@ -86,7 +86,8 @@
 		"unbuildable": true,
 		"defenceBonus": 0.25,
 		"occursOn": ["Tundra","Plains","Grassland","Hill"],
-		"rough": true
+		"rough": true,
+		"uniques": ["Provides a one-time Production bonus to the closest city when cut down"]
 	},
 	{
 		"name": "Jungle",
@@ -114,9 +115,10 @@
 		"production": 2,
 		"movementCost": 2,
 		"unbuildable": true,
-		"defenceBonus": 0.35,
+		"defenceBonus": 0.25,
 		"occursOn": ["Desert"],
-		"rough": true
+		"rough": true,
+		"uniques": ["Rare feature"]
 	}
 	{
 		"name": "Fallout",
@@ -161,7 +163,15 @@
 		"production": 1,
 		"occursOn": ["Coast"]
 	},
- 
+	{
+		"name": "Geothermal Fissure",
+		"type": "TerrainFeature",
+		"science": 1,
+		"movementCost": 1,
+		"defenceBonus": -0.1,
+		"occursOn": ["Grassland","Plains","Tundra","Snow","Desert"],
+		"uniques": ["Rare feature"]
+	},
 	// Natural Wonders
 	{
 		"name": "Great Barrier Reef",
