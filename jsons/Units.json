@@ -60,7 +60,7 @@
 		"unitType": "Civilian",
 		"movement": 3,
 		"cost": 200,
-		"requiredTech": "Study V",
+		"requiredTech": "Atomic Way II",
 		"uniques": ["Constructing Archaeological Dig without Antiquity Site provides no yield","Can construct [Archaeological Dig]"],
 		"hurryCostModifier": 1000,
 	},
@@ -3038,12 +3038,6 @@
 		"unitType": "Civilian",
 		"uniques": ["Can start an 8-turn golden age", "Bonus for units in 2 tile radius 15%", "Can construct [Citadel]",
 			"Great Person - [War]", "Unbuildable"],
-		"movement": 2
-	},
-	{
-		"name": "Great Farmer",
-		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a wonder", "Can construct [Gargantic Farm]", "Great Person - [Food]", "Unbuildable"],
 		"movement": 2
 	},
 	{
