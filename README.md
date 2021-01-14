@@ -6,4 +6,4 @@ Army, Economy, Agriculture, Defence, Production, Culture, Science and Happiness.
 The mod is still under building. Please be kind. I will keep it uptaded but i need time. Thanks to people who help me.
 Join my discord to help me to improve the mod and discuss :
 
-[![Discord Chat](https://img.shields.io/discord/538409051432812554.svg)](https://discord.gg/QzmEEWV)
+[![Discord Chat](https://img.shields.io/discord/538409051432812554.svg)](https://discord.gg/NguDgWugSk)
