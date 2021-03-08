@@ -19,8 +19,7 @@
 		"cost": -1,
         "cityStrength": 10,
         "cityHealth": 100,
-        "requiredBuilding": "City Center",
-		"uniques": [
+	"uniques": [
             "Unsellable",
             "Cannot be purchased"],
 	},
