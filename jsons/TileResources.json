@@ -1,22 +1,23 @@
 [	
 	// Food
+
 	{
 		"name": "Cattle",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"food": 1,
 		"improvementStats": {"production": 1},
-		"revealedBy": "Pillage I",
 		"improvement": "Pasture",
+		"revealedBy": "Animals Husbandry I",
 	},
 	{
 		"name": "Sheep",
 		"resourceType": "Bonus",
-		"revealedBy": "Anti-Hunger III",
-		"terrainsCanBeFoundOn": ["Plains","Hill","Desert Hill"],
+		"terrainsCanBeFoundOn": ["Plains","Hill","Sand Dune"],
 		"food": 1,
 		"improvementStats": {"food": 1},
 		"improvement": "Pasture",
+		"revealedBy": "Animals Husbandry I",
 	},
 	{
 		"name": "Deer",
@@ -25,31 +26,7 @@
 		"food": 1,
 		"improvementStats": {"food": 1},
 		"improvement": "Camp",
-	},
-	{
-		"name": "Bananas",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Jungle"],
-		"food": 1,
-		"improvementStats": {"food": 2},
-		"improvement": "Plantation",
-	},
-	{
-		"name": "Wheat",
-		"resourceType": "Bonus",
-		"revealedBy": "Pillage III",
-		"terrainsCanBeFoundOn": ["Plains","Flood plains","Grassland"],
-		"food": 1,
-		"improvementStats": {"food": 1,"production": 1},
-		"improvement": "Plantation",
-	},
-	{
-		"name": "Fish",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coast","Ocean","Lakes"],
-		"food": 1,
-		"improvementStats": {"food": 1,"gold": 1},
-		"improvement": "Fishing Boats",
+		"revealedBy": "Hunting I",
 	},
 	{
 		"name": "Bison",
@@ -58,6 +35,7 @@
 		"food": 1,
 		"improvement": "Camp",
 		"improvementStats": {"food": 2},
+		"revealedBy": "Hunting III",
 	},
 	{
 		"name": "Turtle",
@@ -66,6 +44,7 @@
 		"food": 2,
 		"improvementStats": {"food": 1,"gold": 1},
 		"improvement": "Fishing Boats",
+		"revealedBy": "Hunting II",
 	},
 	{
 		"name": "Ostrich",
@@ -74,6 +53,7 @@
 		"food": 1,
 		"improvement": "Camp",
 		"improvementStats": {"food": 2},
+		"revealedBy": "Hunting II",
 	},
 	{
 		"name": "Kangaroo",
@@ -81,51 +61,8 @@
 		"terrainsCanBeFoundOn": ["Plains","Desert"],
 		"food": 1,
 		"improvement": "Camp",
-		"improvementStats": {"food": 2},
-	},
-	{
-		"name": "Potato",
-		"resourceType": "Bonus",
-		"revealedBy": "Farming Revolution IV",
-		"terrainsCanBeFoundOn": ["Plains","Grassland"],
-		"food": 2,
-		"improvementStats": {"food": 1,"gold": 1},
-		"improvement": "Plantation",
-	},
-	{
-		"name": "Sugar Cane",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Jungle","Marsh"],
-		"food": 2,
-		"improvement": "Plantation",
-		"improvementStats": {"gold": 1}
-	},
-	{
-		"name": "Citrus",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland"],
-		"food": 1,
-		"gold": 1,
-		"improvement": "Plantation",
-		"improvementStats": {"food": 1,"gold": 1},
-	},
-	{
-		"name": "Cocoa",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle"],
-		"food": 1,
-		"gold": 1,
-		"improvement": "Plantation",
-		"improvementStats": {"food": 1,"gold": 1}
-	},
-	{
-		"name": "Crab",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coast","Ocean"],
-		"food": 1,
-		"gold": 1,
-		"improvement": "Fishing Boats",
-		"improvementStats": {"food": 1,"gold": 1},
+		"improvementStats": {"food": 1},
+		"revealedBy": "Hunting I",
 	},
 	{
 		"name": "Whales",
@@ -134,15 +71,231 @@
 		"food": 1,
 		"gold": 1,
 		"improvement": "Fishing Boats",
-		"improvementStats": {"food": 2}
+		"improvementStats": {"food": 3},
+		"revealedBy": "Hunting III",
 	},
+
+	//
+	
+	{
+		"name": "Fish",
+		"resourceType": "Bonus",
+		"revealedBy": "War Stock I",
+		"terrainsCanBeFoundOn": ["Coast","Ocean","Lakes"],
+		"food": 1,
+		"improvementStats": {"food": 1,"gold": 1},
+		"improvement": "Fishing Boats",
+	},
+	{
+		"name": "Rice",
+		"resourceType": "Bonus",
+		"revealedBy": "War Stock I",
+		"terrainsCanBeFoundOn": ["Grassland","Marsh"],
+		"food": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Wheat",
+		"resourceType": "Bonus",
+		"revealedBy": "War Stock II",
+		"terrainsCanBeFoundOn": ["Plains","Flood plains","Grassland"],
+		"food": 1,
+		"improvementStats": {"food": 1,"production": 1},
+		"improvement": "Plantation",
+	},
+	{
+		"name": "Potato",
+		"resourceType": "Bonus",
+		"revealedBy": "War Stock III",
+		"terrainsCanBeFoundOn": ["Plains","Grassland"],
+		"food": 2,
+		"improvementStats": {"food": 1,"gold": 1},
+		"improvement": "Plantation",
+	},
+	{
+		"name": "Silk",
+		"resourceType": "Luxury",
+		"revealedBy": "Mechanization I",
+		"terrainsCanBeFoundOn": ["Forest"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Bananas",
+		"resourceType": "Bonus",
+		"revealedBy": "Mechanization I",
+		"terrainsCanBeFoundOn": ["Jungle"],
+		"food": 1,
+		"improvementStats": {"food": 2},
+		"improvement": "Plantation",
+	},
+	{
+		"name": "Spices",
+		"resourceType": "Luxury",
+		"revealedBy": "Mechanization II",
+		"terrainsCanBeFoundOn": ["Jungle"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Olives",
+		"resourceType": "Luxury",
+		"revealedBy": "Mechanization III",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"production": 1,
+		"gold": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Wine",
+		"resourceType": "Luxury",
+		"revealedBy": "Mechanization III",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1},
+	},
+	{
+		"name": "Tea",
+		"resourceType": "Luxury",
+		"revealedBy": "Irrigation I",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"science": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Dyes",
+		"resourceType": "Luxury",
+		"revealedBy": "Irrigation II",
+		"terrainsCanBeFoundOn": ["Jungle","Forest"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Algae",
+		"resourceType": "Bonus",
+		"revealedBy": "Anti-Hunger I",
+		"terrainsCanBeFoundOn": ["Coast","Ocean","Lakes"],
+		"food": 1,
+		"improvementStats": {"food": 1},
+		"improvement": "Fishing Boats",
+	},
+	{
+		"name": "Incense",
+		"resourceType": "Luxury",
+		"revealedBy": "Irrigation III",
+		"terrainsCanBeFoundOn": ["Plains","Desert"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1},
+	},
+	{
+		"name": "Sugar Cane",
+		"resourceType": "Bonus",
+		"revealedBy": "Irrigation IV",
+		"terrainsCanBeFoundOn": ["Jungle","Marsh"],
+		"food": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Crab",
+		"resourceType": "Bonus",
+		"revealedBy": "Anti-Hunger II",
+		"terrainsCanBeFoundOn": ["Coast","Ocean"],
+		"food": 1,
+		"gold": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"food": 1,"gold": 1},
+	},
+	{
+		"name": "Citrus",
+		"resourceType": "Luxury",
+		"revealedBy": "Anti-Hunger III",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"food": 1,
+		"gold": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"food": 1,"gold": 1},
+	},
+	{
+		"name": "Tobacco",
+		"resourceType": "Luxury",
+		"revealedBy": "Irrigation V",
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Grassland","Plains"],
+		"culture": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Truffles",
+		"resourceType": "Luxury",
+		"revealedBy": "Irrigation V",
+		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
+		"gold": 2,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 2}
+	},
+	{
+		"name": "Honey",
+		"resourceType": "Luxury",
+		"revealedBy": "Farming Revolution I",
+		"terrainsCanBeFoundOn": ["Plains","Grassland"],
+		"food": 2,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Coffee",
+		"resourceType": "Luxury",
+		"revealedBy": "Farming Revolution II",
+		"terrainsCanBeFoundOn": ["Grassland","Jungle"],
+		"culture": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Cocoa",
+		"resourceType": "Luxury",
+		"revealedBy": "Farming Revolution III",
+		"terrainsCanBeFoundOn": ["Jungle"],
+		"food": 1,
+		"gold": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"food": 1,"gold": 1}
+	},
+	{
+		"name": "Maize",
+		"resourceType": "Bonus",
+		"revealedBy": "Farming Revolution IV",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Flood plains"],
+		"gold": 2,
+		"improvement": "Farm",
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Cotton",
+		"resourceType": "Luxury",
+		"revealedBy": "Farming Revolution V",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+
 	// Production
 	
 	{
 		"name": "Cobalt",
 		"resourceType": "Bonus",
-		"revealedBy": "Massive Production III",
-		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Desert Hill"],
+		"revealedBy": "Great Metallurgy III",
+		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Sand Dune"],
 		"production": 2,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1, "gold": 2},
@@ -150,24 +303,16 @@
 	{
 		"name": "Stone",
 		"resourceType": "Bonus",
+		"revealedBy": "Industrialization II",
 		"terrainsCanBeFoundOn": ["Plains","Desert","Snow"],
 		"production": 1,
 		"improvementStats": {"production": 2},
 		"improvement": "Quarry",
 	},
 	{
-		"name": "Sulfur",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Mountain"],
-		"gold": 2,
-		"production": 2,
-		"science": 1,
-		"improvement": "Mine",
-		"improvementStats": {"production": 1, "gold": 1}
-	}
-	{
 		"name": "Gas",
 		"resourceType": "Bonus",
+		"revealedBy": "Mega-Factory I",
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Snow"],
 		"gold": 1,
 		"production": 1,
@@ -177,56 +322,71 @@
 	{
 		"name": "Diamond",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert","Hill","Desert Hill"],
+		"revealedBy": "Massive Production V",
+		"terrainsCanBeFoundOn": ["Desert","Hill","Sand Dune"],
 		"gold": 3,
 		"production": 2,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
 	},
+
 	// Culture
+
 	{
 		"name": "Antiquity Site",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Forest","Jungle","Desert"],
 		"improvement": "Archaeological Dig",
-		"improvementStats": {"culture": 2},
+		"improvementStats": {"culture": 4},
 	},
 	{
 		"name": "Amber",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Desert","Desert Hill","Hill","Coast"],
+		"terrainsCanBeFoundOn": ["Grassland","Desert","Sand Dune","Hill","Coast"],
 		"culture": 3,
 		"gold": 2,
-		"improvement": "Mine",
+		"improvement": "Fishing Boats",
 		"improvementStats": {"production": 1},
 	},
-	// Science
 	{
-		"name": "Mercury",
-		"resourceType": "Bonus",
-		"revealedBy": "Study II",
-		"terrainsCanBeFoundOn": ["Grassland","Plains"],
-		"science": 4,
-		"happiness": -1,
-		"improvement": "Mine",
-		"improvementStats": {"production": 1,"science": 2},
+		"name": "Jade",
+		"resourceType": "Luxury",
+		"revealedBy": "Mega-Factory I",
+		"terrainsCanBeFoundOn": ["Grassland","Tundra","Plains"],
+		"culture": 1,
+		"improvement": "Quarry",
+		"improvementStats": {"production": 1}
 	},
+
+	// Science
+
 	{
 		"name": "Aluminum",
 		"resourceType": "Bonus",
-		"revealedBy": "Mega-Factory III",
-		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Desert Hill"],
-		"science": 3,
-		"production": 2,
+		"revealedBy": "Great Metallurgy II",
+		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Sand Dune"],
+		"science": 2,
+		"production": 1,
 		"improvement": "Mine",
-		"improvementStats": {"science": 2,"production": 1,},
+		"improvementStats": {"science": 1},
 	},
+	{
+		"name": "Mercury",
+		"resourceType": "Luxury",
+		"revealedBy": "Science Supply II",
+		"terrainsCanBeFoundOn": ["Plains"],
+		"science": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+
 	// Gold
 	
 	{
 		"name": "Salt",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains", "Desert", "Tundra","Desert Hill"],
+		"revealedBy": "Mega-Factory II",
+		"terrainsCanBeFoundOn": ["Plains", "Desert", "Tundra","Sand Dune"],
 		"gold": 2,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1,"food": 1},
@@ -234,6 +394,7 @@
 	{
 		"name": "Copper",
 		"resourceType": "Bonus",
+		"revealedBy": "Great Metallurgy III",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Tundra","Snow"],
 		"gold": 2,
 		"improvement": "Mine",
@@ -245,44 +406,32 @@
 		"terrainsCanBeFoundOn": ["Forest","Tundra","Snow"],
 		"gold": 2,
 		"improvement": "Camp",
-		"improvementStats": {"gold": 1}
-	},
-	{
-		"name": "Cotton",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert"],
-		"gold": 2,
-		"improvement": "Plantation",
-		"improvementStats": {"gold": 1}
-	},
-	{
-		"name": "Dyes",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest"],
-		"gold": 2,
-		"improvement": "Plantation",
-		"improvementStats": {"gold": 1}
+		"improvementStats": {"gold": 1},
+		"revealedBy": "Hunting III",
 	},
 	{
 		"name": "Emerald",
 		"resourceType": "Luxury",
+		"revealedBy": "Heavy Production I",
 		"terrainsCanBeFoundOn": ["Jungle","Plains"],
-		"gold": 5,
+		"gold": 3,
 		"improvement": "Mine",
 		"improvementStats": {"production": 2},
 	},
 	{
 		"name": "Ruby",
 		"resourceType": "Luxury",
+		"revealedBy": "Heavy Production II",
 		"terrainsCanBeFoundOn": ["Grassland"],
-		"gold": 3,
-		"culture": 2,
+		"gold": 2,
+		"culture": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
 	},
 	{
 		"name": "Gold",
 		"resourceType": "Luxury",
+		"revealedBy": "Heavy Production III",
 		"terrainsCanBeFoundOn": ["Plains","Hill"],
 		"gold": 2,
 		"improvement": "Mine",
@@ -291,17 +440,10 @@
 	{
 		"name": "Silver",
 		"resourceType": "Luxury",
+		"revealedBy": "Mega-Factory I",
 		"terrainsCanBeFoundOn": ["Snow","Hill","Tundra"],
 		"gold": 2,
 		"improvement": "Mine",
-		"improvementStats": {"gold": 1},
-	},
-	{
-		"name": "Incense",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Plains","Desert"],
-		"gold": 2,
-		"improvement": "Plantation",
 		"improvementStats": {"gold": 1},
 	},
 	{
@@ -310,40 +452,17 @@
 		"terrainsCanBeFoundOn": ["Plains"],
 		"gold": 2,
 		"improvement": "Camp",
-		"improvementStats": {"gold": 1}
-	},
-	{
-		"name": "Silk",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest"],
-		"gold": 2,
-		"improvement": "Plantation",
-		"improvementStats": {"gold": 1}
-	},
-	{
-		"name": "Spices",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle"],
-		"gold": 2,
-		"improvement": "Plantation",
-		"improvementStats": {"gold": 1}
-	},
-	{
-		"name": "Wine",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland"],
-		"gold": 2,
-		"improvement": "Plantation",
 		"improvementStats": {"gold": 1},
+		"revealedBy": "Hunting II",
 	},
 	{
 		"name": "Marble",
 		"resourceType": "Bonus",
+		"revealedBy": "Massive Production II",
 		"terrainsCanBeFoundOn": ["Tundra","Grassland"],
 		"gold": 2,
 		"improvement": "Quarry",
 		"improvementStats": {"gold": 1,"production": 1},
-		"unique": "+15% production towards Wonder construction",
 	},
 	{
 		"name": "Pearls",
@@ -352,27 +471,20 @@
 		"gold": 2,
 		"improvement": "Fishing Boats",
 		"improvementStats": {"food": 1}
-	}
-	{
-		"name": "Truffles",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
-		"gold": 2,
-		"improvement": "Camp",
-		"improvementStats": {"gold": 2}
 	},
 	{
 		"name": "Granite",
 		"resourceType": "Bonus",
+		"revealedBy": "Massive Production II",
 		"terrainsCanBeFoundOn": ["Plains","Tundra","Hill","Grassland"],
 		"gold": 2,
 		"improvement": "Quarry",
 		"improvementStats": {"gold": 1,"production": 1},
-		"unique": "+15% production towards Wonder construction",
 	},
 	{
 		"name": "Lapis",
 		"resourceType": "Luxury",
+		"revealedBy": "Mega-Factory III",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"],
 		"gold": 2,
 		"improvement": "Mine",
@@ -382,18 +494,22 @@
 		"name": "Sugar",
 		"resourceType": "Luxury",
 	},
+
 	// Strategic resources
+
 	{
 		"name": "Horses",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill","Desert","Desert Hill"],
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill","Desert","Sand Dune"],
 		"production": 1,
 		"improvementStats": {"production": 1},
 		"improvement": "Pasture",
+		"revealedBy": "Animals Husbandry I",
 	},
 	{
 		"name": "Iron",
 		"resourceType": "Strategic",
+		"revealedBy": "Industrialization I",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Snow","Hill"],
 		"production": 1,
 		"improvement": "Mine",
@@ -402,7 +518,8 @@
 	{
 		"name": "Coal",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Desert Hill","Desert"],
+		"revealedBy": "Industrialization III",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Sand Dune","Desert"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 2}
@@ -410,7 +527,8 @@
 	{
 		"name": "Oil",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Desert","Tundra","Snow","Jungle"],
+		"revealedBy": "Industrialization II",
+		"terrainsCanBeFoundOn": ["Desert","Tundra","Snow","Jungle","Coast","Ocean"],
 		"production": 1,
 		"improvement": "Pump Jack",
 		"improvementStats": {"production": 3}
@@ -418,16 +536,17 @@
 	{
 		"name": "Rubber",
 		"resourceType": "Strategic",
+		"revealedBy": "Massive Production I",
 		"terrainsCanBeFoundOn": ["Jungle"],
 		"production": 1,
-		"improvement": "Lumber Mill",
+		"improvement": "Forestry House",
 		"improvementStats": {"production": 3},
 	},
 	{
 		"name": "Uranium",
 		"resourceType": "Strategic",
-		"revealedBy": "Domination Way",
-		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Snow","Forest","Desert","Marsh","Grassland","Desert Hill"],
+		"revealedBy": "Atomic Way II",
+		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Snow","Forest","Desert","Marsh","Grassland","Sand Dune"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 2}

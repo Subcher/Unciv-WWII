@@ -8,7 +8,7 @@
 			{
 				"name": "Army",
 				"row": 2,
-				"quote": "WIP"
+				"quote": "WIP",
 				"uniques": ["Starting tech"]
 			},
 			{
@@ -19,31 +19,31 @@
 			},
 			{
 				"name": "Agriculture",
-				"row": 5,
+				"row": 15,
 				"quote": "WIP",
 				"uniques": ["Starting tech"]
 			},
 			{
 				"name": "Culture",
-				"row": 6,
+				"row": 18,
 				"quote": "WIP",
 				"uniques": ["Starting tech"]
 			},
 			{
 				"name": "Economy",
-				"row": 8,
+				"row": 20,
 				"quote": "WIP",
 				"uniques": ["Starting tech"]
 			},
 			{
 				"name": "Production",
-				"row": 9,
+				"row": 24,
 				"quote": "WIP",
 				"uniques": ["Starting tech"]
 			},
 			{
 				"name": "Science",
-				"row": 10,
+				"row": 28,
 				"quote": "WIP",
 				"uniques": ["Starting tech"]
 			},
@@ -59,7 +59,8 @@
 				"name": "Navy",
 				"row": 1,
 				"prerequisites": ["Army"],
-				"uniques": ["Enables embarkation for land units"],
+				"uniques": [
+					"Enables embarkation for land units"],
 				"quote": "WIP"
 			},
 			{
@@ -81,32 +82,32 @@
 				"quote": "WIP",
 			},
 			{
-				"name": "Pre-war Economy",
-				"row": 8,
-				"prerequisites": ["Economy"],
-				"quote": "WIP",
-			},
-			{
 				"name": "War Stock I",
-				"row": 5,
+				"row": 15,
 				"prerequisites": ["Agriculture"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Industrialization I",
-				"row": 9,
-				"prerequisites": ["Production"],
-				"quote": "WIP"
-			},
-			{
 				"name": "Patriot I",
-				"row": 6,
+				"row": 18,
 				"prerequisites": ["Culture"],
 				"quote": "WIP"
 			},
 			{
+				"name": "Pre-war Economy",
+				"row": 20,
+				"prerequisites": ["Economy"],
+				"quote": "WIP",
+			},
+			{
+				"name": "Industrialization I",
+				"row": 24,
+				"prerequisites": ["Production"],
+				"quote": "WIP"
+			},
+			{
 				"name": "Study I",
-				"row": 10,
+				"row": 28,
 				"prerequisites": ["Science"],
 				"quote": "WIP"
 			},
@@ -144,35 +145,49 @@
 				"quote": "WIP",
 			},
 			{
-				"name": "War Economy I",
-				"row": 8,
-				"prerequisites": ["Pre-war Economy"],
-				"uniques": ["Connects trade routes over water"]
-				"quote": "WIP",
-			},
-			{
 				"name": "War Stock II",
-				"row": 5,
+				"row": 15,
 				"prerequisites": ["War Stock I"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Industrialization II",
-				"row": 9,
-				"prerequisites": ["Industrialization I"],
-				"quote": "WIP"
+				"name": "Animals Husbandry I",
+				"row": 16,
+				"prerequisites": ["War Stock I"],
+				"quote": "WIP",
 			},
 			{
 				"name": "Patriot II",
-				"row": 6,
+				"row": 18,
 				"prerequisites": ["Patriot I"],
 				"quote": "WIP"
 			},
 			{
+				"name": "War Economy I",
+				"row": 20,
+				"prerequisites": ["Pre-war Economy"],
+				"uniques": [
+					"Connects trade routes over water"],
+				"quote": "WIP",
+			},
+			{
+				"name": "Industrialization II",
+				"row": 24,
+				"prerequisites": ["Industrialization I"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Mining I",
+				"row": 25,
+				"prerequisites": ["Industrialization I"],
+				"quote": "WIP"
+			},
+			{
 				"name": "Study II",
-				"row": 10,
+				"row": 28,
 				"prerequisites": ["Study I"],
-				"uniques": ["+10% science and production in all cities"],
+				"uniques": [
+					"+10% science and production in all cities"],
 				"quote": "WIP"
 			},		
 		]	
@@ -193,7 +208,8 @@
 			{
 				"name": "Blitz Tactic I",
 				"row": 2,
-				"uniques": ["Roads connect tiles across rivers"],
+				"uniques": [
+					"Roads connect tiles across rivers"],
 				"prerequisites": ["General Mobilization"],
 				"quote": "WIP"
 			},
@@ -206,36 +222,60 @@
 			{
 				"name": "Basic Defence III",
 				"row": 4,
-				"prerequisites": ["Basic Defence II"]
-				"quote": "WIP",
-			},
-			{
-				"name": "War Economy II",
-				"row": 8,
-				"prerequisites": ["War Economy I"],
+				"prerequisites": ["Basic Defence II"],
 				"quote": "WIP",
 			},
 			{
 				"name": "War Stock III",
-				"row": 5,
+				"row": 15,
 				"prerequisites": ["War Stock II"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Industrialization III",
-				"row": 9,
-				"prerequisites": ["Industrialization II"],
-				"quote": "WIP"
+				"name": "Animals Husbandry II",
+				"row": 16,
+				"prerequisites": ["Animals Husbandry I"],
+				"quote": "WIP",
 			},
 			{
 				"name": "Patriot III",
-				"row": 6,
+				"row": 18,
 				"prerequisites": ["Patriot II"],
 				"quote": "WIP"
 			},
 			{
+				"name": "War Economy II",
+				"row": 20,
+				"prerequisites": ["War Economy I"],
+				"quote": "WIP",
+			},
+			{
+				"name": "Lumber I",
+				"row": 23,
+				"prerequisites": ["Industrialization II"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Industrialization III",
+				"row": 24,
+				"prerequisites": ["Industrialization II"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Mining II",
+				"row": 25,
+				"prerequisites": ["Mining I"],
+				"quote": "WIP"
+			},
+			{
 				"name": "Study III",
-				"row": 10,
+				"row": 28,
+				"prerequisites": ["Study II"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Education I",
+				"row": 29,
 				"prerequisites": ["Study II"],
 				"quote": "WIP"
 			},
@@ -252,12 +292,14 @@
 				"name": "King Of The Sea III",
 				"row": 1,
 				"prerequisites": ["King Of The Sea II"],
-				"uniques": ["Enables embarked units to enter ocean tiles"],
+				"uniques": [
+					"Enables embarked units to enter ocean tiles"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Blitz Tactic II",
-				"uniques": ["Improves movement speed on roads"],
+				"uniques": [
+					"Improves movement speed on roads"],
 				"row": 2,
 				"prerequisites": ["Blitz Tactic I"],
 				"quote": "WIP"
@@ -271,39 +313,77 @@
 			{
 				"name": "Improved Defence I",
 				"row": 4,
-				"prerequisites": ["Basic Defence III"]
+				"prerequisites": ["Basic Defence III"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Blocus I",
-				"row": 8,
-				"prerequisites": ["War Economy II"],
-				"quote": "WIP",
-			},
-			{
-				"name": "Pillage I",
-				"row": 5,
+				"name": "Hunting I",
+				"row": 14,
 				"prerequisites": ["War Stock III"],
-				"uniques": ["+1 population in each city"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Massive Production I",
-				"row": 9,
-				"prerequisites": ["Industrialization III"],
-				"quote": "WIP"
+				"name": "Mechanization I",
+				"row": 15,
+				"prerequisites": ["War Stock III"],
+				"quote": "WIP",
 			},
 			{
-				"name": "Sacred Culture I",
-				"row": 6,
+				"name": "Animals Husbandry III",
+				"row": 16,
+				"prerequisites": ["Animals Husbandry II"],
+				"uniques": [
+					"+1 population in each city"],
+				"quote": "WIP",
+			},
+			{
+				"name": "Theology I",
+				"row": 17,
 				"prerequisites": ["Patriot III"],
 				"quote": "WIP"
 			},
 			{
+				"name": "Sacred Culture I",
+				"row": 18,
+				"prerequisites": ["Patriot III"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Banking I",
+				"row": 20,
+				"prerequisites": ["War Economy II"],
+				"quote": "WIP",
+			},
+			{
+				"name": "Lumber II",
+				"row": 23,
+				"prerequisites": ["Lumber I"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Massive Production I",
+				"row": 24,
+				"prerequisites": ["Industrialization III"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Mining III",
+				"row": 25,
+				"prerequisites": ["Mining II"],
+				"quote": "WIP"
+			},
+			{
 				"name": "Study IV",
-				"row": 10,
+				"row": 28,
 				"prerequisites": ["Study III"],
-				"uniques": ["+10% science and production in all cities"],
+				"uniques": [
+					"+10% science and production in all cities"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Education II",
+				"row": 29,
+				"prerequisites": ["Education I"],
 				"quote": "WIP"
 			},
 		]	
@@ -336,37 +416,61 @@
 			{
 				"name": "Improved Defence II",
 				"row": 4,
-				"prerequisites": ["Improved Defence I"]
+				"prerequisites": ["Improved Defence I"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Blocus II",
-				"row": 8,
-				"prerequisites": ["Blocus I"],
+				"name": "Hunting II",
+				"row": 14,
+				"prerequisites": ["Hunting I"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Pillage II",
-				"row": 5,
-				"prerequisites": ["Pillage I"],
+				"name": "Mechanization II",
+				"row": 15,
+				"prerequisites": ["Mechanization I"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Massive Production II",
-				"row": 9,
-				"prerequisites": ["Massive Production I"],
+				"name": "Theology II",
+				"row": 17,
+				"prerequisites": ["Theology I"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Sacred Culture II",
-				"row": 6,
+				"row": 18,
 				"prerequisites": ["Sacred Culture I"],
 				"quote": "WIP"
 			},
 			{
+				"name": "Banking II",
+				"row": 20,
+				"prerequisites": ["Banking I"],
+				"quote": "WIP",
+			},
+			{
+				"name": "Lumber III",
+				"row": 23,
+				"prerequisites": ["Lumber II"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Massive Production II",
+				"row": 24,
+				"prerequisites": ["Massive Production I"],
+				"quote": "WIP"
+			},
+			{
 				"name": "Study V",
-				"row": 10,
+				"row": 28,
 				"prerequisites": ["Study IV"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Education III",
+				"row": 29,
+				"prerequisites": ["Education II"],
 				"quote": "WIP"
 			},
 		]
@@ -387,7 +491,8 @@
 			{
 				"name": "Blitz Tactic IV",
 				"row": 2,
-				"uniques": ["Enables Open Borders agreements"],
+				"uniques": [
+					"Enables Open Borders agreements"],
 				"prerequisites": ["Blitz Tactic III"],
 				"quote": "WIP"
 			},
@@ -400,38 +505,58 @@
 			{
 				"name": "Improved Defence III",
 				"row": 4,
-				"prerequisites": ["Improved Defence II"]
+				"prerequisites": ["Improved Defence II"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Blocus III",
-				"row": 8,
-				"prerequisites": ["Blocus II"],
+				"name": "Hunting III",
+				"row": 14,
+				"prerequisites": ["Hunting II"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Pillage III",
-				"row": 5,
-				"prerequisites": ["Pillage II"],
+				"name": "Mechanization III",
+				"row": 15,
+				"prerequisites": ["Mechanization II"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Massive Production III",
-				"row": 9,
-				"prerequisites": ["Massive Production II"],
+				"name": "Theology III",
+				"row": 17,
+				"prerequisites": ["Theology II"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Sacred Culture III",
-				"row": 6,
+				"row": 18,
 				"prerequisites": ["Sacred Culture II"],
 				"quote": "WIP"
 			},
 			{
+				"name": "Banking III",
+				"row": 20,
+				"prerequisites": ["Banking II"],
+				"quote": "WIP",
+			},
+			{
+				"name": "Massive Production III",
+				"row": 24,
+				"prerequisites": ["Massive Production II"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Great Metallurgy I",
+				"row": 25,
+				"prerequisites": ["Massive Production II","Study V"],
+				"quote": "WIP"
+			},
+			{
 				"name": "Science Supply I",
-				"row": 10,
+				"row": 28,
 				"prerequisites": ["Study V"],
-				"uniques": ["+10% science and production in all cities"],
+				"uniques": [
+					"Enables conversion of city production to science"
+					"Enables Research agreements",],
 				"quote": "WIP"
 			},
 		]	
@@ -464,39 +589,47 @@
 			{
 				"name": "Civil Defence Theory I",
 				"row": 4,
-				"prerequisites": ["Improved Defence III"]
+				"prerequisites": ["Improved Defence III"],
 				"quote": "WIP",
 			},
 			{
-				"name": "War Effort I",
-				"row": 8,
-				"uniques": ["Enables conversion of city production to gold"],
-				"prerequisites": ["Blocus III"],
+				"name": "Irrigation I",
+				"row": 15,
+				"prerequisites": ["Mechanization III"],
 				"quote": "WIP",
-			},
-			{
-				"name": "Anti-Hunger I",
-				"row": 5,
-				"prerequisites": ["Pillage III"],
-				"quote": "WIP",
-			},
-			{
-				"name": "Massive Production IV",
-				"row": 9,
-				"prerequisites": ["Massive Production III"],
-				"quote": "WIP"
 			},
 			{
 				"name": "Sacred Culture IV",
-				"row": 6,
+				"row": 18,
 				"prerequisites": ["Sacred Culture III"],
 				"quote": "WIP"
 			},
 			{
+				"name": "War Effort I",
+				"row": 20,
+				"uniques": [
+					"Enables conversion of city production to gold"],
+				"prerequisites": ["Banking III"],
+				"quote": "WIP",
+			},
+			{
+				"name": "Massive Production IV",
+				"row": 24,
+				"prerequisites": ["Massive Production III"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Great Metallurgy II",
+				"row": 25,
+				"prerequisites": ["Great Metallurgy I"],
+				"quote": "WIP"
+			},
+			{
 				"name": "Science Supply II",
-				"row": 10,
+				"row": 28,
 				"prerequisites": ["Science Supply I"],
-				"uniques": ["Free [Great Scientist] appear"],
+				"uniques": [
+					"Free [Great Scientist] appear"],
 				"quote": "WIP"
 			},
 		]
@@ -524,45 +657,58 @@
 				"name": "Radar I",
 				"row": 3,
 				"prerequisites": ["Ace of Air III"],
-				"uniques": ["Reveals the entire map"],
+				"uniques": [
+					"Reveals the entire map"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Civil Defence Theory II",
 				"row": 4,
-				"prerequisites": ["Civil Defence Theory I"]
+				"prerequisites": ["Civil Defence Theory I"],
 				"quote": "WIP",
 			},
 			{
-				"name": "War Effort II",
-				"row": 8,
-				"prerequisites": ["War Effort I"],
+				"name": "Irrigation II",
+				"row": 15,
+				"prerequisites": ["Irrigation I"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Anti-Hunger II",
-				"row": 5,
-				"prerequisites": ["Anti-Hunger I"],
-				"uniques": ["+1 population in each city"],
+				"name": "Anti-Hunger I",
+				"row": 16,
+				"prerequisites": ["Irrigation I"],
 				"quote": "WIP",
-			},
-			{
-				"name": "Massive Production V",
-				"row": 9,
-				"prerequisites": ["Massive Production IV"],
-				"quote": "WIP"
 			},
 			{
 				"name": "Sacred Culture V",
-				"row": 6,
+				"row": 18,
 				"prerequisites": ["Sacred Culture IV"],
 				"quote": "WIP"
 			},
 			{
+				"name": "War Effort II",
+				"row": 20,
+				"prerequisites": ["War Effort I"],
+				"quote": "WIP",
+			},
+			{
+				"name": "Massive Production V",
+				"row": 24,
+				"prerequisites": ["Massive Production IV"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Great Metallurgy III",
+				"row": 25,
+				"prerequisites": ["Great Metallurgy II"],
+				"quote": "WIP"
+			},
+			{
 				"name": "Science Supply III",
-				"row": 10,
+				"row": 28,
 				"prerequisites": ["Science Supply II"],
-				"uniques": ["+10% science and production in all cities"],
+				"uniques": [
+					"+10% science and production in all cities"],
 				"quote": "WIP"
 			},
 		]
@@ -595,37 +741,58 @@
 			{
 				"name": "Civil Defence Theory III",
 				"row": 4,
-				"prerequisites": ["Civil Defence Theory II"]
+				"prerequisites": ["Civil Defence Theory II"],
 				"quote": "WIP",
 			},
 			{
-				"name": "War Effort III",
-				"row": 8,
-				"prerequisites": ["War Effort II"],
+				"name": "Irrigation III",
+				"row": 15,
+				"prerequisites": ["Irrigation II"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Anti-Hunger III",
-				"row": 5,
-				"prerequisites": ["Anti-Hunger II"],
+				"name": "Anti-Hunger II",
+				"row": 16,
+				"prerequisites": ["Anti-Hunger I"],
 				"quote": "WIP",
-			},
-			{
-				"name": "Heavy Production I",
-				"row": 9,
-				"prerequisites": ["Massive Production V"],
-				"quote": "WIP"
 			},
 			{
 				"name": "Propaganda I",
-				"row": 6,
+				"row": 18,
 				"prerequisites": ["Sacred Culture V"],
 				"quote": "WIP"
 			},
 			{
+				"name": "Phylosophy I",
+				"row": 19,
+				"prerequisites": ["Sacred Culture V"],
+				"uniques": [
+					"+[5]% great person generation in this city"],
+				"quote": "WIP"
+			},
+			{
+				"name": "War Effort III",
+				"row": 20,
+				"prerequisites": ["War Effort II"],
+				"quote": "WIP",
+			},
+			{
+				"name": "Heavy Production I",
+				"row": 24,
+				"prerequisites": ["Massive Production V"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Scientific Theory I",
+				"row": 27,
+				"uniques": [],
+				"prerequisites": ["Science Supply III"],
+				"quote": "WIP"
+			},
+			{
 				"name": "Scientific Rush I",
-				"row": 10,
-				"uniques": ["Enables conversion of city production to science"],
+				"row": 28,
+				"uniques": [],
 				"prerequisites": ["Science Supply III"],
 				"quote": "WIP"
 			},
@@ -659,39 +826,74 @@
 			{
 				"name": "Civil Defence Theory IV",
 				"row": 4,
-				"prerequisites": ["Civil Defence Theory III"]
+				"prerequisites": ["Civil Defence Theory III"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Budgetary Cuts I",
-				"row": 8,
-				"prerequisites": ["War Effort III"],
+				"name": "Irrigation IV",
+				"row": 15,
+				"prerequisites": ["Irrigation III"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Anti-Hunger IV",
-				"row": 5,
-				"prerequisites": ["Anti-Hunger III"],
-				"uniques": ["+1 population in each city"],
+				"name": "Anti-Hunger III",
+				"row": 16,
+				"prerequisites": ["Anti-Hunger II"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Heavy Production II",
-				"row": 9,
-				"prerequisites": ["Heavy Production I"],
-				"quote": "WIP"
-			},
-			{
-				"name": "Propaganda II",
-				"row": 6,
+				"name": "Archaeology I",
+				"row": 17,
 				"prerequisites": ["Propaganda I"],
 				"quote": "WIP"
 			},
 			{
+				"name": "Propaganda II",
+				"row": 18,
+				"prerequisites": ["Propaganda I"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Phylosophy II",
+				"row": 19,
+				"prerequisites": ["Phylosophy I"],
+				"uniques": [
+					"+[10]% great person generation in this city",
+					"Provides 1 happiness per 2 additional social policies adopted"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Budgetary Cuts I",
+				"row": 20,
+				"prerequisites": ["War Effort III"],
+				"quote": "WIP",
+			},
+			{
+				"name": "Great Improvement I",
+				"row": 23,
+				"prerequisites": ["Heavy Production I"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Heavy Production II",
+				"row": 24,
+				"prerequisites": ["Heavy Production I"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Scientific Theory II",
+				"row": 27,
+				"uniques": [
+					"Free Technology"],
+				"prerequisites": ["Scientific Theory I"],
+				"quote": "WIP"
+			},
+			{
 				"name": "Scientific Rush II",
-				"row": 10,
+				"row": 28,
 				"prerequisites": ["Scientific Rush I"],
-				"uniques": ["+10% science and production in all cities"],
+				"uniques": [
+					"+10% science and production in all cities"],
 				"quote": "WIP"
 			},
 		]	
@@ -725,36 +927,65 @@
 				"name": "Civil Defence Theory V",
 				"row": 4,
 				"prerequisites": ["Civil Defence Theory IV"],
-				"uniques": ["+[10]% combat bonus for units fighting in [Friendly Land]"],
+				"uniques": [
+					"+[10]% combat bonus for units fighting in [Friendly Land]"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Budgetary Cuts II",
-				"row": 8,
-				"prerequisites": ["Budgetary Cuts I"],
+				"name": "Irrigation V",
+				"row": 15,
+				"prerequisites": ["Irrigation IV"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Anti-Hunger V",
-				"row": 5,
-				"prerequisites": ["Anti-Hunger IV"],
-				"quote": "WIP",
-			},
-			{
-				"name": "Heavy Production III",
-				"row": 9,
-				"prerequisites": ["Heavy Production II"],
+				"name": "Archaeology II",
+				"row": 17,
+				"prerequisites": ["Archaeology I"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Propaganda III",
-				"row": 6,
+				"row": 18,
 				"prerequisites": ["Propaganda II"],
 				"quote": "WIP"
 			},
 			{
+				"name": "Phylosophy III",
+				"row": 19,
+				"prerequisites": ["Phylosophy II"],
+				"uniques": [
+					"+[10]% great person generation in this city",
+					"Golden Age length increases +50%"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Budgetary Cuts II",
+				"row": 20,
+				"prerequisites": ["Budgetary Cuts I"],
+				"quote": "WIP",
+			},
+			{
+				"name": "Great Improvement II",
+				"row": 23,
+				"prerequisites": ["Great Improvement I"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Heavy Production III",
+				"row": 24,
+				"prerequisites": ["Heavy Production II"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Scientific Theory III",
+				"row": 27,
+				"uniques": [],
+				"prerequisites": ["Scientific Theory II"],
+				"quote": "WIP"
+			},
+			{
 				"name": "Scientific Rush III",
-				"row": 10,
+				"row": 28,
 				"prerequisites": ["Scientific Rush II"],
 				"quote": "WIP"
 			},
@@ -788,38 +1019,63 @@
 			{
 				"name": "Fortress Theory I",
 				"row": 4,
-				"prerequisites": ["Civil Defence Theory V"]
+				"prerequisites": ["Civil Defence Theory V"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Budgetary Cuts III",
-				"row": 8,
-				"prerequisites": ["Budgetary Cuts II"],
+				"name": "Sanitation I",
+				"row": 14,
+				"prerequisites": ["Irrigation V"],
 				"quote": "WIP",
 			},
 			{
 				"name": "Farming Revolution I",
-				"row": 5,
-				"prerequisites": ["Anti-Hunger V"],
-				"uniques": ["+1 population in each city"],
+				"row": 15,
+				"prerequisites": ["Irrigation V"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Mega-Factory I",
-				"row": 9,
-				"prerequisites": ["Heavy Production III"],
+				"name": "Archaeology III",
+				"row": 17,
+				"prerequisites": ["Archaeology II"],
 				"quote": "WIP"
 			},
 			{
 				"name": "Propaganda IV",
-				"row": 6,
+				"row": 18,
 				"prerequisites": ["Propaganda III"],
 				"quote": "WIP"
 			},
 			{
+				"name": "Budgetary Cuts III",
+				"row": 20,
+				"prerequisites": ["Budgetary Cuts II"],
+				"quote": "WIP",
+			},
+			{
+				"name": "Great Improvement III",
+				"row": 23,
+				"prerequisites": ["Great Improvement II"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Mega-Factory I",
+				"row": 24,
+				"prerequisites": ["Heavy Production III"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Atomic Theory I",
+				"row": 27,
+				"uniques": [
+					"Free Technology"],
+				"prerequisites": ["Scientific Theory III"],
+				"quote": "WIP"
+			},
+			{
 				"name": "Atomic Way I",
-				"row": 10,
-				"uniques": ["Enables Research agreements","+10% science and production in all cities"],
+				"row": 28,
+				"uniques": [],
 				"prerequisites": ["Scientific Rush III"],
 				"quote": "WIP"
 			},
@@ -853,36 +1109,51 @@
 			{
 				"name": "Fortress Theory II",
 				"row": 4,
-				"prerequisites": ["Fortress Theory I"]
+				"prerequisites": ["Fortress Theory I"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Backdrop of War I",
-				"row": 8,
-				"prerequisites": ["Budgetary Cuts III"],
+				"name": "Sanitation II",
+				"row": 14,
+				"prerequisites": ["Sanitation I"],
+				"uniques": [
+					"+1 population in each city"],
 				"quote": "WIP",
 			},
 			{
 				"name": "Farming Revolution II",
-				"row": 5,
+				"row": 15,
 				"prerequisites": ["Farming Revolution I"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Mega-Factory II",
-				"row": 9,
-				"prerequisites": ["Mega-Factory I"],
-				"quote": "WIP"
-			},
-			{
 				"name": "Propaganda V",
-				"row": 6,
+				"row": 18,
 				"prerequisites": ["Propaganda IV"],
 				"quote": "WIP"
 			},
 			{
+				"name": "Backdrop Of War I",
+				"row": 20,
+				"prerequisites": ["Budgetary Cuts III"],
+				"quote": "WIP",
+			},
+			{
+				"name": "Mega-Factory II",
+				"row": 24,
+				"prerequisites": ["Mega-Factory I"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Atomic Theory II",
+				"row": 27,
+				"uniques": [],
+				"prerequisites": ["Atomic Theory I"],
+				"quote": "WIP"
+			},
+			{
 				"name": "Atomic Way II",
-				"row": 10,
+				"row": 28,
 				"prerequisites": ["Atomic Way I"],
 				"quote": "WIP"
 			},
@@ -916,39 +1187,59 @@
 			{
 				"name": "Fortress Theory III",
 				"row": 4,
-				"prerequisites": ["Fortress Theory II"]
+				"prerequisites": ["Fortress Theory II"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Backdrop of War II",
-				"row": 8,
-				"prerequisites": ["Backdrop of War I"],
+				"name": "Sanitation III",
+				"row": 14,
+				"prerequisites": ["Sanitation II"],
+				"uniques": [
+					"Empire enter enters golden age"],
 				"quote": "WIP",
 			},
 			{
 				"name": "Farming Revolution III",
-				"row": 5,
+				"row": 15,
 				"prerequisites": ["Farming Revolution II"],
-				"uniques": ["+1 population in each city"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Mega-Factory III",
-				"row": 9,
-				"prerequisites": ["Mega-Factory II"],
-				"quote": "WIP"
+				"name": "Biology I",
+				"row": 16,
+				"prerequisites": ["Farming Revolution II"],
+				"quote": "WIP",
 			},
 			{
 				"name": "New World Order I",
-				"row": 6,
+				"row": 18,
 				"prerequisites": ["Propaganda V"],
 				"quote": "WIP"
 			},
 			{
+				"name": "Backdrop Of War II",
+				"row": 20,
+				"prerequisites": ["Backdrop Of War I"],
+				"quote": "WIP",
+			},
+			{
+				"name": "Mega-Factory III",
+				"row": 24,
+				"prerequisites": ["Mega-Factory II"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Atomic Theory III",
+				"row": 27,
+				"uniques": [],
+				"prerequisites": ["Atomic Theory II"],
+				"quote": "WIP"
+			},
+			{
 				"name": "Atomic Way III",
-				"row": 10,
+				"row": 28,
 				"prerequisites": ["Atomic Way II"],
-				"uniques": ["+10% science and production in all cities"],
+				"uniques": [],
 				"quote": "WIP"
 			},
 		]
@@ -981,37 +1272,62 @@
 			{
 				"name": "Fortress Theory IV",
 				"row": 4,
-				"prerequisites": ["Fortress Theory III"]
-				"quote": "WIP",
-			},
-			{
-				"name": "Backdrop of War III",
-				"row": 8,
-				"prerequisites": ["Backdrop of War II"],
+				"prerequisites": ["Fortress Theory III"],
 				"quote": "WIP",
 			},
 			{
 				"name": "Farming Revolution IV",
-				"row": 5,
+				"row": 15,
 				"prerequisites": ["Farming Revolution III"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Mega-Factory IV",
-				"row": 9,
-				"prerequisites": ["Mega-Factory III"],
-				"quote": "WIP"
+				"name": "Biology II",
+				"row": 16,
+				"prerequisites": ["Biology I"],
+				"quote": "WIP",
 			},
 			{
 				"name": "New World Order II",
-				"row": 6,
+				"row": 18,
 				"prerequisites": ["New World Order I"],
 				"quote": "WIP"
 			},
 			{
+				"name": "Backdrop Of War III",
+				"row": 20,
+				"prerequisites": ["Backdrop Of War II"],
+				"quote": "WIP",
+			},
+			{
+				"name": "Plastics",
+				"row": 23,
+				"prerequisites": ["Mega-Factory III"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Mega-Factory IV",
+				"row": 24,
+				"prerequisites": ["Mega-Factory III"],
+				"quote": "WIP"
+			},
+			{
 				"name": "Atomic Science",
-				"row": 10,
+				"row": 27,
 				"prerequisites": ["Atomic Way III"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Nuclear Fission",
+				"row": 28,
+				"prerequisites": ["Atomic Way III"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Electronics",
+				"row": 29,
+				"prerequisites": ["Atomic Way III"],
+				"uniques": [],
 				"quote": "WIP"
 			},
 		]	
@@ -1045,39 +1361,98 @@
 			{
 				"name": "Fortress Theory V",
 				"row": 4,
-				"prerequisites": ["Fortress Theory IV"]
+				"prerequisites": ["Fortress Theory IV"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Globalization",
-				"row": 8,
-				"prerequisites": ["Backdrop of War III"],
+				"name": "Pharmaceuticals",
+				"row": 13,
+				"prerequisites": ["Farming Revolution IV"],
+				"quote": "WIP",
+			},
+			{
+				"name": "Ecology",
+				"row": 14,
+				"prerequisites": ["Farming Revolution V"],
 				"quote": "WIP",
 			},
 			{
 				"name": "Farming Revolution V",
-				"row": 5,
+				"row": 15,
 				"prerequisites": ["Farming Revolution IV"],
-				"uniques": ["+1 population in each city"],
 				"quote": "WIP",
 			},
 			{
-				"name": "Mega-Factory V",
-				"row": 9,
-				"prerequisites": ["Mega-Factory IV"],
-				"quote": "WIP"
+				"name": "Biology III",
+				"row": 16,
+				"prerequisites": ["Biology II"],
+				"quote": "WIP",
 			},
 			{
 				"name": "New World Order III",
-				"row": 6,
+				"row": 18,
 				"prerequisites": ["New World Order II"],
 				"quote": "WIP"
 			},
 			{
-				"name": "Skys the Limit",
-				"row": 10,
+				"name": "Banking Card",
+				"row": 20,
+				"prerequisites": ["Globalization"],
+				"uniques": [
+					"+[5]% growth in all cities",
+					"+[10]% growth in capital",
+					"+15% gold in all cities"],
+				"quote": "WIP",
+			},
+			{
+				"name": "Globalization",
+				"row": 21,
+				"prerequisites": ["Backdrop Of War III"],
+				"quote": "WIP",
+			},
+			{
+				"name": "Massive Consumtion",
+				"row": 22,
+				"prerequisites": ["Backdrop Of War III","Plastics"],
+				"uniques": [
+					"Empire enter enters golden age",
+					"+[15]% growth in all cities",
+					"-50% food consumption by specialists",
+					"Training of settlers increased +50% in capital"],
+				"quote": "WIP",
+			},
+			{
+				"name": "Mega-Factory V",
+				"row": 24,
+				"prerequisites": ["Mega-Factory IV"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Genetics",
+				"row": 26,
+				"prerequisites": ["Electronics"],
+				"uniques": [],
+				"quote": "WIP"
+			},
+			{
+				"name": "Particals Physics",
+				"row": 27,
 				"prerequisites": ["Atomic Science"],
-				"uniques": ["+10% science and production in all cities"],
+				"uniques": [],
+				"quote": "WIP"
+			},
+			{
+				"name": "Nuclear Fusion",
+				"row": 28,
+				"prerequisites": ["Atomic Science","Nuclear Fission"],
+				"uniques": [],
+				"quote": "WIP"
+			},
+			{
+				"name": "Skys the Limit",
+				"row": 29,
+				"prerequisites": ["Electronics"],
+				"uniques": [],
 				"quote": "WIP"
 			},
 		]
@@ -1090,40 +1465,12 @@
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Domination Way",
-				"row": 3,
-				"uniques": ["+[25]% Production when constructing [military units]", "New military units start with [20] Experience"],
-				"prerequisites": ["End Of Behemoth","Occupied Germany","Supersonic","Fortress Theory V"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			}
-			{
-				"name": "Cultural Way",
-				"row": 6,
-				"uniques": ["50% of excess happiness added to culture towards policies","Culture cost of adopting new Policies reduced by 10%"],
-				"prerequisites": ["New World Order III","Farming Revolution V"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			}
-			{
-				"name": "Scientific Way",
-				"row": 9,
-				"uniques": ["+10% science and production in all cities","Science gained from research agreements +50%","Free Technology"],
-				"prerequisites": ["Skys the Limit","Mega-Factory V","Globalization"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			}
-		]	
-	}
-	{
-		"columnNumber": 18,
-		"era": "1945+",
-		"techCost": 17000,
-		"buildingCost": 750,
-		"wonderCost": 1250,
-		"techs": [
-			{
 				"name": "Future Tech",
-				"row": 5,
-				"prerequisites": ["Domination Way","Cultural Way","Scientific Way"],
-				"uniques": ["Who knows what the future holds?"],
+				"row": 27,
+				"prerequisites": ["Genetics","Particals Physics","Nuclear Fusion","Skys the Limit"],
+				"uniques": [
+				"Who knows what the future holds?",
+				"Can be continually researched"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			}
 		]	

@@ -1,238 +1,428 @@
-[
-	//Food
+[		// Research
+
+	{
+		"name": "Campus",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow","Hill"],
+		"science": 1,
+		"uniques": [
+            "[+2 Science] for each adjacent [Jungle]",
+			"[+2 Science] for each adjacent [Geothermal Fissure]",
+			"[+1 Science] for each adjacent [Atoll]",
+			"[+2 Science] for each adjacent [Mountain]",
+			"[+3 Science] for each adjacent [Volcano]",
+			"[+1 Science] once [Scientific Theory I] is discovered",
+			"[+1 Science] once [Scientific Theory III] is discovered",
+		"Irremovable"],
+	},
+	{
+		"name": "University",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow"],
+		"science": 1,
+		"uniques": [
+			"[+1 Science] once [Education II] is discovered",
+			"[+1 Science] once [Education III] is discovered",
+		"Irremovable"],
+	},
+	{
+		"name": "Research Center",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow"],
+		"science": 1,
+		"uniques": [
+			"[+3 Science] for each adjacent [Mine]",
+			"[+1 Science] once [Atomic Theory II] is discovered",
+			"[+1 Science] once [Atomic Theory III] is discovered",
+		"Irremovable"],
+	},
+	{
+		"name": "Spaceport",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow"],
+		"science": 1,
+		"uniques": [
+		"Irremovable"],
+	},
+
+		// Skyline
+
+	{
+		"name": "Skyline",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
+		"production": 3,
+		"culture": 3,
+		"gold": 3,
+		"science": 3,
+		"uniques": [
+			"[+2 Food] once [Ecology] is discovered",
+		"Irremovable"],
+	},
+
+		//Gold
+	
+	{
+		"name": "Commercial Hub",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
+		"gold": 1,
+		"uniques": [
+		"Irremovable"],
+	},
+
+	//
+
+	{
+		"name": "Trading Post",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Flood plains"],
+		"gold": 1,
+		"turnsToBuild": 10,
+		"techRequired": "Pre-war Economy",
+		"uniques": [],
+	},
+	{
+		"name": "Mall",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
+		"gold": 1,
+		"turnsToBuild": 20,
+		"techRequired": "Massive Consumtion",
+		"uniques": [
+			"[+2 Science] once [Banking Card] is discovered"],
+	},
+	
+		//Culture
+
+	{
+		"name": "Holy Site",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Tundra","Snow","Hill"],
+		"culture": 1,
+		"uniques": [
+		"Irremovable"],
+	},
+	{
+		"name": "Lavra",
+		"terrainsCanBeBuiltOn": ["Plains","Tundra","Snow"],
+		"culture": 1,
+		"uniques": [
+		"Irremovable"],
+	},
+	{
+		"name": "Theater Square",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Tundra","Snow"],
+		"culture": 1,
+		"uniques": [
+		"Irremovable"],
+	},
+	{
+		"name": "Entertainment Complex",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Tundra","Snow"],
+		"happiness": 1,
+		"uniques": [
+		"Irremovable"],
+	},
+
+		//Food
+
+		
+	{
+		"name": "Aqueduct",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill"],
+		"food": 1,
+		"uniques": [
+			"[+1 Food] once [Sanitation II] is discovered",
+			"[+1 Food] once [Sanitation III] is discovered"],
+	},
+
+	//
+
 	{
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
 		"food": 1,
-		"turnsToBuild": 5,
-		"uniques": ["[+1 Food] once [War Stock III] is discovered",
-		"[+1 Food] once [Pillage II] is discovered",
-		"[+1 Food] once [Anti-Hunger I] is discovered"],
+		"gold": 1,
+		"turnsToBuild": 10,
+		"uniques": [
+			"[+1 Food] once [Mechanization II] is discovered",
+			"[+1 Food] once [Ecology] is discovered",
+			"[+1 Science] once [Biology I] is discovered",
+			"[+1 Food] once [Genetics] is discovered",
+			"[+1 Food] for each adjacent [Water Pump]"],
 		"techRequired": "War Stock I",
 	},
 	{
 		"name": "Big Farm",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Flood plains"],
-		"uniques": ["[+1 Food] once [Anti-Hunger III] is discovered",
-		"[+1 Food] once [Anti-Hunger V] is discovered"],
-		"food": 5,
-		"turnsToBuild": 10,
-		"techRequired": "Anti-Hunger II",
+		"food": 2,
+		"gold": 1,
+		"uniques": [
+			"[+1 Food] once [Irrigation III] is discovered",
+			"[+1 Food] once [Ecology] is discovered",
+			"[+1 Science] once [Biology II] is discovered",
+			"[+1 Food] once [Genetics] is discovered",
+			"[+1 Food] for each adjacent [Water Pump]"],
+		"turnsToBuild": 15,
+		"techRequired": "Irrigation I",
 	},
 	{
 		"name": "Gargantic Farm",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Flood plains"],
-		"food": 5,
-		"turnsToBuild": 15,
-		"uniques": ["[+1 Food] once [Farming Revolution III] is discovered",
-		"[+1 Food] once [Farming Revolution V] is discovered"],
+		"food": 3,
+		"gold": 1,
+		"turnsToBuild": 20,
+		"uniques": [
+			"[+1 Food] once [Farming Revolution IV] is discovered",
+			"[+1 Food] once [Ecology] is discovered",
+			"[+1 Science] once [Biology III] is discovered",
+			"[+1 Food] once [Genetics] is discovered",
+			"[+1 Food] for each adjacent [Water Pump]"],
 		"techRequired": "Farming Revolution I",
 	},
+	{
+		"name": "Vineyard",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"food": 1,
+		"gold": 1,
+		"happiness": 1,
+		"turnsToBuild": 20,
+		"uniques": [],
+		"techRequired": "Farming Revolution III",
+	},
+	{
+		"name": "Water Pump",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Flood plains"],
+		"turnsToBuild": 15,
+		"uniques": [],
+		"techRequired": "Farming Revolution V",
+	},
+
 	//
+
 	{
 		"name": "Fishing Boats",
-		"terrainsCanBeBuiltOn": ["Coast"],
-		"food": 2,
-		"techRequired": "War Stock I",
-		"improvingTech": "Anti-Hunger III",
-		"improvingTechStats": {"gold": 1}
+		"resourceTerrainAllow": ["Coast","Lakes","Ocean"],
+		"turnsToBuild": 10,
+		"obsoleteTech": "Farming Revolution IV",
+		"food": 1,
+		"gold": 1,
+		"techRequired": "Animals Husbandry I",
+		"uniques": [
+			"[+1 Food] once [Animals Husbandry II] is discovered",
+			"[+1 Food] once [Animals Husbandry III] is discovered"],
+	},
+	{
+		"name": "Aqua-Farm",
+		"terrainsCanBeBuiltOn": ["Coast","Lakes","Ocean"],
+		"replaces": "Fishing Boats",
+		"turnsToBuild": 15,
+		"food": 3,
+		"gold": 1,
+		"techRequired": "Farming Revolution IV",
+		"uniques": [
+			"Cannot be built on bonus resource",
+			"[+2 Food] once [Pharmaceuticals] is discovered",
+			"[+1 Food] once [Genetics] is discovered"],
 	},
 	{
 		"name": "Pasture",
-		"resourceTerrainAllow": ["Plains","Grassland","Desert","Desert Hill","Hill"],
-		"turnsToBuild": 8,
-		"food": 2,
-		"improvingTech": "Pillage III",
-		"improvingTechStats": {"food": 1},
+		"resourceTerrainAllow": ["Plains","Grassland","Desert","Sand Dune","Hill"],
+		"turnsToBuild": 10,
+		"food": 1,
+		"gold": 1,
+		"techRequired": "Animals Husbandry I",
+		"uniques": [
+			"[+1 Food] once [Animals Husbandry II] is discovered",
+			"[+1 Food] once [Animals Husbandry III] is discovered",
+			"[+3 Food] once [Pharmaceuticals] is discovered",
+			"[+1 Food] once [Genetics] is discovered"],
 	},
 	{
 		"name": "Plantation",
-		"turnsToBuild": 6,
-		"food": 2,
-		"improvingTech": "Anti-Hunger V",
-		"improvingTechStats": {"food": 1},
+		"turnsToBuild": 10,
+		"food": 1,
+		"gold": 1,
+		"techRequired": "War Stock I",
+		"uniques": [
+			"[+1 Food] once [Animals Husbandry II] is discovered",
+			"[+1 Food] once [Animals Husbandry III] is discovered",
+			"[+1 Food] once [Genetics] is discovered"],
 	},
 	{
 		"name": "Camp",
 		"resourceTerrainAllow": ["Forest"],
-		"turnsToBuild": 7,
-		"food": 2,
-		"improvingTech": "Farming III",
-		"improvingTechStats": {"gold": 1},
-	},
-	//Gold
-	{
-		"name": "Trading Post",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
-		"gold": 1,
-		"turnsToBuild": 5,
-		"techRequired": "Pre-war Economy",
-		"uniques": ["[+1 Gold] once [War Economy II] is discovered",
-		"[+1 Gold] once [Blocus II] is discovered",
-		"[+1 Gold] once [War Effort I] is discovered"],
-	},
-	{
-		"name": "Commercial Hub",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
-		"gold": 3,
 		"turnsToBuild": 10,
-		"techRequired": "War Effort II",
-		"uniques": ["[+1 Gold] once [War Effort III] is discovered",
-		"[+1 Gold] once [Budgetary Cuts II] is discovered"],
+		"food": 1,
+		"gold": 1,
+		"techRequired": "Hunting I",
+		"uniques": [
+			"[+1 Food] once [Hunting II] is discovered",
+			"[+1 Food] once [Hunting III] is discovered"],
 	},
-	{
-		"name": "Mall",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
-		"gold": 5,
-		"turnsToBuild": 15,
-		"techRequired": "Budgetary Cuts III",
-		"uniques": ["[+1 Gold] once [Backdrop of War II] is discovered",
-		"[+1 Gold] once [Globalization] is discovered"],
-	},
-	//Production
-	{
-		"name": "Mine",
-		"production": 1,
-		"turnsToBuild": 5,
-		"techRequired": "Industrialization I",
-		"uniques": ["[+1 Production] once [Industrialization III] is discovered",
-		"[+1 Production] once [Massive Production II] is discovered",
-		"[+1 Production] once [Massive Production IV] is discovered"],
-	},
+
+		// Production
+
 	{
 		"name": "Industrial Zone",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
-		"production": 3,
-		"turnsToBuild": 10,
-		"techRequired": "Massive Production V",
-		"uniques": ["[+1 Production] once [Heavy Production I] is discovered",
-		"[+1 Production] once [Heavy Production III] is discovered"]
+		"production": 1,
+		"uniques": [
+		"Irremovable"],
+	},
+	{
+		"name": "Hansa",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
+		"production": 1,
+		"uniques": [
+		"Irremovable"],
 	},
 	{
 		"name": "Heavy Industry",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
-		"production": 5,
-		"turnsToBuild": 15,
-		"techRequired": "Mega-Factory I",
-		"uniques": ["[+1 Production] once [Mega-Factory III] is discovered",
-		"[+1 Production] once [Mega-Factory V] is discovered"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow"],
+		"production": 1,
+		"uniques": [
+		"Irremovable"],
+	},
+
+	//
+
+	{
+		"name": "Blast Furnace",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow"],
+		"production": 1,
+		"uniques": [
+		"Irremovable"],
+	},
+	{
+		"name": "Refinery",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow"],
+		"production": 1,
+		"uniques": [
+		"Irremovable"],
+	},
+
+	//
+
+	{
+		"name": "Mine",
+		"resourceTerrainAllow": ["Coast"],
+		"production": 1,
+		"turnsToBuild": 10,
+		"techRequired": "Mining I",
+		"uniques": [
+			"[+1 Production] once [Mining II] is discovered",
+			"[+1 Production] once [Mining III] is discovered"],
 	},
 	{
 		"name": "Mineral Exploitation",
-		"terrainsCanBeBuiltOn": ["Desert Hill","Hill"],
-		"production": 2,
-		"turnsToBuild": 7,
-		"techRequired": "Heavy Production III",
-		"uniques": ["[+1 Production] once [Mega-Factory II] is discovered",
-		"[+1 Production] once [Mega-Factory IV] is discovered"],
-	},
-	//
-	{
-		"name": "Lumber Mill",
-		"terrainsCanBeBuiltOn": ["Jungle"],
+		"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Industrialization I",
+		"turnsToBuild": 10,
+		"techRequired": "Mining I",
+		"uniques": [
+			"[+1 Production] once [Mining II] is discovered",
+			"[+1 Production] once [Mining III] is discovered"],
+	},
+
+	//
+
+	{
+		"name": "Forestry House",
+		"production": 1,
+		"turnsToBuild": 5,
+		"techRequired": "Lumber I",
+		"uniques": [
+			"[+1 Production] once [Lumber II] is discovered",
+			"[+1 Production] once [Lumber III] is discovered"],
 	},
 	{
 		"name": "Sawmill",
-		"terrainsCanBeBuiltOn": ["Forest"],
-		"production": 2,
-		"turnsToBuild": 12,
-		"techRequired": "Massive Production III",
-		"uniques": ["[+1 Production] once [Heavy Production I] is discovered",
-		"[+1 Production] once [Mega-Factory I] is discovered",
-		"[+1 Production] once [Mega-Factory V] is discovered"]
+		"terrainsCanBeBuiltOn": ["Forest","Jungle","Roffed Forest","Balsam"],
+		"production": 1,
+		"turnsToBuild": 5,
+		"techRequired": "Lumber I",
+		"uniques": [
+			"[+1 Production] once [Lumber II] is discovered",
+			"[+1 Production] once [Lumber III] is discovered"],
 	},
+
 	//
-	{
-		"name": "Hydroelectric Dam",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Desert Hill","Hill","Flood plains"],
-		"turnsToBuild": 15,
-		"techRequired": "Mega-Factory I",
-		"uniques": ["Must be next to [Mountain]",
-		"[+2 Production] for each adjacent [Mountain]",
-		"[+3 Production] for each adjacent [River]"],
-	},
-	//
+
 	{
 		"name": "Quarry",
 		"turnsToBuild": 10,
-		"production": 2,
-		"techRequired": "Industrialization I",
-		"uniques": ["[+1 Production] once [Industrialization II] is discovered",
-		"[+1 Production] once [Massive Production I] is discovered",
-		"[+1 Production] once [Massive Production III] is discovered"],
+		"production": 1,
+		"techRequired": "Mining I",
+		"uniques": [
+			"[+1 Production] once [Mining II] is discovered",
+			"[+1 Production] once [Mining III] is discovered"],
 	},
 	{
 		"name": "Pump Jack",
+		"resourceTerrainAllow": ["Coast","Ocean"],
 		"turnsToBuild": 10,
-		"production": 2,
-		"techRequired": "Industrialization I",
-		"uniques": ["[+1 Production] once [Massive Production I] is discovered",
-		"[+1 Production] once [Massive Production IV] is discovered",
-		"[+1 Production] once [Heavy Production II] is discovered",
-		"[+1 Production] once [Massive-Factory II] is discovered"],
+		"production": 1,
+		"techRequired": "Massive Production I",
+		"uniques": [],
 	},
 	{
 		"name": "Gas Pump",
 		"turnsToBuild": 10,
-		"production": 2,
-		"techRequired": "Industrialization II",
-		"uniques": ["[+1 Production] once [Massive Production II] is discovered",
-		"[+1 Production] once [Massive Production V] is discovered",
-		"[+1 Production] once [Heavy Production III] is discovered",
-		"[+1 Production] once [Massive-Factory III] is discovered"],
+		"production": 1,
+		"techRequired": "Mega-Factory I",
+		"uniques": [
+			"[+1 Production] once [Mega-Factory II] is discovered",
+			"[+1 Production] once [Mega-Factory III] is discovered"],
 	},
-	// Resource-specific
+
+		// Production +
+
+	{
+		"name": "Dam",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Flood plains"],
+		"production": 1,
+		"uniques": [
+			"[+1 Production] once [Mega-Factory V] is discovered",
+			"Must be next to [Mountain]",
+			"[+2 Production] for each adjacent [Mountain]",
+			"[+3 Production] for each adjacent [River]",
+		"Irremovable"],
+	},
+	{
+		"name": "Train Station",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Tundra","Snow"],
+		"production": 1,
+		"uniques": [
+			"[+1 Production] for each adjacent [Railroad]"
+		"Irremovable"],
+	},
+	{
+		"name": "Wind Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Hill","Ocean","Coast"],
+		"techRequired": "Plastics",
+		"production": 1,
+		"turnsToBuild": 15,
+		"uniques": [
+			"[+1 Production] once [Mega-Factory V] is discovered",
+			"[+1 Production] for each adjacent [Coast]",
+			"[+1 Production] for each adjacent [Ocean]"],
+	},
+	{
+		"name": "Solar Panels",
+		"terrainsCanBeBuiltOn": ["Desert"],
+		"techRequired": "Mega-Factory V",
+		"production": 1,
+		"turnsToBuild": 15,
+		"uniques": [
+			"[+1 Production] once [Electronics] is discovered",
+			"[+1 Production] for each adjacent [Desert]"],
+	},
+
+		// Resource-specific
 	{
 		"name": "Archaeological Dig",
-		"techRequired": "Study IV",
-		"uniques": ["[+1 Science] once [Study V] is discovered",],
+		"resourceTerrainAllow": ["Grassland","Plains","Forest","Jungle","Desert"],
+		"uniques": [
+			"[+1 Science] once [Archaeology II] is discovered",
+			"[+1 Science] once [Archaeology III] is discovered",
+			"[+1 Culture] once [Archaeology II] is discovered",
+			"[+1 Culture] once [Archaeology III] is discovered"],
 	},
-	{
-		"name": "Sky Line",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
-		"turnsToBuild": 20,
-		"production": 4,
-		"culture": 3,
-		"gold": 5,
-		"science": 4,
-		"techRequired": "Future Tech",
-	},
-	//Research
-	{
-		"name": "Campus",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
-		"science": 1,
-		"turnsToBuild": 5,
-		"techRequired": "Study I",
-		"uniques": ["Must be next to [Mountain]","[+2 Science] for each adjacent [Mountain]",
-		"[+1 Science] once [Study III] is discovered",
-		"[+1 Science] once [Study V] is discovered",
-		"[+1 Science] once [Science Supply II] is discovered"],
-	},
-	{
-		"name": "College",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
-		"science": 3,
-		"turnsToBuild": 10,
-		"techRequired": "Science Supply III",
-		"uniques": ["Must be next to [Mountain]","[+2 Science] for each adjacent [Mountain]",
-		"[+1 Science] once [Scientific Rush I] is discovered",
-		"[+1 Science] once [Scientific Rush III] is discovered"],
-	},
-	{
-		"name": "Research Center",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
-		"science": 5,
-		"turnsToBuild": 15,
-		"techRequired": "Atomic Way I",
-		"uniques": ["Must be next to [Mountain]","[+2 Science] for each adjacent [Mountain]",
-		"[+1 Science] once [Atomic Way III] is discovered",
-		"[+1 Science] once [Skys the Limit] is discovered"],
-	},
-	// Military improvement
+
+		// Military improvement
 	{
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow"],
@@ -240,9 +430,8 @@
 		"gold": -1,
 		"food": -1,
 		"techRequired": "Basic Defence II",
-		"improvingTech": "Improved Defence III",
-		"improvingTechStats": {"gold": -2}
-		"uniques": ["Gives a defensive bonus of [40]%"]
+		"uniques": [
+			"Gives a defensive bonus of [40]%"],
 	},
 	{
 		"name": "Bunker",
@@ -251,9 +440,8 @@
 		"gold": -3,
 		"food": -1,
 		"techRequired": "Improved Defence II",
-		"improvingTech": "Civil Theory III",
-		"improvingTechStats": {"gold": -4}
-		"uniques": ["Gives a defensive bonus of [80]%"]
+		"uniques": [
+			"Gives a defensive bonus of [80]%"]
 	},
 	{
 		"name": "Ligne Maginot",
@@ -261,9 +449,9 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow"],
 		"gold": -4,
 		"food": -1,
-		"improvingTech": "Fortress Theory I",
-		"improvingTechStats": {"gold": -3},
-		"uniques": ["Gives a defensive bonus of [125]%","Deal 30 damage to adjacent enemy units"]
+		"uniques": [
+			"Gives a defensive bonus of [125]%",
+			"Deal 30 damage to adjacent enemy units"]
 	},
 	{
 		"name": "Trenches",
@@ -271,7 +459,9 @@
 		"turnsToBuild": 5,
 		"food": -2,
 		"techRequired": "Basic Defence III",
-		"uniques": ["Gives a defensive bonus of [40]%","Can be built outside your borders"]
+		"uniques": [
+			"Gives a defensive bonus of [40]%",
+			"Can be built outside your borders"]
 	},
 	{
 		"name": "Land Mines",
@@ -280,119 +470,167 @@
 		"gold": -1,
 		"food": -3,
 		"techRequired": "Improved Defence I",
-		"uniques": ["Gives a defensive bonus of [-40]%","Can be built outside your borders"]
+		"uniques": [
+			"Gives a defensive bonus of [-40]%",
+			"Can be built outside your borders"]
 	},
 	{
 		"name": "Sea Mines",
 		"terrainsCanBeBuiltOn": ["Ocean"],
 		"gold": -1,
 		"food": -2,
-		"uniques": ["Gives a defensive bonus of [-40]%","Can be built outside your borders","Great Improvement"]
+		"uniques": [
+			"Gives a defensive bonus of [-40]%",
+			"Can be built outside your borders"]
 	},
 	{
 		"name": "Steel Piles",
-		"terrainsCanBeBuiltOn": ["Coast","Atoll","Lakes"],
+		"terrainsCanBeBuiltOn": ["Coast","Atoll","Lakes","Reef"],
 		"gold": -1,
 		"food": -1,
-		"uniques": ["Gives a defensive bonus of [-30]%","Can be built outside your borders","Great Improvement"]
+		"uniques": [
+			"Gives a defensive bonus of [-30]%",
+			"Can be built outside your borders"]
 	},
 
-	// Transportation
+		// Transportation
 	{
 		"name": "Road",
 		"turnsToBuild": 4,
-		"techRequired": "Land Forces",
-		"uniques": ["Can be built outside your borders"]
+		"techRequired": "Industrialization I",
+		"uniques": [
+			"Can be built outside your borders"]
 	},
 	{
 		"name": "Railroad",
 		"turnsToBuild": 4,
-		"techRequired": "Blitz Tactic V",
-		"uniques": ["Can be built outside your borders"]
+		"techRequired": "Great Improvement I",
+		"uniques": [
+			"Can be built outside your borders"]
 	},
 	
-	// Removals
+		// Removals
 	{
 		"name": "Remove Forest",
-		"turnsToBuild": 4,
+		"turnsToBuild": 5,
 		"terrainsCanBeBuiltOn": ["Forest"],
-		"techRequired": "War Stock I",
-		"uniques": ["Can be built outside your borders"]
+		"techRequired": "Lumber I",
+		"uniques": [
+			"Can be built outside your borders"]
 	},
 	{
 		"name": "Remove Jungle",
-		"turnsToBuild": 7,
+		"turnsToBuild": 10,
 		"terrainsCanBeBuiltOn": ["Jungle"],
-		"techRequired": "War Stock II",
-		"uniques": ["Can be built outside your borders"]
+		"techRequired": "Lumber II",
+		"uniques": [
+			"Can be built outside your borders"]
 	},
 	{
-		"name": "Remove Fallout",
-		"turnsToBuild": 8,
-		"terrainsCanBeBuiltOn": ["Fallout"],
-		"techRequired": "Domination Way",
-		"uniques": ["Can be built outside your borders"]
+		"name": "Remove Roffed Forest",
+		"turnsToBuild": 10,
+		"terrainsCanBeBuiltOn": ["Roffed Forest"],
+		"techRequired": "War Stock III",
+		"uniques": [
+			"Can be built outside your borders"],
+	},
+	{
+		"name": "Remove Balsam",
+		"turnsToBuild": 5,
+		"terrainsCanBeBuiltOn": ["Balsam"],
+		"techRequired": "Lumber III",
+		"uniques": [
+			"Can be built outside your borders"],
 	},
 	{
 		"name": "Remove Marsh",
-		"turnsToBuild": 6,
+		"turnsToBuild": 10,
 		"terrainsCanBeBuiltOn": ["Marsh"],
+		"techRequired": "War Stock II",
+		"uniques": [
+			"Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Swamp",
+		"turnsToBuild": 10,
+		"terrainsCanBeBuiltOn": ["Swamp"],
+		"techRequired": "War Stock II",
+		"uniques": [
+			"Can be built outside your borders"],
+	},
+	{
+		"name": "Remove Oasis",
+		"turnsToBuild": 5,
+		"terrainsCanBeBuiltOn": ["Oasis"],
 		"techRequired": "War Stock III",
-		"uniques": ["Can be built outside your borders"]
+		"uniques": [
+			"Can be built outside your borders"],
+	},
+	{
+		"name": "Remove Fallout",
+		"turnsToBuild": 15,
+		"terrainsCanBeBuiltOn": ["Fallout"],
+		"techRequired": "Atomic Science",
+		"uniques": [
+			"Can be built outside your borders"]
 	},
 
-	// These are unique and have unique in-game checks related to them
+		// These are unique and have unique in-game checks related to them
 	{
 		"name": "Remove Road",
 		"turnsToBuild": 2,
-		"uniques": ["Can be built outside your borders"]
+		"uniques": [
+			"Can be built outside your borders"]
 	},
 	{
 		"name": "Remove Railroad",
 		"turnsToBuild": 2,
-		"uniques": ["Can be built outside your borders"]
+		"uniques": [
+			"Can be built outside your borders"]
 	},
 	{
 		"name": "Cancel improvement order",
-		"uniques": ["Can be built outside your borders"]
+		"uniques": [
+			"Can be built outside your borders"]
 	},
 	
-	// Great Person improvements
+		// Great Person improvements
 	{
 		"name": "Academy",
 		"science": 7,
-		"uniques": ["Great Improvement"],
-		"improvingTech": "Scientific Rush II",
-		"improvingTechStats": {"science": 2}
+		"uniques": [
+			"Great Improvement"],
 	},
 	{
 		"name": "Landmark",
 		"culture": 8,
-		"uniques": ["Great Improvement"],
-		"improvingTech": "New World Order",
-		"improvingTechStats": {"culture": 2}
+		"uniques": [
+			"Great Improvement"],
 	},
 	{
 		"name": "Manufactory",
 		"production": 8,
 		"improvingTech": "Mega-Factory V",
-		"uniques": ["Great Improvement"],
-		"improvingTechStats": {"production": 2}
+		"uniques": [
+			"Great Improvement"],
 	},
 	{
 		"name": "Customs house",
 		"gold": 8,
 		"improvingTech": "Budgetary cuts III",
-		"uniques": ["Great Improvement"],
-		"improvingTechStats": {"gold": 2}
+		"uniques": [
+			"Great Improvement"],
 	},
 	{
 		"name": "Citadel",
-		"uniques": ["Gives a defensive bonus of [100]%", "Deal 30 damage to adjacent enemy units", "Great Improvement"],
+		"uniques": [
+			"Gives a defensive bonus of [100]%",
+			"Deal 30 damage to adjacent enemy units",
+			"Great Improvement"],
 		// TODO (G&K): adds every tile around it to your territory
 	},
 
-	// Military improvement
+		// Other
 	{ "name": "Ancient ruins" },
 	{ "name": "City ruins" },
 	{ "name": "Barbarian encampment" }

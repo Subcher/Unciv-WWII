@@ -34,8 +34,7 @@
 		"uniques": [
 		"[+1 Production] per [5] population in all cities",
 		"Double quantity of [Oil] produced",
-		"Double quantity of [Cattle] produced"
-		], 
+		"Double quantity of [Cattle] produced"], 
 		
 		"cities": [
 		"Washington",
@@ -120,7 +119,7 @@
 		"uniques": [
 		"[+1 Production] from every [Strategic resource]",
 		"Double quantity of [Iron] produced",
-		"Double quantity of [Potato] produced"]
+		"Double quantity of [Potato] produced"],
 		
 		"cities": [
 		"Moscow",
@@ -183,8 +182,8 @@
 		
 		"tradeRequest": "It would be in your best interest, to carefully consider this proposal.",
 		
-		"outerColor": [218, 70, 43],
-		"innerColor": [255, 255, 255],
+		"outerColor": [175,175,175],
+		"innerColor": [24,24,24],
 		
 		"uniqueName": "Third Reich",
 		"uniques": [
@@ -276,7 +275,7 @@
 		"uniques": [
 		"+2 movement for all naval units",
 		"Pay only one third the usual cost for naval unit maintenance",
-		"50% chance of capturing defeated Barbarian naval units and earning 25 Gold"]
+		"50% chance of capturing defeated Barbarian naval units and earning 25 Gold"],
 		
 		"cities": [
 		"London",
@@ -342,10 +341,13 @@
 		
 		"uniqueName": "New Regime",
 		"uniques": [
+		"Receive free [Ligne Maginot Worker] when you discover [Basic Defence I]",
+		"Receive free [Ligne Maginot Worker] when you discover [Basic Defence II]",
+		"Receive free [Ligne Maginot Worker] when you discover [Basic Defence III]",
 		"Double quantity of [Wheat] produced",
 		"Double quantity of [Wine] produced",
 		"City-State Influence degrades at half rate",
-		"City-State Influence recovers at twice the normal rate"]
+		"City-State Influence recovers at twice the normal rate"],
 		
 		"cities": [
 		"Paris",
@@ -531,335 +533,377 @@
 			"Gallipoli",
 			"Otranto"]
 	},
-	{
-		"name": "Poland",
-		"leaderName": "Władysław Sikorski",
-		"adjective": ["Polish"],
-		"startBias": ["Plains"],
-		"preferredVictoryType": "Domination",
 
-		"startIntroPart1": "All hail Władysław Sikorski, protector of Poland. The nation's economy is shambled and his people are demoralized by the wars of your predecessor. And yet, your gouvernement marked the beginning of a new era, with affluence and security afforded only by way of your careful governance. Among your most notable achievements, the code of laws you established gave legal authority to many of the accepted customs of the time, strengthening the nation.",
-		"startIntroPart2": "Honored Władysław Sikorski, the people have long admired the steady hand of governance you wield. Can you return the nation to a golden age of prosperity? Will you conquer all those who oppose you, or strive for peaceful relations? Can you build a civilization that will stand the test of time?",
-		
-		"declaringWar": "Revenge !",
-		"attacked": "My armies and allies own will grind you to dust!",
-		"defeated": "Celebrate your victory well...it might be your last one.",
-		"introduction": "I, Władysław Sikorski, welcome you to the lands of Poland.",
-		
-		"neutralHello": "I salute you.",
-		"hateHello": "What are you looking for here?",
-		
-		"tradeRequest": "How do you like my offer?",
-		
-		"outerColor": [247, 171, 171],
-		"innerColor": [255, 255, 255],
-		
-		"uniqueName": "Emerging",
-		"uniques": [
-		"[+10 Culture] in capital",
-		"[+2 Food] from every [Farm]",
-		"[+2 Food] from every [Big Farm]",
-		"Culture cost of adopting new Policies reduced by 10%"],
-		
-		"cities": [
-		"Warsaw",
-		"Kraków",
-		"Łódź",
-		"Wroclaw",
-		"Poznań",
-		"Gdansk",
-		"Szczecin",
-		"Bydgoszcz",
-		"Lublin",
-		"Kaunas",
-		"Katowice",
-		"Białystok",
-		"Gdynia",
-		"Świdnica",
-		"Częstochowa",
-		"Radom",
-		"Toruń",
-		"Kielce",
-		"Gliwice",
-		"Klaipėda",
-		"Bytom",
-		"Olsztyn",
-		"Rzeszów",
-		"Ruda Śląska",
-		"Bielsko-Biala",
-		"Rybnik",
-		"Płock",
-		"Elbląg",
-		"Gorzów Wielkopolski",
-		"Opole",
-		"Šiauliai",
-		"Wałbrzych",
-		"Zielona Góra",
-		"Włocławek"]
-	},
 	//City-States
+
 	{
-		"name": "Rio de Janeiro",
-		"adjective": ["Carioca"],
+		"name": "Brazil",
+		"adjective": ["Brasilian"],
 		"cityStateType": "Maritime",
-		"startBias": ["Coast"],
+		"startBias": ["Jungle"],
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "You can see how fruitless this will be for you... right?",
 		"defeated": "May God grant me these last wishes - peace and prosperity for Brazil.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [211, 220, 103],
-		"cities": ["Rio de Janeiro"]
+		"outerColor": [75,188,0],
+		"innerColor": [248,217,2],
+		"uniques": [
+			"Receive free [City State Settler] when you discover [War Stock II]",
+			"Receive free [City State Settler] when you discover [Pillage I]"
+			"[+2 Production] from every [Jungle]"],
+		"cities": ["Rio de Janeiro","Sao Paulo","Salvador"],
 	},
 	{
-		"name": "Antwerp",
-		"adjective": ["Antwerp"],
-		"cityStateType": "Mercantile",
-		"startBias": ["Coast"],
+		"name": "Poland",
+		"adjective": ["Polish"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Grassland"],
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [194,97,255],
-		"cities": ["Antwerp"]
+		"declaringWar": "I must protect the interests of Poland. Surrender quickly so that this may end without bloodshed.",
+		"attacked": "So, you show your true nature: a serpent lying in the grass… easily trampled.",
+		"defeated": "No, I am not ready to leave God’s service. I am just beginning his good work!",
+		"outerColor": [232, 67, 67],
+		"innerColor": [255, 255, 255],
+		"uniques": [
+			"Receive free [City State Settler] when you discover [War Stock II]",
+			"Receive free [City State Settler] when you discover [Pillage I]"],
+		"cities": ["Warsaw","Kraków","Łódź"],
 	},
 	{
-		"name": "Tyre",
-		"adjective": ["Tyrian"],
-		"cityStateType": "Mercantile",
-		"startBias": ["Coast"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,97,255],
-		"cities": ["Tyre"]
-	},
-	{
-		"name": "Ur",
-		"adjective": ["Ur"],
+		"name": "Canada",
+		"adjective": ["Canadian"],
 		"cityStateType": "Maritime",
-		"startBias": ["Coast"],
+		"startBias": ["Tundra"],
 
-		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
-		"attacked": "Why do we fight? Because Inanna demands it. Now, witness the power of the Sumerians!",
-		"defeated": "What treachery has struck us? No, what evil?",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,69,0],
-		"cities": ["Ur"]
+		"declaringWar": "As an unstinting malignancy defines your relationship to Canada, we have no recourse than war.",
+		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.",
+		"defeated": "So ends our dream of a Canada that might have been. Our people are good-hearted. Rule with mercy,",
+		"outerColor": [249,249,249],
+		"innerColor": [205,0,1],
+		"uniques": [
+		"Receive free [City State Settler] when you discover [War Stock II]",
+		"Receive free [City State Settler] when you discover [Pillage I]",
+		"[+1 Food] from every [Tundra]",
+		"[+1 Production] from every [Mine]",
+		"[+1 Production] from every [Lumber Mill]",
+		"[+1 Food] from every [Camp]"],
+		"cities": ["Ottawa","Toronto","Montréal"],
 	},
 	{
-		"name": "Genoa",
-		"adjective": ["Genoese"],
+		"name": "Arabia",
+		"adjective": ["Arabian"],
 		"cityStateType": "Mercantile",
-		"startBias": ["Coast"],
+		"startBias": ["Desert"],
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [45,255,86],
-		"cities": ["Genoa"]
+		"declaringWar": "It is a shame that we must resort to violence, it is not the custom of kings to kill kings.",
+		"attacked": "I warn you against making a habit of shedding blood. Blood never sleeps.",
+		"defeated": "This is not victory. 'Victory' is changing the hearts of your opponents; through gentleness, through kindness.",
+		"outerColor": [ 41,83,42],
+		"innerColor": [146,221,9],
+		"uniques": [
+		"Receive free [City State Settler] when you discover [War Stock II]",
+		"Receive free [City State Settler] when you discover [Pillage I]",
+		"[Great Artist] is earned [50]% faster"],
+		"cities": ["Mecca","Medina","Damascus"],
 	},
 	{
-		"name": "Kabul",
-		"adjective": ["Kabul"],
+		"name": "China",
+		"adjective": ["Chinese"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Grassland"],
+	
+		"declaringWar": "You are a seed of evil. You must be destroyed.",
+		"attacked": "You have asked for war and I will give it to you.",
+		"defeated": "I never thought this could happen… not like this.",
+		"outerColor": [12, 46, 156],
+		"innerColor": [242, 19, 19],
+		"uniques": [
+		"Receive free [City State Settler] when you discover [War Stock II]",
+		"Receive free [City State Settler] when you discover [Pillage I]",
+		"+[50]% [Happiness] from every [Palace]"],
+		"cities": ["Xi'an","Beijing","Taiyuan"],
+	},
+	{
+		"name": "Egypt",
+		"adjective": ["Egyptian"],
+		"cityStateType": "Maritime",
+		"startBias": ["Flood plains"],
+		
+		"declaringWar": "I have had enough with you. May Amun Ra guide us!",
+		"attacked": "Hah! Osiris will be pleased to welcome my enemies.",
+		"defeated": "Egypt is lost. If I can't embrace my love, I will embrace the asps.",
+		"outerColor": [2,79,80],
+		"innerColor": [251,236,127],
+		"uniques": [
+		"Receive free [City State Settler] when you discover [War Stock II]",
+		"Receive free [City State Settler] when you discover [Pillage I]",
+		"+[10]% Production when constructing [Buildings]"],
+		"cities": ["Thebes","Memphis","Heliopolis"],
+	},
+	{
+		"name": "Australia",
+		"adjective": ["Australian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, war is upon us.",
+		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
+		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
+		"outerColor": [21,108,49],
+		"innerColor": [248,217,2],
+		"uniques": [
+		"Receive free [City State Settler] when you discover [War Stock II]",
+		"Receive free [City State Settler] when you discover [Pillage I]",
+		],
+		"cities": ["Canberra","Sydney","Launceston"],
+	},
+	{
+		"name": "Ethiopia",
+		"adjective": ["Ethiopian"],
+		"cityStateType": "Cultured",
+		"startBias": ["Hill"],
+		
+		"declaringWar": "Your actions insult the people of Ethiopia, and for that you must pay a heavy price.",
+		"attacked": "Do you not know that the Lion of Judah has always conquered? Well, you will learn soon enough.",
+		"defeated": "Do you think God abandoned Ethiopia? Do you think his favor rests on you? Do not gloat in your victory today.",
+		"outerColor": [248,217,2],
+		"innerColor": [21,108,49],
+		"uniques": [
+		"Receive free [City State Settler] when you discover [War Stock II]",
+		"Receive free [City State Settler] when you discover [Pillage I]",
+		"+[20]% Strength if within [2] tiles of a [Hill]",
+		"[+1 Culture] from each Trade Route"],
+		"cities": ["Addis Ababa","Gondar","Harar"],
+	},
+	{
+		"name": "Greece",
+		"adjective": ["Greek"],
+		"startBias": ["Hill"],
 		"cityStateType": "Cultured",
 		
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Unacceptable!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [153,0,76],
-		"cities": ["Kabul"]
+		"declaringWar": "Now, we will test your strength! Prepare yourselves!",
+		"attacked": "You must not know: Spartans only return with their shield, or on it.",
+		"defeated": "Ares has abandoned us. Sparta is defeated",
+		"outerColor": [115,52,44],
+		"innerColor": [190,217,220],
+		"uniques": [
+		"Receive free [City State Settler] when you discover [War Stock II]",
+		"Receive free [City State Settler] when you discover [Pillage I]",
+		"Earn [50]% of [military] opponent's [Strength] as [Gold] for kills"],
+		"cities": ["Athens","Sparta","Corinth"],
 	},
 	{
-		"name": "Sidon",
-		"adjective": ["Sidon"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "What a fine battle! Sidon is willing to serve you!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [250,128,114],
-		"cities": ["Sidon"]
-	},
-	{
-		"name": "Almaty",
-		"adjective": ["Almaty"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "How could we fall to the likes of you?!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [152,0,241],
-		"cities": ["Almaty"]
-	},
-	{
-		"name": "Singapore",
-		"adjective": ["Singaporean"],
+		"name": "Hungary",
+		"adjective": ["Hungarian"],
+		"startBias": ["Geothermal Fissure"],
 		"cityStateType": "Mercantile",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Perhaps, in another world, we could have been friends...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,255,0],
-		"cities": ["Singapore"]
+		
+		"declaringWar": "Your insolence has provoked this war, and I shall be happy to lead the Black Army to victory over you.",
+		"attacked": "Surely you had to know that one day there would be war between us.",
+		"defeated": "Today you wear the victor's laurels, but can you keep what you have taken?",
+		"outerColor": [21,108,49],
+		"innerColor": [254,129,19],
+		"uniques": [
+		"Receive free [City State Settler] when you discover [War Stock II]",
+		"Receive free [City State Settler] when you discover [Pillage I]",
+		],
+		"cities": ["Buda","Debrecen","Esztergom"],
 	},
 	{
-		"name": "Zanzibar",
-		"adjective": ["Zanzibar"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,153,255],
-		"cities": ["Zanzibar"]
-	},
-	{
-		"name": "Cape Town",
-		"adjective": ["Cape Town"],
+		"name": "India",
+		"adjective": ["Indian"],
+		"startBias": ["Hill"],
 		"cityStateType": "Maritime",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I have failed. May you, at least, know compassion towards our people.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,153,153],
-		"cities": ["Cape Town"]
+		"declaringWar": "I can engage in this war without sacrificing morals. Don't ask me how; you wouldn't understand.",
+		"attacked": "My attempts to avoid violence have failed. An eye for an eye only makes the world blind.",
+		"defeated": "You can chain me, you can torture me, you can even destroy this body, but you will never imprison my mind.",
+		"outerColor": [53,0,103],
+		"innerColor": [9,192,155],
+		"uniques": [
+		"Receive free [City State Settler] when you discover [War Stock II]",
+		"Receive free [City State Settler] when you discover [Pillage I]",
+		"[+1 Food] in all cities",
+		"[+1 Food] from each Trade Route"],
+		"cities": ["Delhi","Mumbai","Vijayanagara"],
 	},
 	{
-		"name": "Kathmandu",
-		"adjective": ["Kathmandu"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We... defeated? No... we had so much work to do!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [151,125,0],
-		"cities": ["Kathmandu"]
-	},
-	{
-		"name": "Hanoi",
-		"adjective": ["Hanoi"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "So this is how it feels to die...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [0,0,255],
-		"cities": ["Hanoi"]
-	},
-	{
-		"name": "Quebec City",
-		"adjective": ["Québécois"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We were too weak to protect ourselves...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [51,102,0],
-		"cities": ["Quebec City"]
-	},
-	{
-		"name": "Helsinki",
-		"adjective": ["Helsinki"],
+		"name": "Kongo",
+		"adjective": ["Kongolese"],
+		"startBias": ["Jungle","Forest"],
 		"cityStateType": "Maritime",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,178,102],
-		"cities": ["Helsinki"]
-	},
-	{
-		"name": "Kuala Lumpur",
-		"adjective": ["KLite"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Today, the Malay people obey you, but do not think this is over...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [0,102,102],
-		"cities": ["Kuala Lumpur"]
-	},
-	{
-		"name": "Manila",
-		"adjective": ["Manilan"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Ah, Gods! Why have you forsaken us?",
-		"outerColor": [0, 0, 0],
-		"innerColor": [96,96,96],
-		"cities": ["Manila"]
-	},
-	{
-		"name": "Lhasa",
-		"translatedName": "Lhasa",
-		"adjective": ["tibetano"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Perhaps now we will find peace in death...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [204,102,0],
-		"cities": ["Lhasa"]
-	},
-	{
-		"name": "Vancouver",
-		"translatedName": "Vancouver",
-		"adjective": ["Vancouverite"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with Canada, we can have no recourse but war!",
-		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.",
-		"defeated": "I regret not defending my country to the last, although it was not of use.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [0,255,128],
-		"cities": ["Vancouver"]
-	},
-	{
-		"name": "M'Banza-Kongo",
-		"adjective": ["M'Banza-Kongo"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to Kongo - not to my people!",
-		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
+		"declaringWar": "We are no strangers to war. You have strayed from God's path, and now we will correct it.",
+		"attacked": "Do you really think you can walk over us so easily? I will not let it happen. Not to Kongo - not to my people!",
 		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,128,0],
-		"cities": ["M'Banza-Kongo"]
+		"outerColor": [248,217,2],
+		"innerColor": [205,0,1],
+		"uniques": [
+		"Receive free [City State Settler] when you discover [War Stock II]",
+		"Receive free [City State Settler] when you discover [Pillage I]",
+		"[+2 Food, +2 Production, +4 Gold] from all [Culture] buildings"],
+		"cities": ["Mbumbi","Mbamba","Mbwila"],
 	},
 	{
-		"name": "Mogadishu",
-		"adjective": ["Mogadishu"],
+		"name": "Norway",
+		"adjective": ["Norwegian"],
+		"startBias": ["Coast"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "Now comes a storm you cannot escape. You can only hope for a quick death.",
+		"attacked": "This will make a great saga! The skalds will sing of my valor!",
+		"defeated": "So, I will join the einherjar in Valhalla and feast, while you toil away here.",
+		"outerColor": [0, 26, 91],
+		"innerColor": [187, 4, 43],
+		"uniqueName": "Knarr",
+		"uniques": [
+		"Receive free [City State Settler] when you discover [War Stock II]",
+		"Receive free [City State Settler] when you discover [Pillage I]",
+		"+[50]% Production when constructing [naval units]",
+		"Units pay only 1 movement point to embark and disembark"],
+		"cities": ["Nidaros","Avaldsnes","Bergen"],
+	},
+	{
+		"name": "The Netherlands", 
+		"adjective": ["Dutch"],
+		"startBias": ["Coast"],
+		"cityStateType": "Maritime",
+		
+		"declaringWar": "The Netherlands does not fear you. When we defeat you, we will be stronger than ever.",
+		"attacked": "Your treacherous aggression shall not succeed. The Netherlands will endure!",
+		"defeated": "With God's help, may the Netherlands one day reclaim its territory.",
+		"outerColor": [27, 68, 140],
+		"innerColor": [255, 255, 255],
+		"uniques": [
+		"Receive free [City State Settler] when you discover [War Stock II]",
+			"Receive free [City State Settler] when you discover [Pillage I]",
+		],
+		"cities": ["Amsterdam","Rotterdam","Utrecht"],
+	},
+	{
+		"name": "Turkey", 
+		"adjective": ["Turkish"],
+		"cityStateType": "Maritime",
+		"startBias": ["Desert"],
+
+		"declaringWar": "Your continued insolence and failure to recognize any preeminence leads us to war.",
+		"attacked": "Good. The world shall witness the incontestable might of my armies and the glory of the Empire.",
+		"defeated": "Ruin! Ruin! Istanbul becomes Iram of the Pillars, remembered only by the melancholy poets.",
+		"outerColor": [249,249,249],
+		"innerColor": [10,105,36],
+		"uniques": [
+		"Receive free [City State Settler] when you discover [War Stock II]",
+		"Receive free [City State Settler] when you discover [Pillage I]",
+		],
+		"cities": ["Istanbul","Edirne","Ankara"],	
+	},
+	{
+		"name": "Spain",
+		"adjective": ["Spanish"],
+		"startBias": ["Plain"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You have transgressed against my kingdom and the kingdom of God… you must answer for your sins.",
+		"attacked": "You think your army can compare with my armada… with the might of my empire? You are grievously mistaken.",
+		"defeated": "My lands… my Kingdom… why, God? Why have you forsaken me?",
+		"outerColor": [205,0,1],
+		"innerColor": [248,217,2],
+		"uniques": [
+		"Receive free [City State Settler] when you discover [War Stock II]",
+		"Receive free [City State Settler] when you discover [Pillage I]",
+		"[+1 Food, +1 Production] from each Trade Route"],
+		"cities": ["Barcelona","Madrid","Seville"],
+	},
+	{
+		"name": "Sweden", 
+		"adjective": ["Swedish"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Toundra"],
+
+		"declaringWar": "Sweden will do her part to push back the evils of the world. Art is one way to do this—war with you is another.",
+		"attacked": "Sweden will chastise those who threaten the world. Prepare yourself for war!",
+		"defeated": "I never loved power, and now I am left without art. Only regret and loss remain for me.",
+		"outerColor": [117,163,243],
+		"innerColor": [245,216,5],
+		"uniques": [
+		"Receive free [City State Settler] when you discover [War Stock II]",
+		"Receive free [City State Settler] when you discover [Pillage I]",
+		"Provides a sum of gold each time you spend a Great Person",
+		"[Great Scientist] is earned [20]% faster",
+		"[Great Engineer] is earned [20]% faster"],
+		"cities": ["Stockholm","Göteborg","Uppsala"],
+	},
+	{
+		"name": "Denmark",
+		"adjective": ["Danish"],
+		"startBias": ["Coast"],
+		"cityStateType": "Mercantile",
+		
+		"declaringWar": "If I am to be honest, I tire of those pointless charades. Why don't we settle our disputes on the field of battle, like true men? Perhaps the skalds will sing of your valor... or mine!",
+		"attacked": "Ahahah! You seem to show some skills of a true Viking! Too bad that I'll probably kill you!",
+		"defeated": "Loki must have stood by you, for a common man alone could not have defeated me... Oh well! I will join the einherjar in Valhalla and feast, while you toil away here.",
+		"outerColor": [51,25,0],
+		"innerColor": [255,255,102],
+		"uniques": [
+		"Receive free [City State Settler] when you discover [War Stock II]",
+		"Receive free [City State Settler] when you discover [Pillage I]",
+		"+1 Movement for all embarked units",
+		"Units pay only 1 movement point to embark and disembark",
+		"Melee units pay no movement cost to pillage"], 
+		"cities": ["Copenhagen","Aarhus","Kaupang"],
+	},
+	{
+		"name": "Austria",
+		"adjective": ["Austrian"],
+		"startBias": ["Hill"],
 		"cityStateType": "Maritime",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Congratulations, conquerer. This tribe serves you now.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [224,224,224],
-		"cities": ["Mogadishu"]
+		"declaringWar": "Shame that it has come this far. But ye wished it so.",
+		"attacked": "What a fool ye are! Ye will end swiftly and miserably.",
+		"defeated": "The world is pitiful! There's no beauty in it, no wisdom. I am almost glad to go.",
+		"outerColor": [171,0,0],
+		"innerColor": [255,255,255],
+		"uniques": [
+		"Receive free [City State Settler] when you discover [War Stock II]",
+		"Receive free [City State Settler] when you discover [Pillage I]",
+		"Cost of purchasing items in cities reduced by [15]%"],
+		"cities": ["Vienna","Salzburg","Graz"],
 	},
-	
-	        
+	{
+		"name": "Morocco",
+		"adjective": ["Moroccan"],
+		"startBias": ["Desert"],
+		"cityStateType": "Cultured",
 
+		"declaringWar": "The gain from the war, what will you get out of it?",
+		"attacked": "Shame on you, using violence which doesn't solve anything.",
+		"defeated": "The gain is having a clean system from corruption.",
+		"outerColor": [123,3,0],
+		"innerColor": [40,179,79],
+		"uniques": [
+		"Receive free [City State Settler] when you discover [War Stock II]",
+		"Receive free [City State Settler] when you discover [Pillage I]",
+		],
+		"cities": ["Marrakech","Rabat","Fes"],
+	},
+	{
+		"name": "Portugal",
+		"adjective": ["Portuguese"],
+		"startBias": ["Coast"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "I'm afraid I cannot allow your kingdom to exist for much longer! I hope you won't mind...",
+		"attacked": "You cannot be serious!",
+		"defeated": "I know little about this conflict...I'll have to consult my regent...",
+		"outerColor": [206,206,205],
+		"innerColor": [8,25,115],
+		"uniques": [
+		"Receive free [City State Settler] when you discover [War Stock II]",
+		"Receive free [City State Settler] when you discover [Pillage I]",
+		"Gold from all trade routes +25%"],
+		"cities": ["Lisbon","Porto","Braga"],
+	},
+	        
 	//Barbarian
 	{
 		"name": "Barbarians",

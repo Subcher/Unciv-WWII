@@ -46,13 +46,6 @@
 		"RGB": [ 255, 255, 102]
 	},
 	{
-		"name": "Lakes",
-		"type": "Water",
-		"food": 2,
-		"gold": 1,
-		"RGB": [ 200, 200, 255]
-	},
-	{
 		"name": "Hill",
 		"type": "Land",
 		"production": 2,
@@ -60,6 +53,13 @@
 		"defenceBonus": 0.25,
 		"RGB": [74,81,40],
 		"rough": true
+	},
+	{
+		"name": "Lakes",
+		"type": "Water",
+		"food": 2,
+		"gold": 1,
+		"RGB": [ 200, 200, 255]
 	},
 	{
 		"name": "Mountain",
@@ -77,6 +77,41 @@
 	
 	// Terrain features
 	{
+		"name": "Hillock",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 2,
+		"defenceBonus": 0.15,
+		"overrideStats": true,
+		"occursOn": ["Tundra","Grassland","Plains","Snow","Desert"],
+		"uniques": ["Rare feature"],
+		"rough": true,
+	},
+	{
+		"name": "Cave",
+		"type": "TerrainFeature",
+		"culture": 2,
+		"movementCost": 1,
+		"defenceBonus": 0.10,
+		"unbuildable": true,
+		"occursOn": ["Tundra","Grassland","Plains","Snow","Desert","Hill"],
+		"uniques": ["Rare feature"],
+		"rough": true,
+	},
+	{
+		"name": "Roffed Forest",
+		"type": "TerrainFeature",
+		"production": 2,
+		"food": 1,
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.45,
+		"occursOn": ["Grassland"],
+		"rough": true,
+		"uniques": ["Rare feature","Provides a one-time Production bonus to the closest city when cut down"],
+	},
+	{
 		"name": "Forest",
 		"type": "TerrainFeature",
 		"production": 1,
@@ -84,8 +119,8 @@
 		"movementCost": 2,
 		"overrideStats": true,
 		"unbuildable": true,
-		"defenceBonus": 0.25,
-		"occursOn": ["Tundra","Plains","Grassland","Hill"],
+		"defenceBonus": 0.45,
+		"occursOn": ["Tundra","Plains","Grassland"],
 		"rough": true,
 		"uniques": ["Provides a one-time Production bonus to the closest city when cut down"]
 	},
@@ -98,7 +133,20 @@
 		"unbuildable": true,
 		"defenceBonus": 0.25,
 		"occursOn": ["Plains","Grassland"],
-		"rough": true
+		"rough": true,
+		"uniques": ["Provides a one-time Production bonus to the closest city when cut down"],
+	},
+	{
+		"name": "Balsam",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.20,
+		"occursOn": ["Snow"],
+		"rough": true,
+		"uniques": ["Rare feature","Provides a one-time Production bonus to the closest city when cut down"],
 	},
 	{
 		"name": "Marsh",
@@ -110,16 +158,36 @@
 		"occursOn": ["Grassland"]
 	},
 	{
-		"name": "Desert Hill",
+		"name": "Swamp",
+		"type": "TerrainFeature",
+		"food": -1,
+		"movementCost": 3,
+		"unbuildable": true,
+		"defenceBonus": -0.2,
+		"uniques": ["Rare feature"],
+		"occursOn": ["Grassland"],
+		"turnsInto": "Coast",
+	},
+	{
+		"name": "Sand Dune",
 		"type": "TerrainFeature",
 		"production": 2,
 		"movementCost": 2,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
 		"occursOn": ["Desert"],
+		"uniques": ["Rare feature"],
 		"rough": true,
-		"uniques": ["Rare feature"]
 	}
+	{
+		"name": "Canyon",
+		"type": "TerrainFeature",
+		"production": 2,
+		"overrideStats": true,
+		"impassable": true,
+		"occursOn": ["Desert"],
+		"uniques": ["Rare feature"],
+	},
 	{
 		"name": "Fallout",
 		"type": "TerrainFeature",
@@ -161,7 +229,25 @@
 		"movementCost": 1,
 		"food": 1,
 		"production": 1,
+		"uniques": ["Rare feature"],
 		"occursOn": ["Coast"]
+	},
+	{
+		"name": "Reef",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"food": 2,
+		"uniques": ["Rare feature"],
+		"occursOn": ["Coast"]
+	},
+	{
+		"name": "Shipwreck",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"defenceBonus": -0.1,
+		"occursOn": ["Ocean","Coast"],
+		"unbuildable": true,
+		"uniques": ["Rare feature"]
 	},
 	{
 		"name": "Geothermal Fissure",
@@ -169,7 +255,19 @@
 		"science": 1,
 		"movementCost": 1,
 		"defenceBonus": -0.1,
+		"unbuildable": true,
 		"occursOn": ["Grassland","Plains","Tundra","Snow","Desert"],
+		"uniques": ["Rare feature"]
+	},
+	{
+		"name": "Volcano",
+		"type": "TerrainFeature",
+		"science": 2,
+		"production": 2,
+		"gold": 2,
+		"movementCost": 1,
+		"defenceBonus": -0.1,
+		"occursOn": ["Mountain"],
 		"uniques": ["Rare feature"]
 	},
 	// Natural Wonders
@@ -182,6 +280,18 @@
 		"science": 2,
 		"occursOn": ["Coast"],
 		"turnsInto": "Coast",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Lake Victoria",
+		"type": "NaturalWonder",
+		"food": 2,
+		"gold": 5,
+		"science": 2,
+		"occursOn": ["Lakes"],
+		"turnsInto": "Lakes",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
@@ -291,6 +401,6 @@
 		"turnsInto": "Hill",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 10
+		"weight": 10,
 	},
 ]	
