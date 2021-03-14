@@ -1542,7 +1542,7 @@
         "uniques": [
             "[10]% of food is carried over after population increases",
             "Cost increases by [10] per owned city",
-            "Creates a [Neighborhood] improvement on a specific tile",
+    //        "Creates a [Neighborhood] improvement on a specific tile",
             "Unsellable",
             "Cannot be purchased"],
         "requiredTech": "Mechanization I",
