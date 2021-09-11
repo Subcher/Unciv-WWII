@@ -8,7 +8,7 @@
 		"unitType": "Civilian",
 		"movement": 1,
 		"hurryCostModifier": 20,
-		"uniques": ["Can build improvements on tiles"],
+		"uniques": ["Can build [Land] improvements on tiles"],
 		"cost": 30
 	},
 	{
