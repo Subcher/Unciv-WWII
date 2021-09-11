@@ -1577,7 +1577,7 @@
     //
 
 	{
-        "name": "Aqueduct",
+        "name": "Water Tank",
 		"cost": 250,
         "maintenance": 1,
         "hurryCostModifier": 25,
@@ -1585,7 +1585,7 @@
         "uniques": [
             "[15]% of food is carried over after population increases",
             "Must have an owned [River] within [4] tiles",
-            "Creates a [Aqueduct] improvement on a specific tile",
+            "Creates a [Water Tank] improvement on a specific tile",
             "Unsellable",
             "Cannot be purchased"],
         "requiredTech": "Sanitation I"
