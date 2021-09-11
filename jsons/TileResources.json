@@ -96,6 +96,15 @@
 		"improvementStats": {"food": 1}
 	},
 	{
+		"name": "Mushrooms",
+		"resourceType": "Bonus",
+		"revealedBy": "War Stock I",
+		"terrainsCanBeFoundOn": ["Forest","Marsh"],
+		"food": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"food": 1}
+	},
+	{
 		"name": "Wheat",
 		"resourceType": "Bonus",
 		"revealedBy": "War Stock II",
@@ -255,7 +264,7 @@
 		"name": "Coffee",
 		"resourceType": "Luxury",
 		"revealedBy": "Farming Revolution II",
-		"terrainsCanBeFoundOn": ["Grassland","Jungle"],
+		"terrainsCanBeFoundOn": ["Jungle"],
 		"culture": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1}
@@ -298,7 +307,25 @@
 		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Sand Dune"],
 		"production": 2,
 		"improvement": "Mine",
-		"improvementStats": {"production": 1, "gold": 2},
+		"improvementStats": {"production": 1, "gold": 2}
+	},
+	{
+		"name": "Quartz",
+		"resourceType": "Bonus",
+		"revealedBy": "Great Metallurgy III",
+		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Sand Dune"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1, "gold": 1}
+	},
+	{
+		"name": "Lead",
+		"resourceType": "Bonus",
+		"revealedBy": "Great Metallurgy III",
+		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Sand Dune"],
+		"production": 2,
+		"improvement": "Mine",
+		"improvementStats": {"production": 2}
 	},
 	{
 		"name": "Stone",
@@ -357,6 +384,15 @@
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1}
 	},
+	{
+		"name": "Amethyst",
+		"resourceType": "Luxury",
+		"revealedBy": "Heavy Production I",
+		"terrainsCanBeFoundOn": ["Plains"],
+		"culture": 2,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1},
+	},
 
 	// Science
 
@@ -375,6 +411,15 @@
 		"resourceType": "Luxury",
 		"revealedBy": "Science Supply II",
 		"terrainsCanBeFoundOn": ["Plains"],
+		"science": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Sulfur",
+		"resourceType": "Bonus",
+		"revealedBy": "Science Supply II",
+		"terrainsCanBeFoundOn": ["Volcano"],
 		"science": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1}
@@ -401,6 +446,15 @@
 		"improvementStats": {"production": 1}
 	},
 	{
+		"name": "Platinum",
+		"resourceType": "Bonus",
+		"revealedBy": "Great Metallurgy III",
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Tundra","Snow"],
+		"production": 2,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1, "gold": 2}
+	},
+	{
 		"name": "Furs",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Tundra","Snow"],
@@ -413,7 +467,7 @@
 		"name": "Emerald",
 		"resourceType": "Luxury",
 		"revealedBy": "Heavy Production I",
-		"terrainsCanBeFoundOn": ["Jungle","Plains"],
+		"terrainsCanBeFoundOn": ["Plains"],
 		"gold": 3,
 		"improvement": "Mine",
 		"improvementStats": {"production": 2},
@@ -429,7 +483,7 @@
 		"improvementStats": {"production": 1},
 	},
 	{
-		"name": "Gold",
+		"name": "Gold Ore",
 		"resourceType": "Luxury",
 		"revealedBy": "Heavy Production III",
 		"terrainsCanBeFoundOn": ["Plains","Hill"],

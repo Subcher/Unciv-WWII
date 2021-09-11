@@ -1,5 +1,7 @@
-{
-      "isBaseRuleset":true,
-      // "techsToRemove":["Acoustics", "Animal Husbandry", "Archaeology", "Archery", "Architecture", "Astronomy","Pottery", "Mining", "Sailing", "Calendar", "Writing", "Trapping", "The Wheel","Masonry", "Bronze Working", "Optics", "Horseback Riding", "Mathematics", "Construction", "Philosophy", "Drama and Poetry", "Currency", "Engineering", "Iron Working", "Theology", "Civil Service", "Guilds", "Metal Casting", "Compass", "Education", "Chivalry", "Machinery", "Physics", "Steel","Astronomy", "Acoustics", "Banking", "Printing Press", "Gunpowder", "Navigation", "Architecture", "Economics", "Metallurgy","Chemistry","Archaeology", "Scientific Theory", "Industrialization", "Rifling", "Military Science", "Fertilizer", "Biology","Steam Power", "Dynamite", "Electricity", "Refrigeration", "Radio", "Replaceable Parts", "Flight", "Railroad", "Plastics", "Electronics", "Ballistics", "Combustion", "Pharmaceuticals", "Atomic Theory", "Radar", "Combined Arms", "Ecology", "Nuclear Fission", "Rocketry", "Computers", "Telecommunications", "Mobile Tactics", "Advanced Ballistics", "Satellites", "Robotics", "Lasers", "Particle Physics", "Nuclear Fusion", "Stealth", "Nanotechnology"],
-      // "unitsToRemove": ["Carrier","Triplane","Great War Bomber","Fighter","Zero","Bomber","B17","Nuclear Missile","Infantry","Machine Gun","Tank","Panzer","Rocket Artillery","Mechanized Infantry","Modern Armor"]
-}
+{isBaseRuleset:true,
+lastUpdated:2021-05-21T17:29:30Z,
+modUrl:"https://github.com/Subcher/Unciv-WWII",
+author:Subcher,
+modSize:30824,
+maxXPfromBarbarians: 50,
+uniques:["Allow City States to spawn with additional units"]}

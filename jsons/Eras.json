@@ -1,0 +1,212 @@
+[
+    // Source: the fandom, so take these with a grain of salt
+    // I also did some testing in the official version, but by far not all
+    
+    {
+        "name": "1939-",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Scout",
+        "settlerPopulation": 1,
+        "startPercent": 0,
+        "friendBonus": {
+            "Cultured": ["Provides [3] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [2] Happiness"],
+            "Militaristic": ["Provides military units every [20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [6] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [2] Happiness", "Provides a unique luxury"],
+            "Militaristic": ["Provides military units every [17] turns"]
+        },
+        "iconRGB": [255, 87, 35]
+    },
+    {
+        "name": "1939",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Scout",
+        "settlerPopulation": 1,
+        "startPercent": 0,
+        "friendBonus": {
+            "Cultured": ["Provides [3] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [2] Happiness"],
+            "Militaristic": ["Provides military units every [20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [6] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [2] Happiness", "Provides a unique luxury"],
+            "Militaristic": ["Provides military units every [17] turns"]
+        },
+        "iconRGB": [255, 87, 35]
+    },
+	{
+        "name": "1940",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Scout",
+        "settlerPopulation": 1,
+        "startPercent": 0,
+        "friendBonus": {
+            "Cultured": ["Provides [3] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [2] Happiness"],
+            "Militaristic": ["Provides military units every [20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [6] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [2] Happiness", "Provides a unique luxury"],
+            "Militaristic": ["Provides military units every [17] turns"]
+        },
+        "iconRGB": [255, 87, 35]
+    },
+	{
+        "name": "1941",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Scout",
+        "settlerPopulation": 1,
+        "startPercent": 0,
+        "friendBonus": {
+            "Cultured": ["Provides [3] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [2] Happiness"],
+            "Militaristic": ["Provides military units every [20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [6] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [2] Happiness", "Provides a unique luxury"],
+            "Militaristic": ["Provides military units every [17] turns"]
+        },
+        "iconRGB": [255, 87, 35]
+    },
+	{
+        "name": "1942",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Scout",
+        "settlerPopulation": 1,
+        "startPercent": 0,
+        "friendBonus": {
+            "Cultured": ["Provides [3] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [2] Happiness"],
+            "Militaristic": ["Provides military units every [20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [6] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [2] Happiness", "Provides a unique luxury"],
+            "Militaristic": ["Provides military units every [17] turns"]
+        },
+        "iconRGB": [255, 87, 35]
+    },
+	{
+        "name": "1943",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Scout",
+        "settlerPopulation": 1,
+        "startPercent": 0,
+        "friendBonus": {
+            "Cultured": ["Provides [3] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [2] Happiness"],
+            "Militaristic": ["Provides military units every [20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [6] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [2] Happiness", "Provides a unique luxury"],
+            "Militaristic": ["Provides military units every [17] turns"]
+        },
+        "iconRGB": [255, 87, 35]
+    },
+	{
+        "name": "1944",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Scout",
+        "settlerPopulation": 1,
+        "startPercent": 0,
+        "friendBonus": {
+            "Cultured": ["Provides [3] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [2] Happiness"],
+            "Militaristic": ["Provides military units every [20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [6] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [2] Happiness", "Provides a unique luxury"],
+            "Militaristic": ["Provides military units every [17] turns"]
+        },
+        "iconRGB": [255, 87, 35]
+    },
+	{
+        "name": "1945",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Scout",
+        "settlerPopulation": 1,
+        "startPercent": 0,
+        "friendBonus": {
+            "Cultured": ["Provides [3] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [2] Happiness"],
+            "Militaristic": ["Provides military units every [20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [6] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [2] Happiness", "Provides a unique luxury"],
+            "Militaristic": ["Provides military units every [17] turns"]
+        },
+        "iconRGB": [255, 87, 35]
+    },
+	{
+        "name": "1945+",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Scout",
+        "settlerPopulation": 1,
+        "startPercent": 0,
+        "friendBonus": {
+            "Cultured": ["Provides [3] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [2] Happiness"],
+            "Militaristic": ["Provides military units every [20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [6] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [2] Happiness", "Provides a unique luxury"],
+            "Militaristic": ["Provides military units every [17] turns"]
+        },
+        "iconRGB": [255, 87, 35]
+	}
+]

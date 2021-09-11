@@ -20,7 +20,15 @@
 		"type": "Land",
 		"food": 2,
 		"movementCost": 1,
-		"RGB": [109,139,53]
+		"RGB": [109,139,53],
+		"uniques": ["Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
+			"Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
+			"Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
+			"Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
+			"Occurs at temperature between [0.9] and [1] and humidity between [0.2] and [0.9]",
+			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.6] and [0.9]",
+			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [0.9]",
+			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]"]
 	},
 	{
 		"name": "Plains",
@@ -28,7 +36,18 @@
 		"food": 1,
 		"production": 1,
 		"movementCost": 1,
-		"RGB": [200,208,161]
+		"RGB": [200,208,161],
+		"uniques": ["Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
+			"Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
+			"Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [0.9]",
+			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.9] and [1]",
+			"Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
+			"Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.2] and [0.6]",
+			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
+			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
+			"Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]"]
 	},
 	{
 		"name": "Tundra",
@@ -36,46 +55,70 @@
 		"food": 1,
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"RGB": [125,122,113]
+		"RGB": [125,122,113],
+		"uniques": ["Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
+			"Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
+			"Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
+			"Occurs at temperature between [-0.6] and [-0.4] and humidity between [0.2] and [0.4]",
+			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.2]"]
 	},
 	{
 		"name": "Desert",
 		"type": "Land",
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"RGB": [ 255, 255, 102]
-	},
-	{
-		"name": "Hill",
-		"type": "Land",
-		"production": 2,
-		"movementCost": 2,
-		"defenceBonus": 0.25,
-		"RGB": [74,81,40],
-		"rough": true
+		"RGB": [ 255, 255, 102],
+		"uniques": ["Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
+			"Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
+			"Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
+			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]"]
 	},
 	{
 		"name": "Lakes",
 		"type": "Water",
 		"food": 2,
 		"gold": 1,
-		"RGB": [ 200, 200, 255]
+		"RGB": [ 200, 200, 255],
+		"uniques": ["Fresh water"]
 	},
 	{
 		"name": "Mountain",
 		"type": "Land",
 		"impassable": true,
-		"RGB": [89, 45, 0]
+		"RGB": [89, 45, 0],
+		"uniques":["Rough terrain",
+			"Has an elevation of [4] for visibility calculations",
+			"Occurs in chains at high elevations"]
 	},
 	{
 		"name": "Snow",
 		"type": "Land",
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"RGB": [153, 255, 255]
+		"RGB": [153, 255, 255],
+		"uniques": ["Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
+			"Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
+			"Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
+			"Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
+			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]"]
 	},
 	
 	// Terrain features
+	{
+		"name": "Hill",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": true,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
+		"uniques": ["Rough terrain",
+			"[+5] Strength for cities built on this terrain",
+			"Has an elevation of [2] for visibility calculations",
+			"Occurs in groups around high elevations"]
+	},
 	{
 		"name": "Hillock",
 		"type": "TerrainFeature",
@@ -84,8 +127,10 @@
 		"defenceBonus": 0.15,
 		"overrideStats": true,
 		"occursOn": ["Tundra","Grassland","Plains","Snow","Desert"],
-		"uniques": ["Rare feature"],
-		"rough": true,
+		"uniques": ["Rare feature",
+			"Has an elevation of [1] for visibility calculations"],
+		
+		"rough": true
 	},
 	{
 		"name": "Cave",
@@ -96,7 +141,7 @@
 		"unbuildable": true,
 		"occursOn": ["Tundra","Grassland","Plains","Snow","Desert","Hill"],
 		"uniques": ["Rare feature"],
-		"rough": true,
+		"rough": true
 	},
 	{
 		"name": "Roffed Forest",
@@ -109,7 +154,14 @@
 		"defenceBonus": 0.45,
 		"occursOn": ["Grassland"],
 		"rough": true,
-		"uniques": ["Rare feature","Provides a one-time Production bonus to the closest city when cut down"],
+		"uniques": ["Rough terrain",
+			"Provides a one-time Production bonus to the closest city when cut down", 
+			"Blocks line-of-sight from tiles at same elevation",
+			"Resistant to nukes",
+			"Can be destroyed by nukes"],
+		"civilopediaText": [
+			{"text":"A Camp can be built here without cutting it down",
+			"link":"Improvement/Camp"}]
 	},
 	{
 		"name": "Forest",
@@ -119,10 +171,16 @@
 		"movementCost": 2,
 		"overrideStats": true,
 		"unbuildable": true,
-		"defenceBonus": 0.45,
-		"occursOn": ["Tundra","Plains","Grassland"],
-		"rough": true,
-		"uniques": ["Provides a one-time Production bonus to the closest city when cut down"]
+		"defenceBonus": 0.25,
+		"occursOn": ["Tundra","Plains","Grassland","Hill"],
+		"uniques": ["Rough terrain",
+			"Provides a one-time Production bonus to the closest city when cut down", 
+			"Blocks line-of-sight from tiles at same elevation",
+			"Resistant to nukes", 
+			"Can be destroyed by nukes"],
+		"civilopediaText": [
+			{"text":"A Camp can be built here without cutting it down",
+				"link":"Improvement/Camp"}]
 	},
 	{
 		"name": "Jungle",
@@ -133,8 +191,10 @@
 		"unbuildable": true,
 		"defenceBonus": 0.25,
 		"occursOn": ["Plains","Grassland"],
-		"rough": true,
-		"uniques": ["Provides a one-time Production bonus to the closest city when cut down"],
+		"uniques": ["Rough terrain",
+			"Blocks line-of-sight from tiles at same elevation",
+			"Resistant to nukes",
+			"Can be destroyed by nukes"]
 	},
 	{
 		"name": "Balsam",
@@ -146,7 +206,12 @@
 		"defenceBonus": 0.20,
 		"occursOn": ["Snow"],
 		"rough": true,
-		"uniques": ["Rare feature","Provides a one-time Production bonus to the closest city when cut down"],
+		"uniques": ["Rough terrain",
+			"Provides a one-time Production bonus to the closest city when cut down", 
+			"Blocks line-of-sight from tiles at same elevation",
+			"Resistant to nukes", 
+			"Can be destroyed by nukes"
+		]
 	},
 	{
 		"name": "Marsh",
@@ -176,9 +241,11 @@
 		"unbuildable": true,
 		"defenceBonus": 0.25,
 		"occursOn": ["Desert"],
-		"uniques": ["Rare feature"],
-		"rough": true,
-	}
+		"uniques": ["Rare feature",
+			"Has an elevation of [2] for visibility calculations",
+			"Occurs in groups around high elevations"],
+		"rough": true
+	},
 	{
 		"name": "Canyon",
 		"type": "TerrainFeature",
@@ -206,7 +273,9 @@
 		"movementCost": 1,
 		"unbuildable": true,
 		"defenceBonus": -0.1,
-		"occursOn": ["Desert"]
+		"occursOn": ["Desert"],
+		"uniques": ["Fresh water",
+			"Rare feature"]
 	},
 	{
 		"name": "Flood plains",
@@ -392,7 +461,7 @@
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
-	}
+	},
 	{
 		"name": "Stone Forest",
 		"type": "NaturalWonder",
@@ -401,6 +470,6 @@
 		"turnsInto": "Hill",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 10,
-	},
+		"weight": 10
+	}
 ]	

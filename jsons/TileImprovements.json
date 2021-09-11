@@ -73,7 +73,7 @@
 		"gold": 1,
 		"turnsToBuild": 10,
 		"techRequired": "Pre-war Economy",
-		"uniques": [],
+		"uniques": ["Does not need removal of [Forest]"],
 	},
 	{
 		"name": "Mall",
@@ -120,7 +120,7 @@
 
 		
 	{
-		"name": "Aqueduct",
+		"name": "Water Tank",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill"],
 		"food": 1,
 		"uniques": [
@@ -249,6 +249,7 @@
 		"gold": 1,
 		"techRequired": "Hunting I",
 		"uniques": [
+			"Does not need removal of [Forest]",
 			"[+1 Food] once [Hunting II] is discovered",
 			"[+1 Food] once [Hunting III] is discovered"],
 	},
@@ -325,6 +326,7 @@
 		"turnsToBuild": 5,
 		"techRequired": "Lumber I",
 		"uniques": [
+			"Does not need removal of [Forest]",
 			"[+1 Production] once [Lumber II] is discovered",
 			"[+1 Production] once [Lumber III] is discovered"],
 	},
@@ -335,6 +337,7 @@
 		"turnsToBuild": 5,
 		"techRequired": "Lumber I",
 		"uniques": [
+			"Does not need removal of [Forest]",
 			"[+1 Production] once [Lumber II] is discovered",
 			"[+1 Production] once [Lumber III] is discovered"],
 	},
@@ -414,8 +417,10 @@
 		// Resource-specific
 	{
 		"name": "Archaeological Dig",
+		"science": 1,
 		"resourceTerrainAllow": ["Grassland","Plains","Forest","Jungle","Desert"],
 		"uniques": [
+			"Does not need removal of [Forest]",
 			"[+1 Science] once [Archaeology II] is discovered",
 			"[+1 Science] once [Archaeology III] is discovered",
 			"[+1 Culture] once [Archaeology II] is discovered",
@@ -631,7 +636,26 @@
 	},
 
 		// Other
-	{ "name": "Ancient ruins" },
-	{ "name": "City ruins" },
-	{ "name": "Barbarian encampment" }
+	{ 
+		"name": "Ancient ruins", 
+		"uniques": ["Unpillagable", "Provides a random bonus when entered"]
+	},
+	{ 
+		"name": "City center", 
+		"uniques": ["Unpillagable", "Indestructible"],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
+		]
+	},
+	{ 
+		"name": "City ruins", 
+		"uniques": ["Unpillagable"],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+	},
+	{ 
+		"name": "Barbarian encampment", 
+		"uniques": ["Unpillagable"],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+	}
 ]
